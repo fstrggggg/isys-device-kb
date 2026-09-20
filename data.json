@@ -182,7 +182,7 @@
               "pixel": "108",
               "headSize": "12.5× 12.5 × 4.67 mm",
               "direction": "6点",
-              "sensor": "IMX615",
+              "sensor": "",
               "ir": "蓝波",
               "lens": "LN-5P-F20-781",
               "vcm": "VC-OL-3201",
