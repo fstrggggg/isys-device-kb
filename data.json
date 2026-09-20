@@ -1942,16 +1942,16 @@
       "desc": "图像传感器规格库：像素、靶面、单位像素、输出接口与帧率能力。",
       "columns": [
         {
-          "key": "model",
-          "label": "型号",
-          "width": "116px",
-          "userWidth": 184,
+          "key": "vendor",
+          "label": "Key",
+          "width": "112px",
           "filter": "select"
         },
         {
-          "key": "vendor",
-          "label": "供应商",
-          "width": "112px",
+          "key": "model",
+          "label": "name",
+          "width": "116px",
+          "userWidth": 184,
           "filter": "select"
         },
         {
