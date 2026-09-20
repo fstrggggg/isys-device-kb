@@ -1,0 +1,1112 @@
+{
+  "libraries": [
+    {
+      "id": "module",
+      "name": "模组资料库",
+      "icon": "M",
+      "desc": "整机 Camera 模组规格：MP / SMD / BD 三个子库，表头与交互保持一致。",
+      "children": [
+        {
+          "id": "mp",
+          "name": "MP资料库",
+          "desc": "量产（Mass Production）阶段模组规格清单。Sensor / Lens / VCM 列均为型号，点击可跳转至对应资料库查看重点信息。",
+          "columns": [
+            {
+              "key": "type",
+              "label": "Type",
+              "width": "84px",
+              "filter": "select",
+              "options": [
+                "Front",
+                "Rear",
+                "UW",
+                "Tele",
+                "Depth",
+                "Macro"
+              ]
+            },
+            {
+              "key": "ap",
+              "label": "AP",
+              "width": "120px",
+              "filter": "select"
+            },
+            {
+              "key": "pixel",
+              "label": "像素",
+              "width": "76px",
+              "filter": "select"
+            },
+            {
+              "key": "headSize",
+              "label": "头部尺寸",
+              "width": "150px",
+              "filter": "text"
+            },
+            {
+              "key": "direction",
+              "label": "成像方向",
+              "width": "92px",
+              "filter": "select",
+              "options": [
+                "1点",
+                "2点",
+                "3点",
+                "4点",
+                "5点",
+                "6点",
+                "7点",
+                "8点",
+                "9点",
+                "10点",
+                "11点",
+                "12点"
+              ]
+            },
+            {
+              "key": "sensor",
+              "label": "Sensor",
+              "width": "116px",
+              "filter": "select",
+              "link": "sensor"
+            },
+            {
+              "key": "ir",
+              "label": "IR",
+              "width": "80px",
+              "filter": "select",
+              "options": [
+                "蓝波",
+                "白波"
+              ]
+            },
+            {
+              "key": "lens",
+              "label": "Lens",
+              "width": "150px",
+              "filter": "select",
+              "link": "lens"
+            },
+            {
+              "key": "vcm",
+              "label": "VCM",
+              "width": "130px",
+              "filter": "select",
+              "link": "vcm"
+            },
+            {
+              "key": "driveIc",
+              "label": "Drive IC",
+              "width": "112px",
+              "filter": "select"
+            },
+            {
+              "key": "vendor",
+              "label": "模组厂",
+              "width": "104px",
+              "filter": "select"
+            },
+            {
+              "key": "mpn",
+              "label": "MPN",
+              "width": "136px",
+              "filter": "text"
+            },
+            {
+              "key": "pn",
+              "label": "PN",
+              "width": "138px",
+              "filter": "text"
+            },
+            {
+              "key": "devTime",
+              "label": "开发时间",
+              "width": "100px",
+              "filter": "select"
+            },
+            {
+              "key": "project",
+              "label": "应用项目",
+              "width": "150px",
+              "filter": "select"
+            },
+            {
+              "key": "isStandard",
+              "label": "是否为标品",
+              "width": "104px",
+              "filter": "select",
+              "options": [
+                "是",
+                "否"
+              ]
+            },
+            {
+              "key": "inUse",
+              "label": "是否在应用中",
+              "width": "116px",
+              "filter": "select",
+              "options": [
+                "是",
+                "否"
+              ]
+            },
+            {
+              "key": "note",
+              "label": "备注",
+              "width": "200px",
+              "filter": "text"
+            }
+          ],
+          "rows": [
+            {
+              "type": "Front",
+              "ap": "天玑 9200",
+              "pixel": "32M",
+              "headSize": "10.5 × 10.5 × 6.2 mm",
+              "direction": "12点",
+              "sensor": "IMX615",
+              "ir": "蓝波",
+              "lens": "LN-5P-F20-781",
+              "vcm": "VC-OL-3201",
+              "driveIc": "DW9817",
+              "vendor": "舜宇光学",
+              "mpn": "MP-F32-A01",
+              "pn": "ISYS-MP-0001",
+              "devTime": "2025-03",
+              "project": "TCL P80 Ultra"
+            },
+            {
+              "type": "Rear",
+              "ap": "骁龙 8 Gen3",
+              "pixel": "50M",
+              "headSize": "11.2 × 11.2 × 7.8 mm",
+              "direction": "6点",
+              "sensor": "IMX882",
+              "ir": "蓝波",
+              "lens": "LN-6P-F18-841",
+              "vcm": "VC-CL-5402",
+              "driveIc": "DW9825",
+              "vendor": "丘钛科技",
+              "mpn": "MP-R50-B02",
+              "pn": "ISYS-MP-0002",
+              "devTime": "2025-05",
+              "project": "TCL P80 Pro"
+            },
+            {
+              "type": "UW",
+              "ap": "骁龙 8 Gen3",
+              "pixel": "8M",
+              "headSize": "10.0 × 10.0 × 6.0 mm",
+              "direction": "12点",
+              "sensor": "OV08D10",
+              "ir": "蓝波",
+              "lens": "LN-5P-F22-120",
+              "vcm": "VC-OL-3201",
+              "driveIc": "—",
+              "vendor": "欧菲光",
+              "mpn": "MP-U08-C01",
+              "pn": "ISYS-MP-0003",
+              "devTime": "2025-05",
+              "project": "TCL P80 Pro"
+            },
+            {
+              "type": "Tele",
+              "ap": "天玑 9300",
+              "pixel": "50M",
+              "headSize": "13.0 × 12.0 × 9.6 mm",
+              "direction": "6点",
+              "sensor": "IMX882",
+              "ir": "白波",
+              "lens": "LN-5P-F26-320",
+              "vcm": "VC-OIS-6601",
+              "driveIc": "LC898128",
+              "vendor": "立景创新",
+              "mpn": "MP-T50-D01",
+              "pn": "ISYS-MP-0004",
+              "devTime": "2025-08",
+              "project": "TCL P80 Ultra"
+            },
+            {
+              "type": "Rear",
+              "ap": "天玑 9200",
+              "pixel": "108M",
+              "headSize": "12.8 × 12.8 × 8.6 mm",
+              "direction": "6点",
+              "sensor": "HM6",
+              "ir": "蓝波",
+              "lens": "LN-7P-F175-82",
+              "vcm": "VC-CL-5402",
+              "driveIc": "DW9825",
+              "vendor": "舜宇光学",
+              "mpn": "MP-R108-B05",
+              "pn": "ISYS-MP-0005",
+              "devTime": "2026-01",
+              "project": "Moto G86 Power"
+            }
+          ],
+          "filterKey": "type",
+          "filterLabel": "Type",
+          "filterOptions": [
+            "Front",
+            "Rear",
+            "UW",
+            "Tele",
+            "Depth",
+            "Macro"
+          ],
+          "placeholder": 5
+        },
+        {
+          "id": "smd",
+          "name": "SMD资料库",
+          "desc": "SMT 贴片阶段模组资料，聚焦封装尺寸、贴装方向与器件来源。表头与 MP 资料库完全一致。",
+          "columns": [
+            {
+              "key": "type",
+              "label": "Type",
+              "width": "84px",
+              "filter": "select",
+              "options": [
+                "Front",
+                "Rear",
+                "UW",
+                "Tele",
+                "Depth",
+                "Macro"
+              ]
+            },
+            {
+              "key": "ap",
+              "label": "AP",
+              "width": "120px",
+              "filter": "select"
+            },
+            {
+              "key": "pixel",
+              "label": "像素",
+              "width": "76px",
+              "filter": "select"
+            },
+            {
+              "key": "headSize",
+              "label": "头部尺寸",
+              "width": "150px",
+              "filter": "text"
+            },
+            {
+              "key": "direction",
+              "label": "成像方向",
+              "width": "92px",
+              "filter": "select",
+              "options": [
+                "1点",
+                "2点",
+                "3点",
+                "4点",
+                "5点",
+                "6点",
+                "7点",
+                "8点",
+                "9点",
+                "10点",
+                "11点",
+                "12点"
+              ]
+            },
+            {
+              "key": "sensor",
+              "label": "Sensor",
+              "width": "116px",
+              "filter": "select",
+              "link": "sensor"
+            },
+            {
+              "key": "ir",
+              "label": "IR",
+              "width": "80px",
+              "filter": "select",
+              "options": [
+                "蓝波",
+                "白波"
+              ]
+            },
+            {
+              "key": "lens",
+              "label": "Lens",
+              "width": "150px",
+              "filter": "select",
+              "link": "lens"
+            },
+            {
+              "key": "vcm",
+              "label": "VCM",
+              "width": "130px",
+              "filter": "select",
+              "link": "vcm"
+            },
+            {
+              "key": "driveIc",
+              "label": "Drive IC",
+              "width": "112px",
+              "filter": "select"
+            },
+            {
+              "key": "vendor",
+              "label": "模组厂",
+              "width": "104px",
+              "filter": "select"
+            },
+            {
+              "key": "mpn",
+              "label": "MPN",
+              "width": "136px",
+              "filter": "text"
+            },
+            {
+              "key": "pn",
+              "label": "PN",
+              "width": "138px",
+              "filter": "text"
+            },
+            {
+              "key": "devTime",
+              "label": "开发时间",
+              "width": "100px",
+              "filter": "select"
+            },
+            {
+              "key": "project",
+              "label": "应用项目",
+              "width": "150px",
+              "filter": "select"
+            },
+            {
+              "key": "isStandard",
+              "label": "是否为标品",
+              "width": "104px",
+              "filter": "select",
+              "options": [
+                "是",
+                "否"
+              ]
+            },
+            {
+              "key": "inUse",
+              "label": "是否在应用中",
+              "width": "116px",
+              "filter": "select",
+              "options": [
+                "是",
+                "否"
+              ]
+            },
+            {
+              "key": "note",
+              "label": "备注",
+              "width": "200px",
+              "filter": "text"
+            }
+          ],
+          "rows": [
+            {
+              "type": "Front",
+              "ap": "天玑 9200",
+              "pixel": "32M",
+              "headSize": "10.5 × 10.5 × 6.2 mm",
+              "direction": "12点",
+              "sensor": "IMX615",
+              "ir": "蓝波",
+              "lens": "LN-5P-F20-781",
+              "vcm": "VC-OL-3201",
+              "driveIc": "DW9817",
+              "vendor": "信利光电",
+              "mpn": "SM-F32-A01",
+              "pn": "ISYS-SMD-0001",
+              "devTime": "2025-02",
+              "project": "TCL P80 Ultra"
+            },
+            {
+              "type": "Rear",
+              "ap": "骁龙 8 Gen3",
+              "pixel": "64M",
+              "headSize": "11.5 × 11.5 × 8.0 mm",
+              "direction": "6点",
+              "sensor": "OV64B",
+              "ir": "蓝波",
+              "lens": "LN-6P-F18-841",
+              "vcm": "VC-CL-5402",
+              "driveIc": "DW9825",
+              "vendor": "丘钛科技",
+              "mpn": "SM-R64-B02",
+              "pn": "ISYS-SMD-0002",
+              "devTime": "2025-04",
+              "project": "TCL P80 Pro"
+            },
+            {
+              "type": "UW",
+              "ap": "天玑 9300",
+              "pixel": "8M",
+              "headSize": "10.0 × 10.0 × 6.0 mm",
+              "direction": "12点",
+              "sensor": "OV08D10",
+              "ir": "蓝波",
+              "lens": "LN-5P-F22-120",
+              "vcm": "VC-OL-3201",
+              "driveIc": "—",
+              "vendor": "立景创新",
+              "mpn": "SM-U08-C01",
+              "pn": "ISYS-SMD-0003",
+              "devTime": "2025-06",
+              "project": "TCL K70"
+            },
+            {
+              "type": "Tele",
+              "ap": "天玑 9300",
+              "pixel": "50M",
+              "headSize": "12.0 × 11.0 × 8.8 mm",
+              "direction": "6点",
+              "sensor": "IMX882",
+              "ir": "白波",
+              "lens": "LN-5P-F26-320",
+              "vcm": "VC-OIS-6601",
+              "driveIc": "LC898129",
+              "vendor": "舜宇光学",
+              "mpn": "SM-T50-D01",
+              "pn": "ISYS-SMD-0004",
+              "devTime": "2025-09",
+              "project": "TCL P80 Ultra"
+            }
+          ],
+          "filterKey": "type",
+          "filterLabel": "Type",
+          "filterOptions": [
+            "Front",
+            "Rear",
+            "UW",
+            "Tele",
+            "Depth",
+            "Macro"
+          ],
+          "placeholder": 5
+        },
+        {
+          "id": "bd",
+          "name": "BD资料库",
+          "desc": "Board Design（板级设计）阶段模组资料，用于原理图与 PCB 评审引用。表头与 MP 资料库完全一致。",
+          "columns": [
+            {
+              "key": "type",
+              "label": "Type",
+              "width": "84px",
+              "filter": "select",
+              "options": [
+                "Front",
+                "Rear",
+                "UW",
+                "Tele",
+                "Depth",
+                "Macro"
+              ]
+            },
+            {
+              "key": "ap",
+              "label": "AP",
+              "width": "120px",
+              "filter": "select"
+            },
+            {
+              "key": "pixel",
+              "label": "像素",
+              "width": "76px",
+              "filter": "select"
+            },
+            {
+              "key": "headSize",
+              "label": "头部尺寸",
+              "width": "150px",
+              "filter": "text"
+            },
+            {
+              "key": "direction",
+              "label": "成像方向",
+              "width": "92px",
+              "filter": "select",
+              "options": [
+                "1点",
+                "2点",
+                "3点",
+                "4点",
+                "5点",
+                "6点",
+                "7点",
+                "8点",
+                "9点",
+                "10点",
+                "11点",
+                "12点"
+              ]
+            },
+            {
+              "key": "sensor",
+              "label": "Sensor",
+              "width": "116px",
+              "filter": "select",
+              "link": "sensor"
+            },
+            {
+              "key": "ir",
+              "label": "IR",
+              "width": "80px",
+              "filter": "select",
+              "options": [
+                "蓝波",
+                "白波"
+              ]
+            },
+            {
+              "key": "lens",
+              "label": "Lens",
+              "width": "150px",
+              "filter": "select",
+              "link": "lens"
+            },
+            {
+              "key": "vcm",
+              "label": "VCM",
+              "width": "130px",
+              "filter": "select",
+              "link": "vcm"
+            },
+            {
+              "key": "driveIc",
+              "label": "Drive IC",
+              "width": "112px",
+              "filter": "select"
+            },
+            {
+              "key": "vendor",
+              "label": "模组厂",
+              "width": "104px",
+              "filter": "select"
+            },
+            {
+              "key": "mpn",
+              "label": "MPN",
+              "width": "136px",
+              "filter": "text"
+            },
+            {
+              "key": "pn",
+              "label": "PN",
+              "width": "138px",
+              "filter": "text"
+            },
+            {
+              "key": "devTime",
+              "label": "开发时间",
+              "width": "100px",
+              "filter": "select"
+            },
+            {
+              "key": "project",
+              "label": "应用项目",
+              "width": "150px",
+              "filter": "select"
+            },
+            {
+              "key": "isStandard",
+              "label": "是否为标品",
+              "width": "104px",
+              "filter": "select",
+              "options": [
+                "是",
+                "否"
+              ]
+            },
+            {
+              "key": "inUse",
+              "label": "是否在应用中",
+              "width": "116px",
+              "filter": "select",
+              "options": [
+                "是",
+                "否"
+              ]
+            },
+            {
+              "key": "note",
+              "label": "备注",
+              "width": "200px",
+              "filter": "text"
+            }
+          ],
+          "rows": [
+            {
+              "type": "Front",
+              "ap": "展锐 T760",
+              "pixel": "32M",
+              "headSize": "9.8 × 9.8 × 5.9 mm",
+              "direction": "12点",
+              "sensor": "IMX615",
+              "ir": "蓝波",
+              "lens": "LN-5P-F20-781",
+              "vcm": "VC-OL-3201",
+              "driveIc": "DW9817",
+              "vendor": "欧菲光",
+              "mpn": "BD-F32-A01",
+              "pn": "ISYS-BD-0001",
+              "devTime": "2024-11",
+              "project": "TCL K70"
+            },
+            {
+              "type": "Rear",
+              "ap": "天玑 9200",
+              "pixel": "50M",
+              "headSize": "11.0 × 11.0 × 7.5 mm",
+              "direction": "6点",
+              "sensor": "IMX882",
+              "ir": "蓝波",
+              "lens": "LN-6P-F18-841",
+              "vcm": "VC-CL-5402",
+              "driveIc": "DW9800",
+              "vendor": "信利光电",
+              "mpn": "BD-R50-B03",
+              "pn": "ISYS-BD-0002",
+              "devTime": "2025-01",
+              "project": "TCL P80"
+            },
+            {
+              "type": "UW",
+              "ap": "天玑 9200",
+              "pixel": "8M",
+              "headSize": "10.2 × 10.2 × 6.1 mm",
+              "direction": "12点",
+              "sensor": "OV08D10",
+              "ir": "蓝波",
+              "lens": "LN-5P-F22-120",
+              "vcm": "VC-OL-3201",
+              "driveIc": "—",
+              "vendor": "丘钛科技",
+              "mpn": "BD-U13-C02",
+              "pn": "ISYS-BD-0003",
+              "devTime": "2025-02",
+              "project": "TCL P80"
+            }
+          ],
+          "filterKey": "type",
+          "filterLabel": "Type",
+          "filterOptions": [
+            "Front",
+            "Rear",
+            "UW",
+            "Tele",
+            "Depth",
+            "Macro"
+          ],
+          "placeholder": 5
+        }
+      ]
+    },
+    {
+      "id": "lens",
+      "name": "Lens资料库",
+      "icon": "L",
+      "desc": "镜头规格库：型号、尺寸、F数、视场角、镜片构成与供应商信息。",
+      "columns": [
+        {
+          "key": "model",
+          "label": "型号",
+          "width": "150px",
+          "filter": "select"
+        },
+        {
+          "key": "size",
+          "label": "尺寸(靶面)",
+          "width": "110px",
+          "filter": "select"
+        },
+        {
+          "key": "fno",
+          "label": "F数",
+          "width": "76px",
+          "filter": "select"
+        },
+        {
+          "key": "fov",
+          "label": "视场角",
+          "width": "88px",
+          "filter": "select"
+        },
+        {
+          "key": "element",
+          "label": "镜片构成",
+          "width": "104px",
+          "filter": "select"
+        },
+        {
+          "key": "position",
+          "label": "适用位置",
+          "width": "92px",
+          "filter": "select",
+          "options": [
+            "Front",
+            "Rear",
+            "UW",
+            "Tele"
+          ]
+        },
+        {
+          "key": "vendor",
+          "label": "供应商",
+          "width": "112px",
+          "filter": "select"
+        },
+        {
+          "key": "status",
+          "label": "量产状态",
+          "width": "92px",
+          "filter": "select"
+        },
+        {
+          "key": "remark",
+          "label": "备注",
+          "width": "180px",
+          "filter": "text"
+        }
+      ],
+      "rows": [
+        {
+          "model": "LN-5P-F20-781",
+          "size": "1/3.1\"",
+          "fno": "F2.0",
+          "fov": "78°",
+          "element": "5P",
+          "position": "Front",
+          "vendor": "大立光",
+          "status": "MP",
+          "remark": "前摄主方案，Plastic"
+        },
+        {
+          "model": "LN-6P-F18-841",
+          "size": "1/1.56\"",
+          "fno": "F1.8",
+          "fov": "84°",
+          "element": "6P",
+          "position": "Rear",
+          "vendor": "舜宇光学",
+          "status": "MP",
+          "remark": "主摄 6P 玻塑混合"
+        },
+        {
+          "model": "LN-5P-F22-120",
+          "size": "1/4.0\"",
+          "fno": "F2.2",
+          "fov": "120°",
+          "element": "5P",
+          "position": "UW",
+          "vendor": "玉晶光电",
+          "status": "MP",
+          "remark": "超广角，畸变 < 3%"
+        },
+        {
+          "model": "LN-5P-F26-320",
+          "size": "1/2.0\"",
+          "fno": "F2.6",
+          "fov": "32°",
+          "element": "5P 潜望",
+          "position": "Tele",
+          "vendor": "亚洲光学",
+          "status": "EVT",
+          "remark": "潜望长焦，等效 85mm"
+        },
+        {
+          "model": "LN-7P-F175-82",
+          "size": "1/1.33\"",
+          "fno": "F1.75",
+          "fov": "82°",
+          "element": "7P",
+          "position": "Rear",
+          "vendor": "大立光",
+          "status": "MP",
+          "remark": "高像素主摄 7P"
+        }
+      ],
+      "filterKey": "position",
+      "filterLabel": "适用位置",
+      "filterOptions": [
+        "Front",
+        "Rear",
+        "UW",
+        "Tele"
+      ],
+      "modelKey": "model",
+      "placeholder": 4
+    },
+    {
+      "id": "sensor",
+      "name": "Sensor资料库",
+      "icon": "S",
+      "desc": "图像传感器规格库：像素、靶面、单位像素、输出接口与帧率能力。",
+      "columns": [
+        {
+          "key": "model",
+          "label": "型号",
+          "width": "116px",
+          "filter": "select"
+        },
+        {
+          "key": "vendor",
+          "label": "供应商",
+          "width": "112px",
+          "filter": "select"
+        },
+        {
+          "key": "pixel",
+          "label": "像素",
+          "width": "76px",
+          "filter": "select"
+        },
+        {
+          "key": "optical",
+          "label": "靶面尺寸",
+          "width": "104px",
+          "filter": "select"
+        },
+        {
+          "key": "pixSize",
+          "label": "单位像素",
+          "width": "96px",
+          "filter": "select"
+        },
+        {
+          "key": "interface",
+          "label": "输出接口",
+          "width": "150px",
+          "filter": "select"
+        },
+        {
+          "key": "fps",
+          "label": "最大帧率",
+          "width": "120px",
+          "filter": "select"
+        },
+        {
+          "key": "status",
+          "label": "量产状态",
+          "width": "92px",
+          "filter": "select"
+        },
+        {
+          "key": "remark",
+          "label": "备注",
+          "width": "180px",
+          "filter": "text"
+        }
+      ],
+      "rows": [
+        {
+          "model": "IMX882",
+          "vendor": "Sony",
+          "pixel": "50M",
+          "optical": "1/1.95\"",
+          "pixSize": "0.8 μm",
+          "interface": "MIPI CSI-2 4Lane",
+          "fps": "30 fps @ 12bit",
+          "status": "MP",
+          "remark": "主流主摄/长焦通用"
+        },
+        {
+          "model": "IMX615",
+          "vendor": "Sony",
+          "pixel": "32M",
+          "optical": "1/3.1\"",
+          "pixSize": "0.7 μm",
+          "interface": "MIPI CSI-2 4Lane",
+          "fps": "30 fps @ 10bit",
+          "status": "MP",
+          "remark": "前摄常用"
+        },
+        {
+          "model": "OV64B",
+          "vendor": "OmniVision",
+          "pixel": "64M",
+          "optical": "1/2.0\"",
+          "pixSize": "0.7 μm",
+          "interface": "MIPI CSI-2 4Lane",
+          "fps": "30 fps @ 10bit",
+          "status": "MP",
+          "remark": "四合一 16M 输出"
+        },
+        {
+          "model": "OV08D10",
+          "vendor": "OmniVision",
+          "pixel": "8M",
+          "optical": "1/4.0\"",
+          "pixSize": "1.12 μm",
+          "interface": "MIPI CSI-2 2Lane",
+          "fps": "30 fps @ 10bit",
+          "status": "MP",
+          "remark": "超广角/景深"
+        },
+        {
+          "model": "HM6",
+          "vendor": "Samsung",
+          "pixel": "108M",
+          "optical": "1/1.67\"",
+          "pixSize": "0.64 μm",
+          "interface": "MIPI CSI-2 4Lane",
+          "fps": "24 fps @ 10bit",
+          "status": "MP",
+          "remark": "高像素大底"
+        }
+      ],
+      "filterKey": "vendor",
+      "filterLabel": "供应商",
+      "filterOptions": [
+        "Sony",
+        "OmniVision",
+        "Samsung"
+      ],
+      "modelKey": "model",
+      "placeholder": 4
+    },
+    {
+      "id": "vcm",
+      "name": "VCM资料库",
+      "icon": "V",
+      "desc": "音圈马达规格库：类型（开环 / 闭环 / OIS / 潜望）、行程、尺寸与驱动能力。",
+      "columns": [
+        {
+          "key": "model",
+          "label": "型号",
+          "width": "140px",
+          "filter": "select"
+        },
+        {
+          "key": "vendor",
+          "label": "供应商",
+          "width": "112px",
+          "filter": "select"
+        },
+        {
+          "key": "kind",
+          "label": "类型",
+          "width": "96px",
+          "filter": "select",
+          "options": [
+            "开环",
+            "闭环",
+            "OIS 闭环",
+            "潜望 OIS"
+          ]
+        },
+        {
+          "key": "stroke",
+          "label": "行程",
+          "width": "88px",
+          "filter": "select"
+        },
+        {
+          "key": "size",
+          "label": "尺寸",
+          "width": "150px",
+          "filter": "text"
+        },
+        {
+          "key": "current",
+          "label": "驱动电流",
+          "width": "96px",
+          "filter": "select"
+        },
+        {
+          "key": "load",
+          "label": "承载",
+          "width": "76px",
+          "filter": "select"
+        },
+        {
+          "key": "status",
+          "label": "量产状态",
+          "width": "92px",
+          "filter": "select"
+        },
+        {
+          "key": "remark",
+          "label": "备注",
+          "width": "180px",
+          "filter": "text"
+        }
+      ],
+      "rows": [
+        {
+          "model": "VC-OL-3201",
+          "vendor": "新思考",
+          "kind": "开环",
+          "stroke": "0.30 mm",
+          "size": "8.5 × 8.5 × 3.4 mm",
+          "current": "100 mA",
+          "load": "5 g",
+          "status": "MP",
+          "remark": "前摄/超广角定焦替代"
+        },
+        {
+          "model": "VC-CL-5402",
+          "vendor": "皓泽",
+          "kind": "闭环",
+          "stroke": "0.45 mm",
+          "size": "10.5 × 10.5 × 4.2 mm",
+          "current": "120 mA",
+          "load": "12 g",
+          "status": "MP",
+          "remark": "主摄 AF 主流方案"
+        },
+        {
+          "model": "VC-OIS-6601",
+          "vendor": "新思考",
+          "kind": "OIS 闭环",
+          "stroke": "0.55 mm",
+          "size": "12.5 × 12.5 × 5.0 mm",
+          "current": "200 mA",
+          "load": "20 g",
+          "status": "MP",
+          "remark": "Sensor-Shift 兼容"
+        },
+        {
+          "model": "VC-PL-8801",
+          "vendor": "皓泽",
+          "kind": "潜望 OIS",
+          "stroke": "0.70 mm",
+          "size": "15.0 × 13.0 × 6.2 mm",
+          "current": "260 mA",
+          "load": "28 g",
+          "status": "EVT",
+          "remark": "长焦棱镜马达"
+        },
+        {
+          "model": "VC-CL-5410",
+          "vendor": "中蓝",
+          "kind": "闭环",
+          "stroke": "0.50 mm",
+          "size": "11.0 × 11.0 × 4.5 mm",
+          "current": "130 mA",
+          "load": "15 g",
+          "status": "EVT",
+          "remark": "cost-down 备选"
+        }
+      ],
+      "filterKey": "kind",
+      "filterLabel": "类型",
+      "filterOptions": [
+        "开环",
+        "闭环",
+        "OIS 闭环",
+        "潜望 OIS"
+      ],
+      "modelKey": "model",
+      "placeholder": 4
+    }
+  ],
+  "meta": {
+    "updated": "2026-08-31"
+  }
+}
