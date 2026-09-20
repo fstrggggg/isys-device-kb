@@ -2516,7 +2516,7 @@
         {
           "model": "OV20B40",
           "fullModel": "OV20B40",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "MOB",
           "mp": "20",
           "optical": "1/4\"",
@@ -2532,7 +2532,7 @@
         {
           "model": "OV32C",
           "fullModel": "OV32C4C",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "MOB",
           "mp": "32",
           "optical": "1/3.14\"",
