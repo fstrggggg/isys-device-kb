@@ -1206,6 +1206,9 @@
               "inUse": "否",
               "custom3": "麦博1",
               "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Nonstandard\\CXT-2M-FF-GC02M1-HX 3P Lens-5×5×H4.06-XVC12F52-For lugh front"
+            },
+            {
+              "type": "111"
             }
           ],
           "filterKey": "type",
