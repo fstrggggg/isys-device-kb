@@ -2035,15 +2035,15 @@
       ],
       "rows": [
         {
-          "model": "GC13A0-WA1NA",
-          "vendor": "GC13A0",
-          "pixel": "格科",
+          "model": "",
+          "vendor": "",
+          "pixel": "",
           "optical": "",
-          "pixSize": "0.8 μm",
-          "interface": "1/1.95\"",
+          "pixSize": "",
+          "interface": "",
           "fps": "",
           "status": "MP",
-          "remark": "主流主摄/长焦通用"
+          "remark": ""
         }
       ],
       "filterKey": "vendor",
