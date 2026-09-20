@@ -196,7 +196,8 @@
               "custom2": "BAM04-30083-0500",
               "isStandard": "是",
               "inUse": "否",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "note": "108M不建议再用"
             },
             {
               "type": "Rear",
