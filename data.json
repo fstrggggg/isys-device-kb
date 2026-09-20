@@ -2484,7 +2484,7 @@
         {
           "model": "OV16A",
           "fullModel": "OV16A10",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "MOB",
           "mp": "16",
           "optical": "1/3.06\"",
