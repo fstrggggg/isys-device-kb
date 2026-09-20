@@ -2036,7 +2036,7 @@
       "rows": [
         {
           "model": "GC13A0-WA1NA",
-          "vendor": "\tGC13A0",
+          "vendor": "GC13A0",
           "pixel": "50M",
           "optical": "1/1.95\"",
           "pixSize": "0.8 μm",
@@ -2044,50 +2044,6 @@
           "fps": "30 fps @ 12bit",
           "status": "MP",
           "remark": "主流主摄/长焦通用"
-        },
-        {
-          "model": "IMX615",
-          "vendor": "Sony",
-          "pixel": "32M",
-          "optical": "1/3.1\"",
-          "pixSize": "0.7 μm",
-          "interface": "MIPI CSI-2 4Lane",
-          "fps": "30 fps @ 10bit",
-          "status": "MP",
-          "remark": "前摄常用"
-        },
-        {
-          "model": "OV64B",
-          "vendor": "OmniVision",
-          "pixel": "64M",
-          "optical": "1/2.0\"",
-          "pixSize": "0.7 μm",
-          "interface": "MIPI CSI-2 4Lane",
-          "fps": "30 fps @ 10bit",
-          "status": "MP",
-          "remark": "四合一 16M 输出"
-        },
-        {
-          "model": "OV08D10",
-          "vendor": "OmniVision",
-          "pixel": "8M",
-          "optical": "1/4.0\"",
-          "pixSize": "1.12 μm",
-          "interface": "MIPI CSI-2 2Lane",
-          "fps": "30 fps @ 10bit",
-          "status": "MP",
-          "remark": "超广角/景深"
-        },
-        {
-          "model": "HM6",
-          "vendor": "Samsung",
-          "pixel": "108M",
-          "optical": "1/1.67\"",
-          "pixSize": "0.64 μm",
-          "interface": "MIPI CSI-2 4Lane",
-          "fps": "24 fps @ 10bit",
-          "status": "MP",
-          "remark": "高像素大底"
         }
       ],
       "filterKey": "vendor",
