@@ -2038,9 +2038,9 @@
           "model": "GC13A0-WA1NA",
           "vendor": "GC13A0",
           "pixel": "格科",
-          "optical": "1/1.95\"",
+          "optical": "",
           "pixSize": "0.8 μm",
-          "interface": "MIPI CSI-2 4Lane",
+          "interface": "1/1.95\"",
           "fps": "30 fps @ 12bit",
           "status": "MP",
           "remark": "主流主摄/长焦通用"
