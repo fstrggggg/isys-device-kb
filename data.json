@@ -49,7 +49,7 @@
               "key": "sensor",
               "label": "Sensor",
               "width": "116px",
-              "userWidth": 164,
+              "userWidth": 198,
               "filter": "select",
               "link": "sensor"
             },
