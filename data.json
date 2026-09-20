@@ -197,7 +197,8 @@
               "isStandard": "是",
               "inUse": "否",
               "custom3": "TCL",
-              "note": "108M不建议再用"
+              "note": "108M不建议再用",
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\TSP\\standard\\TSP-108M-AF-S5KHM6-AAC 6P Lens-12.5x12.5xH4.67-PSLP4037-main camera For Goldfinch Pro GL"
             },
             {
               "type": "Rear",
