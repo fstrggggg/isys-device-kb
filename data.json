@@ -194,7 +194,8 @@
               "type": "Real",
               "custom1": "P24C128E-C4H-MIR",
               "custom2": "BAM04-30083-0500",
-              "isStandard": "是"
+              "isStandard": "是",
+              "inUse": "是"
             },
             {
               "type": "Rear",
