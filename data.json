@@ -2580,7 +2580,7 @@
         {
           "model": "OV48C",
           "fullModel": "OV48C",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "MOB",
           "mp": "48",
           "optical": "1/1.32\"",
@@ -2596,7 +2596,7 @@
         {
           "model": "OV48D",
           "fullModel": "OV48D",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "MOB",
           "mp": "48",
           "optical": "1/2.56\"",
