@@ -2708,7 +2708,7 @@
         {
           "model": "OV52A",
           "fullModel": "OV52A",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "MOB",
           "mp": "200",
           "optical": "1/1.280\"",
@@ -2724,7 +2724,7 @@
         {
           "model": "OV60A",
           "fullModel": "OV60A",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "MOB",
           "mp": "60",
           "optical": "1/2.61\"",
@@ -2740,7 +2740,7 @@
         {
           "model": "OV64B",
           "fullModel": "OV64B",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "MOB",
           "mp": "64",
           "optical": "1/2\"",
@@ -2756,7 +2756,7 @@
         {
           "model": "OVA0B",
           "fullModel": "OVA0B",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "MOB",
           "mp": "100",
           "optical": "1/1.8\"",
@@ -2772,7 +2772,7 @@
         {
           "model": "OG01A1B",
           "fullModel": "OG01A1B",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "IND",
           "mp": "1.3",
           "optical": "1/5\"",
@@ -2788,7 +2788,7 @@
         {
           "model": "OG09B",
           "fullModel": "OG09B10",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "IND",
           "mp": "9",
           "optical": "1/2.9\"",
@@ -2804,7 +2804,7 @@
         {
           "model": "OG12B10",
           "fullModel": "OG12B10",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "IND",
           "mp": "12",
           "optical": "1/3.571\"",
@@ -2820,7 +2820,7 @@
         {
           "model": "OS04C10",
           "fullModel": "OS04C10",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "IND",
           "mp": "4",
           "optical": "1/3\"",
@@ -2836,7 +2836,7 @@
         {
           "model": "OV12E10",
           "fullModel": "OV12E10",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "IND",
           "mp": "12",
           "optical": "1/3.543\"",
@@ -2852,7 +2852,7 @@
         {
           "model": "OG0VE",
           "fullModel": "OG0VE1B",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "IND",
           "mp": "0.3",
           "optical": "1/7.5\"",
