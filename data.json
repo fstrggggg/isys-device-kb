@@ -1210,7 +1210,8 @@
             {
               "type": "",
               "pixel": "",
-              "headSize": ""
+              "headSize": "",
+              "sensor": "OV12E10"
             },
             {}
           ],
