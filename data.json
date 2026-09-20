@@ -16,14 +16,15 @@
               "label": "Type",
               "width": "84px",
               "userWidth": 108,
-              "filter": "select"
+              "filter": "text"
             },
             {
               "key": "pixel",
               "label": "像素",
               "width": "76px",
               "userWidth": 67,
-              "filter": "select"
+              "type": "month",
+              "filter": "text"
             },
             {
               "key": "headSize",
@@ -50,7 +51,7 @@
               "label": "Sensor",
               "width": "116px",
               "userWidth": 198,
-              "filter": "select",
+              "filter": "text",
               "link": "sensor"
             },
             {
@@ -69,7 +70,7 @@
               "label": "Lens",
               "width": "150px",
               "userWidth": 167,
-              "filter": "select",
+              "filter": "text",
               "link": "lens"
             },
             {
@@ -77,14 +78,14 @@
               "label": "VCM",
               "width": "130px",
               "userWidth": 169,
-              "filter": "select",
+              "filter": "text",
               "link": "vcm"
             },
             {
               "key": "driveIc",
               "label": "Drive IC",
               "width": "112px",
-              "filter": "select"
+              "filter": "text"
             },
             {
               "key": "custom1",
@@ -98,7 +99,7 @@
               "label": "模组厂",
               "width": "104px",
               "userWidth": 79,
-              "filter": "select"
+              "filter": "text"
             },
             {
               "key": "custom2",
@@ -125,7 +126,7 @@
               "label": "应用项目",
               "width": "150px",
               "userWidth": 169,
-              "filter": "select"
+              "filter": "text"
             },
             {
               "key": "isStandard",
