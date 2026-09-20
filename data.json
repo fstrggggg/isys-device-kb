@@ -2036,7 +2036,7 @@
       "rows": [
         {
           "model": "GC13A0-WA1NA",
-          "vendor": "Sony",
+          "vendor": "\tGC13A0",
           "pixel": "50M",
           "optical": "1/1.95\"",
           "pixSize": "0.8 μm",
