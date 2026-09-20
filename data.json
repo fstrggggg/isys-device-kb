@@ -1956,44 +1956,80 @@
         },
         {
           "key": "pixel",
-          "label": "像素",
+          "label": "vendor",
           "width": "76px",
           "filter": "select"
         },
         {
           "key": "optical",
-          "label": "靶面尺寸",
+          "label": "CAT",
           "width": "104px",
           "filter": "select"
         },
         {
           "key": "pixSize",
-          "label": "单位像素",
+          "label": "px",
           "width": "96px",
           "filter": "select"
         },
         {
           "key": "interface",
-          "label": "输出接口",
+          "label": "opt",
           "width": "150px",
           "filter": "select"
         },
         {
           "key": "fps",
-          "label": "最大帧率",
+          "label": "optDen",
           "width": "120px",
           "filter": "select"
         },
         {
           "key": "status",
-          "label": "量产状态",
+          "label": "mp",
           "width": "92px",
           "filter": "select"
         },
         {
           "key": "remark",
-          "label": "备注",
+          "label": "res",
           "width": "180px",
+          "filter": "text"
+        },
+        {
+          "key": "custom1",
+          "label": "cfa",
+          "width": "120px",
+          "filter": "text"
+        },
+        {
+          "key": "custom2",
+          "label": "hdr",
+          "width": "120px",
+          "filter": "text"
+        },
+        {
+          "key": "custom3",
+          "label": "pdArch",
+          "width": "120px",
+          "filter": "text"
+        },
+        {
+          "key": "custom4",
+          "label": "pdDensity",
+          "width": "120px",
+          "filter": "text"
+        },
+        {
+          "key": "custom5",
+          "label": "note",
+          "width": "120px",
+          "filter": "text"
+        },
+        {
+          "key": "custom6",
+          "label": "ds",
+          "width": "120px",
           "filter": "text"
         }
       ],
