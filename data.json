@@ -429,6 +429,12 @@
               ]
             },
             {
+              "key": "custom5",
+              "label": "开发时间",
+              "width": "120px",
+              "filter": "text"
+            },
+            {
               "key": "note",
               "label": "备注",
               "width": "200px",
