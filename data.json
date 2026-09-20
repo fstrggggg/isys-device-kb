@@ -179,7 +179,7 @@
           ],
           "rows": [
             {
-              "pixel": "32M",
+              "pixel": "50",
               "headSize": "10.5 × 10.5 × 6.2 mm",
               "direction": "12点",
               "sensor": "IMX615",
@@ -190,7 +190,8 @@
               "vendor": "舜宇光学",
               "mpn": "MP-F32-A01",
               "pn": "ISYS-MP-0001",
-              "project": "TCL P80 Ultra"
+              "project": "TCL P80 Ultra",
+              "type": "Real"
             },
             {
               "type": "Rear",
