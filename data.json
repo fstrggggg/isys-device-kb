@@ -1406,53 +1406,7 @@
               "filter": "text"
             }
           ],
-          "rows": [
-            {
-              "type": "Front",
-              "pixel": "32M",
-              "headSize": "9.8 × 9.8 × 5.9 mm",
-              "direction": "12点",
-              "sensor": "IMX615",
-              "ir": "蓝波",
-              "lens": "LN-5P-F20-781",
-              "vcm": "VC-OL-3201",
-              "driveIc": "DW9817",
-              "vendor": "欧菲光",
-              "mpn": "BD-F32-A01",
-              "pn": "ISYS-BD-0001",
-              "project": "TCL K70"
-            },
-            {
-              "type": "Rear",
-              "pixel": "50M",
-              "headSize": "11.0 × 11.0 × 7.5 mm",
-              "direction": "6点",
-              "sensor": "IMX882",
-              "ir": "蓝波",
-              "lens": "LN-6P-F18-841",
-              "vcm": "VC-CL-5402",
-              "driveIc": "DW9800",
-              "vendor": "信利光电",
-              "mpn": "BD-R50-B03",
-              "pn": "ISYS-BD-0002",
-              "project": "TCL P80"
-            },
-            {
-              "type": "UW",
-              "pixel": "8M",
-              "headSize": "10.2 × 10.2 × 6.1 mm",
-              "direction": "12点",
-              "sensor": "OV08D10",
-              "ir": "蓝波",
-              "lens": "LN-5P-F22-120",
-              "vcm": "VC-OL-3201",
-              "driveIc": "—",
-              "vendor": "丘钛科技",
-              "mpn": "BD-U13-C02",
-              "pn": "ISYS-BD-0003",
-              "project": "TCL P80"
-            }
-          ],
+          "rows": [],
           "filterKey": "type",
           "filterLabel": "Type",
           "filterOptions": [
