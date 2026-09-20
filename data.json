@@ -2041,7 +2041,7 @@
           "optical": "",
           "pixSize": "0.8 μm",
           "interface": "1/1.95\"",
-          "fps": "30 fps @ 12bit",
+          "fps": "",
           "status": "MP",
           "remark": "主流主摄/长焦通用"
         }
