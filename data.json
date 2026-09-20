@@ -2612,7 +2612,7 @@
         {
           "model": "OV50C",
           "fullModel": "OV50C",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "MOB",
           "mp": "50",
           "optical": "1/2.5\"",
@@ -2628,7 +2628,7 @@
         {
           "model": "OV50D",
           "fullModel": "OV50D",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "MOB",
           "mp": "50",
           "optical": "1/2.88\"",
@@ -2644,7 +2644,7 @@
         {
           "model": "OV50E",
           "fullModel": "OV50E",
-          "vendor": "OmniVision",
+          "vendor": "OV",
           "cat": "MOB",
           "mp": "50",
           "optical": "1/1.55\"",
