@@ -190,10 +190,11 @@
               "vendor": "天实",
               "mpn": "PSLP4037",
               "pn": "ASA108M000C1",
-              "project": "TCL P80 Ultra",
+              "project": "Goldfinch NP GL、Goldfinch NP CN",
               "type": "Real",
               "custom1": "P24C128E-C4H-MIR",
-              "custom2": "BAM04-30083-0500"
+              "custom2": "BAM04-30083-0500",
+              "isStandard": "是"
             },
             {
               "type": "Rear",
