@@ -181,7 +181,7 @@
             {
               "pixel": "108",
               "headSize": "12.5× 12.5 × 4.67 mm",
-              "direction": "12点",
+              "direction": "6点",
               "sensor": "IMX615",
               "ir": "蓝波",
               "lens": "LN-5P-F20-781",
