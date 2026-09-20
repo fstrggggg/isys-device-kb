@@ -2021,7 +2021,7 @@
         },
         {
           "key": "note",
-          "label": "技术要点",
+          "label": "备注",
           "width": "300px",
           "filter": "text"
         },
