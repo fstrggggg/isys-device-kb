@@ -1952,7 +1952,8 @@
           "custom7": "51.6°（2.178mm）",
           "custom8": "78.2°（3.63mm）",
           "element": "3P",
-          "position": "32.6°"
+          "position": "32.6°",
+          "custom1": "3.5mm"
         },
         {},
         {},
