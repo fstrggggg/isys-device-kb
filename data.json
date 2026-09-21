@@ -1442,14 +1442,14 @@
           "label": "镜头厂",
           "width": "112px",
           "userWidth": 108,
-          "filter": "select"
+          "filter": "text"
         },
         {
           "key": "model",
           "label": "Product No.",
           "width": "150px",
           "userWidth": 120,
-          "filter": "select"
+          "filter": "text"
         },
         {
           "key": "fno",
@@ -1471,14 +1471,14 @@
           "label": "F#",
           "width": "110px",
           "userWidth": 81,
-          "filter": "select"
+          "filter": "text"
         },
         {
           "key": "fov",
           "label": "H-FOV",
           "width": "88px",
           "userWidth": 135,
-          "filter": "select"
+          "filter": "text"
         },
         {
           "key": "custom7",
@@ -1499,14 +1499,14 @@
           "label": "Lens Structure",
           "width": "104px",
           "userWidth": 119,
-          "filter": "select"
+          "filter": "text"
         },
         {
           "key": "position",
           "label": "CRA",
           "width": "92px",
           "userWidth": 77,
-          "filter": "select"
+          "filter": "text"
         },
         {
           "key": "custom1",
@@ -1547,11 +1547,11 @@
           "label": "天面尺寸",
           "width": "92px",
           "userWidth": 87,
-          "filter": "select"
+          "filter": "text"
         },
         {
           "key": "custom4",
-          "label": "Sensor Array（pixel size）",
+          "label": "像素",
           "width": "120px",
           "userWidth": 185,
           "filter": "text"
