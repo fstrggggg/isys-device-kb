@@ -1710,7 +1710,7 @@
           "custom1": "3.45mm",
           "custom2": "3.9mm",
           "custom3": "2.34mm",
-          "custom4": "2592×1944（1.12um）",
+          "custom4": "5M",
           "custom5": "GC05A3",
           "remark": "CSP",
           "custom6": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\技术资料\\二级资源\\Lens\\华鑫\\HX-M0577A-H512"
@@ -1737,7 +1737,7 @@
           "custom2": "4.9mm",
           "custom3": "2.68mm",
           "status": "3mm",
-          "custom4": "3264×2448（1.12um）",
+          "custom4": "8M",
           "custom5": "GC08A8",
           "custom6": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\技术资料\\二级资源\\Lens\\星聚宇\\SPY9361B-D"
         },
