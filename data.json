@@ -1946,7 +1946,8 @@
         {
           "vendor": "禾瑞",
           "model": "TR0536",
-          "fno": "Front"
+          "fno": "Front",
+          "size": "2.2"
         },
         {},
         {},
