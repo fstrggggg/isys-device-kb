@@ -1890,7 +1890,8 @@
           "custom8": "73.4°（2.903mm）",
           "element": "5P",
           "position": "35.7°",
-          "custom1": "4.35mm"
+          "custom1": "4.35mm",
+          "custom10": "1%"
         },
         {
           "vendor": "sunny"
