@@ -1591,7 +1591,7 @@
           "custom2": "6.16mm",
           "custom3": "3.26mm",
           "status": "1.8mm",
-          "custom4": "13",
+          "custom4": "13M",
           "custom5": "GC13A0",
           "remark": "中心像质较好、中间视场尚可、边缘像质明显下降的设计",
           "custom6": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\技术资料\\二级资源\\Lens\\AAC\\165190B01"
@@ -1612,7 +1612,8 @@
           "status": "1.8mm",
           "custom5": "GC13A0",
           "remark": "中蓝已经倒闭",
-          "custom6": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\技术资料\\二级资源\\Lens\\中蓝\\ZE0067C1"
+          "custom6": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\技术资料\\二级资源\\Lens\\中蓝\\ZE0067C1",
+          "custom4": "13"
         },
         {
           "vendor": "萨至德",
