@@ -1532,7 +1532,7 @@
           "key": "custom2",
           "label": "MIC",
           "width": "120px",
-          "userWidth": 72,
+          "userWidth": 97,
           "filter": "text"
         },
         {
