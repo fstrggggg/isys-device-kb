@@ -1911,7 +1911,8 @@
           "custom8": "80.4°（2.285mm）",
           "custom7": "53.7°（1.372mm）",
           "element": "4P",
-          "position": "33.6°"
+          "position": "33.6°",
+          "custom1": "4.2mm"
         },
         {},
         {},
