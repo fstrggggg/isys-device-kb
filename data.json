@@ -1944,7 +1944,9 @@
           "remark": "K80/Berly vzw后摄"
         },
         {
-          "vendor": "禾瑞"
+          "vendor": "禾瑞",
+          "model": "TR0536",
+          "fno": "Front"
         },
         {},
         {},
