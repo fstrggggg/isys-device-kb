@@ -1883,7 +1883,9 @@
           "vendor": "sunny",
           "model": "39340"
         },
-        {},
+        {
+          "vendor": "sunny"
+        },
         {},
         {},
         {},
