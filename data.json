@@ -1891,7 +1891,8 @@
           "element": "5P",
           "position": "35.7°",
           "custom1": "4.35mm",
-          "custom10": "1%"
+          "custom10": "1%",
+          "custom2": "6.764mm"
         },
         {
           "vendor": "sunny"
