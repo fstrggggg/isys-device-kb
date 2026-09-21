@@ -1560,7 +1560,8 @@
           "key": "custom5",
           "label": "搭配过的芯片",
           "width": "120px",
-          "filter": "text"
+          "filter": "text",
+          "userWidth": 123
         },
         {
           "key": "remark",
