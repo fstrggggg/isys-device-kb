@@ -1903,7 +1903,9 @@
           "model": "39506A"
         },
         {
-          "vendor": "禾瑞"
+          "vendor": "禾瑞",
+          "model": "TR0846A",
+          "fno": "Front"
         },
         {},
         {},
