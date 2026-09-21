@@ -1884,7 +1884,8 @@
         {
           "vendor": "sunny",
           "model": "39340",
-          "size": "2.45"
+          "size": "2.45",
+          "fov": "61.7°（2.32mm）"
         },
         {
           "vendor": "sunny"
