@@ -1905,7 +1905,8 @@
         {
           "vendor": "禾瑞",
           "model": "TR0846A",
-          "fno": "Front"
+          "fno": "Front",
+          "size": "2.1"
         },
         {},
         {},
