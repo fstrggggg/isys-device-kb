@@ -1967,7 +1967,8 @@
         {
           "vendor": "华鑫",
           "model": "HX-M0597D1",
-          "fno": "Front"
+          "fno": "Front",
+          "size": "2.2"
         },
         {},
         {},
