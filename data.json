@@ -1894,7 +1894,8 @@
           "custom10": "1%",
           "custom2": "6.764mm",
           "custom3": "3.77mm",
-          "status": "2.13mm"
+          "status": "2.13mm",
+          "custom4": "50M"
         },
         {
           "vendor": "sunny"
