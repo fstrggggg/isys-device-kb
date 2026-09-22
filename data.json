@@ -410,7 +410,8 @@
               "project": "Swing TMO、Swing NA OM",
               "isStandard": "是",
               "inUse": "是",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Truly\\Standard\\Truly-50M-SOIS-S5KJN1-SOC 5002E 5P-12.3×12.3×H4.67-CMF600-For Swing"
             },
             {
               "type": "Rear",
@@ -432,6 +433,9 @@
               "inUse": "是",
               "custom3": "TCL",
               "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\TSP\\standard\\TSP-50M-SOIS-JN5（05版本）-联益 5P Lens-25.59x14.85xH6.5-PSNE5325-Tele camera For Avatar"
+            },
+            {
+              "type": "Rear"
             }
           ],
           "filterKey": "type",
