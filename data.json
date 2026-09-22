@@ -301,7 +301,8 @@
               "custom2": "BAM04-30083-0500",
               "mpn": "VB1FG76",
               "pn": "ASA5000044C1",
-              "project": "K80"
+              "project": "K80 GL、K80 NA",
+              "isStandard": "是"
             }
           ],
           "filterKey": "type",
