@@ -218,7 +218,8 @@
               "custom2": "BAM04-30083-0500",
               "isStandard": "是",
               "inUse": "是",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Truly\\Standard\\Truly-50M-AF-GC50E0A-SOC 5002B 5P-9.9x9.9xH3.8-CMF493-For Aster"
             },
             {
               "pixel": "8M",
