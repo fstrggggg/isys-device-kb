@@ -473,7 +473,8 @@
               "pn": "ASA5000018C1-国内交货\nASA5000021C1-加工贸易",
               "project": "Monalisa、P80 Ultra",
               "isStandard": "是",
-              "inUse": "否"
+              "inUse": "否",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
