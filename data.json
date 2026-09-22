@@ -304,7 +304,12 @@
               "project": "K80 GL、K80 NA",
               "isStandard": "是",
               "inUse": "是",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-50M-AF-OV50M40-S5009H 5P Lens-9.9×9.9×H3.8-VB1FG76-For K80 main"
+            },
+            {
+              "type": "Rear",
+              "pixel": "50M"
             }
           ],
           "filterKey": "type",
