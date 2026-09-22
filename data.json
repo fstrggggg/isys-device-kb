@@ -281,7 +281,8 @@
               "custom1": "P24C128F-D4H-MIR",
               "custom2": "BAM04-30083-0500",
               "isStandard": "是",
-              "inUse": "是"
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
