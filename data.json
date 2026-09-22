@@ -316,7 +316,9 @@
               "ir": "蓝玻",
               "lens": "AAC 506337A01",
               "vcm": "OJJ37F5075",
-              "driveIc": "AF:AW86016CSR\nOIS:AW86033CSR"
+              "driveIc": "AF:AW86016CSR\nOIS:AW86033CSR",
+              "custom1": "P24C128F-D4H-MIR",
+              "vendor": "TSP"
             }
           ],
           "filterKey": "type",
