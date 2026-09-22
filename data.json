@@ -409,7 +409,8 @@
               "pn": "ASA5000030C1-国内交货\nASA5000031C1-加工贸易",
               "project": "Swing TMO、Swing NA OM",
               "isStandard": "是",
-              "inUse": "是"
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
