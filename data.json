@@ -288,7 +288,8 @@
             },
             {
               "type": "Rear",
-              "pixel": "50M"
+              "pixel": "50M",
+              "headSize": "9.9 × 9.9 × 3.8 mm"
             }
           ],
           "filterKey": "type",
