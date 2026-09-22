@@ -464,7 +464,9 @@
               "sensor": "S5KJN5SP06-FGX9",
               "ir": "蓝玻",
               "lens": "联益 LM5040A-0100",
-              "vcm": "APM-PM01"
+              "vcm": "APM-PM01",
+              "driveIc": "AF:AK7316\nOIS:AK7323",
+              "custom1": "GT24P128F-2CSLI-TR"
             }
           ],
           "filterKey": "type",
