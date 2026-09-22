@@ -214,7 +214,8 @@
               "mpn": "MP-R50-B02",
               "pn": "ISYS-MP-0002",
               "project": "TCL P80 Pro",
-              "custom1": "CN3968-LC"
+              "custom1": "CN3968-LC",
+              "custom2": "BAM04-30083-0500"
             },
             {
               "pixel": "8M",
