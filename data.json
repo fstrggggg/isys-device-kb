@@ -239,7 +239,8 @@
               "custom2": "BAM04-30083-0500",
               "isStandard": "是",
               "inUse": "否",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "note": "CXT后续不建议用这颗50M"
             },
             {
               "type": "Tele",
