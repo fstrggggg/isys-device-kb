@@ -318,7 +318,8 @@
               "vcm": "OJJ37F5075",
               "driveIc": "AF:AW86016CSR\nOIS:AW86033CSR",
               "custom1": "P24C128F-D4H-MIR",
-              "vendor": "TSP"
+              "vendor": "TSP",
+              "custom2": "BAM04-40083-0500"
             }
           ],
           "filterKey": "type",
