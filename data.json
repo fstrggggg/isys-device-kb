@@ -406,7 +406,10 @@
               "vendor": "信利",
               "custom2": "BAM04-40083-0500",
               "mpn": "CMF600",
-              "pn": "ASA5000030C1-国内交货\nASA5000031C1-加工贸易"
+              "pn": "ASA5000030C1-国内交货\nASA5000031C1-加工贸易",
+              "project": "Swing TMO、Swing NA OM",
+              "isStandard": "是",
+              "inUse": "是"
             }
           ],
           "filterKey": "type",
