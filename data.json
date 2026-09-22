@@ -452,7 +452,8 @@
               "project": "Monalisa",
               "isStandard": "否",
               "inUse": "否",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "note": "06芯片不推荐"
             }
           ],
           "filterKey": "type",
