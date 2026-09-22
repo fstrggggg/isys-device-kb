@@ -367,7 +367,8 @@
               "pn": "ASA5000023C1-国内交货\nASA5000024C1-加工贸易",
               "project": "Frida、P80、P80 pro、P80 Ultra",
               "isStandard": "是",
-              "inUse": "是"
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
