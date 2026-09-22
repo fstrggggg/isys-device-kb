@@ -404,7 +404,8 @@
               "driveIc": "AF:普冉 PD9302A-C6H-MIR\nOIS:AW86033",
               "custom1": "P24C256F-D4H-MIR",
               "vendor": "信利",
-              "custom2": "BAM04-40083-0500"
+              "custom2": "BAM04-40083-0500",
+              "mpn": "CMF600"
             }
           ],
           "filterKey": "type",
