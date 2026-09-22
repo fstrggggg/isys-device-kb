@@ -380,7 +380,9 @@
               "ir": "蓝玻",
               "lens": "萨至德 S5002E",
               "vcm": "OGG31D412",
-              "driveIc": "AF:AW86016CSR\nOIS:AW86033CSR"
+              "driveIc": "AF:AW86016CSR\nOIS:AW86033CSR",
+              "custom1": "P24C128F-D4H-MIR",
+              "vendor": "TSP"
             }
           ],
           "filterKey": "type",
