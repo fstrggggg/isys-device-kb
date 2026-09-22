@@ -302,7 +302,9 @@
               "mpn": "VB1FG76",
               "pn": "ASA5000044C1",
               "project": "K80 GL、K80 NA",
-              "isStandard": "是"
+              "isStandard": "是",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
