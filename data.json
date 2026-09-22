@@ -233,7 +233,8 @@
               "vendor": "欧菲光",
               "mpn": "MP-U08-C01",
               "pn": "ISYS-MP-0003",
-              "project": "TCL P80 Pro"
+              "project": "TCL P80 Pro",
+              "type": "Rear"
             },
             {
               "type": "Tele",
