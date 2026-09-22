@@ -261,7 +261,8 @@
               "custom2": "BAM04-30083-0500",
               "isStandard": "是",
               "inUse": "是",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Truly\\Standard\\Truly-50M-AF-GC50F6A-SOC 5P Lens-9.9×9.9×H3.8-CMF704-main camera For Monet"
             },
             {
               "type": "Rear",
