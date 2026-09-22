@@ -453,7 +453,11 @@
               "isStandard": "否",
               "inUse": "否",
               "custom3": "TCL",
-              "note": "06芯片不推荐"
+              "note": "06芯片不推荐",
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\TSP\\standard\\TSP-50M-SOIS-JN5（06版本）-联益 5P Lens-25.59x14.85xH6.5-PSNS5020-Tele camera For Monalisa"
+            },
+            {
+              "type": "Rear"
             }
           ],
           "filterKey": "type",
