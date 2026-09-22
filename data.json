@@ -372,7 +372,8 @@
               "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\TSP\\standard\\TSP-50M-SOIS-GC50B2-AAC 6P Lens-15.3x15.3xH5.05-PKNS4392-main camera For Frida"
             },
             {
-              "type": "Rear"
+              "type": "Rear",
+              "pixel": "50M"
             }
           ],
           "filterKey": "type",
