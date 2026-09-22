@@ -117,7 +117,7 @@
               "key": "pn",
               "label": "PN",
               "width": "138px",
-              "userWidth": 173,
+              "userWidth": 204,
               "filter": "text"
             },
             {
@@ -255,7 +255,7 @@
               "driveIc": "GT9778W-CLI-TR",
               "vendor": "信利",
               "mpn": "CMF704",
-              "pn": "ISYS-MP-0004",
+              "pn": "ASA5000041C1--国内交易\nASA5000042C1--加工贸易",
               "project": "TCL P80 Ultra",
               "custom1": "GT9778W-CLI-TR",
               "custom2": "BAM04-30083-0500"
