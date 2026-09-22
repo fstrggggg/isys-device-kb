@@ -398,7 +398,8 @@
               "headSize": "12.3 × 12.3 × 4.67 mm",
               "direction": "6点",
               "sensor": "S5KJN1SQ03-FGX9",
-              "ir": "蓝玻"
+              "ir": "蓝玻",
+              "lens": "萨至德 S5002E"
             }
           ],
           "filterKey": "type",
