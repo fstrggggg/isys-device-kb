@@ -417,7 +417,8 @@
               "pixel": "50M",
               "headSize": "25.59 × 14.85 × 6.5 mm",
               "sensor": "S5KJN5SP05-FGX9",
-              "ir": "蓝玻"
+              "ir": "蓝玻",
+              "direction": "6点"
             }
           ],
           "filterKey": "type",
