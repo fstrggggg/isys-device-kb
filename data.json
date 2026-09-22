@@ -325,7 +325,8 @@
               "project": "Monalisa",
               "isStandard": "否",
               "inUse": "否",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "note": "镜头ELO，不建议选"
             }
           ],
           "filterKey": "type",
