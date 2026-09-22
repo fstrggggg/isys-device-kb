@@ -292,7 +292,8 @@
               "headSize": "9.9 × 9.9 × 3.8 mm",
               "direction": "12点",
               "sensor": "OV50M40",
-              "ir": "蓝玻"
+              "ir": "蓝玻",
+              "lens": "萨至德 S5009H"
             }
           ],
           "filterKey": "type",
