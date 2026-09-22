@@ -217,7 +217,8 @@
               "custom1": "CN3968-LC",
               "custom2": "BAM04-30083-0500",
               "isStandard": "是",
-              "inUse": "是"
+              "inUse": "是",
+              "custom3": "TCL"
             },
             {
               "pixel": "8M",
