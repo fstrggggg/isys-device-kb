@@ -358,7 +358,8 @@
               "sensor": "GC50B2-WA12T",
               "ir": "蓝玻",
               "lens": "AAC 506563A01",
-              "vcm": "OJJ37F5075"
+              "vcm": "OJJ37F5075",
+              "driveIc": "AF:AW86016CSR\nOIS:AW86033CSR"
             }
           ],
           "filterKey": "type",
