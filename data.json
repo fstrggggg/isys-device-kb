@@ -385,7 +385,11 @@
               "vendor": "TSP",
               "custom2": "BAM04-40083-0500",
               "mpn": "PSNS5169",
-              "pn": "ASA5000025C1-国内交货\nASA5000026C1-加工贸易"
+              "pn": "ASA5000025C1-国内交货\nASA5000026C1-加工贸易",
+              "project": "Swing TMO、Swing NA OM",
+              "isStandard": "是",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
