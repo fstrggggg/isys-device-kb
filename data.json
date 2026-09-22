@@ -449,7 +449,10 @@
               "custom2": "OK-118RM038/2-35(011A)",
               "mpn": "PSNS5020",
               "pn": "ASA5000027C1-国内交货\nASA5000028C1 -加工贸易",
-              "project": "Monalisa"
+              "project": "Monalisa",
+              "isStandard": "否",
+              "inUse": "否",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
