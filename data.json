@@ -240,7 +240,8 @@
               "isStandard": "是",
               "inUse": "否",
               "custom3": "TCL",
-              "note": "CXT后续不建议用这颗50M"
+              "note": "CXT后续不建议用这颗50M",
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-50M-AF-GC50E0ACOM-SOC 5P-9.9x9.9xH3.8-VM1FD68-For ladybird pro"
             },
             {
               "type": "Tele",
