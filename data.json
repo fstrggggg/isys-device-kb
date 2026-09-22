@@ -321,7 +321,10 @@
               "vendor": "TSP",
               "custom2": "BAM04-40083-0500",
               "mpn": "PVNS4395",
-              "pn": "ASA5000019C1-国内交货\nASA5000020C1-加工贸易"
+              "pn": "ASA5000019C1-国内交货\nASA5000020C1-加工贸易",
+              "project": "Monalisa",
+              "isStandard": "否",
+              "inUse": "否"
             }
           ],
           "filterKey": "type",
