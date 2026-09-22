@@ -379,7 +379,8 @@
               "sensor": "S5KJN1SQ03-FGX9",
               "ir": "蓝玻",
               "lens": "萨至德 S5002E",
-              "vcm": "OGG31D412"
+              "vcm": "OGG31D412",
+              "driveIc": "AF:AW86016CSR\nOIS:AW86033CSR"
             }
           ],
           "filterKey": "type",
