@@ -463,7 +463,8 @@
               "direction": "6点",
               "sensor": "S5KJN5SP06-FGX9",
               "ir": "蓝玻",
-              "lens": "联益 LM5040A-0100"
+              "lens": "联益 LM5040A-0100",
+              "vcm": "APM-PM01"
             }
           ],
           "filterKey": "type",
