@@ -238,7 +238,8 @@
               "custom1": "TH24C64UBCSBI",
               "custom2": "BAM04-30083-0500",
               "isStandard": "是",
-              "inUse": "否"
+              "inUse": "否",
+              "custom3": "TCL"
             },
             {
               "type": "Tele",
