@@ -298,7 +298,8 @@
               "driveIc": "CN3968",
               "custom1": "CN3968",
               "vendor": "CXT",
-              "custom2": "BAM04-30083-0500"
+              "custom2": "BAM04-30083-0500",
+              "mpn": "VB1FG76"
             }
           ],
           "filterKey": "type",
