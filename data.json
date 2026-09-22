@@ -336,7 +336,8 @@
               "direction": "12点",
               "sensor": "OV50E40-GA5A-004A",
               "ir": "蓝玻",
-              "lens": "AAC 506563A01"
+              "lens": "AAC 506563A01",
+              "vcm": "OJJ37F5075"
             }
           ],
           "filterKey": "type",
