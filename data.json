@@ -375,7 +375,9 @@
               "type": "Rear",
               "pixel": "50M",
               "headSize": "12.3 × 12.3 × 4.67 mm",
-              "direction": "6点"
+              "direction": "6点",
+              "sensor": "S5KJN1SQ03-FGX9",
+              "ir": "蓝玻"
             }
           ],
           "filterKey": "type",
