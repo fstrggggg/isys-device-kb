@@ -235,7 +235,8 @@
               "pn": "ISYS-MP-0003",
               "project": "TCL P80 Pro",
               "type": "Rear",
-              "custom1": "TH24C64UBCSBI"
+              "custom1": "TH24C64UBCSBI",
+              "custom2": "BAM04-30083-0500"
             },
             {
               "type": "Tele",
