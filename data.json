@@ -378,7 +378,8 @@
               "direction": "6点",
               "sensor": "S5KJN1SQ03-FGX9",
               "ir": "蓝玻",
-              "lens": "萨至德 S5002E"
+              "lens": "萨至德 S5002E",
+              "vcm": "OGG31D412"
             }
           ],
           "filterKey": "type",
