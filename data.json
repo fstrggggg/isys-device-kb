@@ -293,7 +293,8 @@
               "direction": "12点",
               "sensor": "OV50M40",
               "ir": "蓝玻",
-              "lens": "萨至德 S5009H"
+              "lens": "萨至德 S5009H",
+              "vcm": "LYQ50M7526-426CL-HQ"
             }
           ],
           "filterKey": "type",
