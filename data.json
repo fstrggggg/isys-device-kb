@@ -413,7 +413,8 @@
               "custom3": "TCL"
             },
             {
-              "type": "Rear"
+              "type": "Rear",
+              "pixel": "50M"
             }
           ],
           "filterKey": "type",
