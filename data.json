@@ -419,7 +419,8 @@
               "sensor": "S5KJN5SP05-FGX9",
               "ir": "蓝玻",
               "direction": "6点",
-              "lens": "联益 LM5040A-0100"
+              "lens": "联益 LM5040A-0100",
+              "vcm": "ZD2063-01"
             }
           ],
           "filterKey": "type",
