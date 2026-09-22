@@ -274,10 +274,11 @@
               "lens": "萨至德 S5009H",
               "vcm": "睿恩 BF9925-42",
               "driveIc": "CN3938V",
-              "vendor": "舜宇光学",
+              "vendor": "TSP",
               "mpn": "MP-R108-B05",
               "pn": "ISYS-MP-0005",
-              "project": "Moto G86 Power"
+              "project": "Moto G86 Power",
+              "custom1": "P24C128F-D4H-MIR"
             }
           ],
           "filterKey": "type",
