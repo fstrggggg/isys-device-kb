@@ -470,7 +470,9 @@
               "vendor": "TSP",
               "custom2": "OK-118RM038/2-35(011A)",
               "mpn": "PSNE4391",
-              "pn": "ASA5000018C1-国内交货\nASA5000021C1-加工贸易"
+              "pn": "ASA5000018C1-国内交货\nASA5000021C1-加工贸易",
+              "project": "Monalisa、P80 Ultra",
+              "isStandard": "是"
             }
           ],
           "filterKey": "type",
