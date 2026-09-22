@@ -475,7 +475,7 @@
               "isStandard": "是",
               "inUse": "否",
               "custom3": "TCL",
-              "note": "比路马达EOL"
+              "note": "比路马达EOL、06芯片不推荐"
             }
           ],
           "filterKey": "type",
