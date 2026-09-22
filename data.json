@@ -468,7 +468,8 @@
               "driveIc": "AF:AK7316\nOIS:AK7323",
               "custom1": "GT24P128F-2CSLI-TR",
               "vendor": "TSP",
-              "custom2": "OK-118RM038/2-35(011A)"
+              "custom2": "OK-118RM038/2-35(011A)",
+              "mpn": "PSNE4391"
             }
           ],
           "filterKey": "type",
