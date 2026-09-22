@@ -246,7 +246,7 @@
             {
               "type": "Rear",
               "pixel": "50M",
-              "headSize": "13.0 × 12.0 × 9.6 mm",
+              "headSize": "9.9 × 9.9 × 3.8 mm",
               "direction": "6点",
               "sensor": "IMX882",
               "ir": "白波",
