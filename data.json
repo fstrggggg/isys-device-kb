@@ -259,7 +259,8 @@
               "project": "Monet VZW",
               "custom1": "GT9778W-CLI-TR",
               "custom2": "BAM04-30083-0500",
-              "isStandard": "否"
+              "isStandard": "是",
+              "inUse": "是"
             },
             {
               "type": "Rear",
