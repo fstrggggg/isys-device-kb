@@ -383,7 +383,8 @@
               "driveIc": "AF:AW86016CSR\nOIS:AW86033CSR",
               "custom1": "P24C128F-D4H-MIR",
               "vendor": "TSP",
-              "custom2": "BAM04-40083-0500"
+              "custom2": "BAM04-40083-0500",
+              "mpn": "PSNS5169"
             }
           ],
           "filterKey": "type",
