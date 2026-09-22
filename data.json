@@ -430,7 +430,8 @@
               "project": "Monalisa、P80 Ultra",
               "isStandard": "是",
               "inUse": "是",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\TSP\\standard\\TSP-50M-SOIS-JN5（05版本）-联益 5P Lens-25.59x14.85xH6.5-PSNE5325-Tele camera For Avatar"
             }
           ],
           "filterKey": "type",
