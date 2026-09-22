@@ -266,7 +266,7 @@
             },
             {
               "type": "Rear",
-              "pixel": "108M",
+              "pixel": "50M",
               "headSize": "12.8 × 12.8 × 8.6 mm",
               "direction": "6点",
               "sensor": "HM6",
