@@ -445,7 +445,8 @@
               "vcm": "ZD2063-01",
               "driveIc": "AF:AK7316\nOIS:AK7323",
               "custom1": "GT24P128F-2CSLI-TR",
-              "vendor": "TSP"
+              "vendor": "TSP",
+              "custom2": "OK-118RM038/2-35(011A)"
             }
           ],
           "filterKey": "type",
