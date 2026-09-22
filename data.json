@@ -203,7 +203,7 @@
             {
               "type": "Rear",
               "pixel": "50M",
-              "headSize": "11.2 × 11.2 × 7.8 mm",
+              "headSize": "9.9 × 9.9 × 3.8 mm",
               "direction": "6点",
               "sensor": "IMX882",
               "ir": "蓝波",
@@ -3885,6 +3885,6 @@
     }
   ],
   "meta": {
-    "updated": "2026-09-21"
+    "updated": "2026-09-22"
   }
 }
