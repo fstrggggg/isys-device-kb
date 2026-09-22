@@ -444,7 +444,8 @@
               "lens": "联益 LM5040A-0100",
               "vcm": "ZD2063-01",
               "driveIc": "AF:AK7316\nOIS:AK7323",
-              "custom1": "GT24P128F-2CSLI-TR"
+              "custom1": "GT24P128F-2CSLI-TR",
+              "vendor": "TSP"
             }
           ],
           "filterKey": "type",
