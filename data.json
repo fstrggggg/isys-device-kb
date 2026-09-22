@@ -289,7 +289,10 @@
             {
               "type": "Rear",
               "pixel": "50M",
-              "headSize": "9.9 × 9.9 × 3.8 mm"
+              "headSize": "9.9 × 9.9 × 3.8 mm",
+              "direction": "12点",
+              "sensor": "OV50M40",
+              "ir": "蓝玻"
             }
           ],
           "filterKey": "type",
