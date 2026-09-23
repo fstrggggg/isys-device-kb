@@ -491,7 +491,8 @@
               "custom1": "TH24C64UBCSBI",
               "vendor": "CXT",
               "custom2": "BAM04-30083-0500",
-              "mpn": "VM1AE31"
+              "mpn": "VM1AE31",
+              "pn": "ASA1300119C1"
             }
           ],
           "filterKey": "type",
