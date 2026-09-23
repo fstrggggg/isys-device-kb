@@ -480,7 +480,8 @@
             },
             {
               "type": "Rear",
-              "pixel": "13M"
+              "pixel": "13M",
+              "headSize": "9.9 × 9.9 × 3.8 mm"
             }
           ],
           "filterKey": "type",
@@ -4108,6 +4109,6 @@
     }
   ],
   "meta": {
-    "updated": "2026-09-22"
+    "updated": "2026-09-23"
   }
 }
