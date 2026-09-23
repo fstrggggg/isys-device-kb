@@ -534,10 +534,11 @@
               "custom2": "BAM04-30083-0500",
               "mpn": "VM18846",
               "pn": "ASA8001137C1",
-              "project": "Scarab lite TF",
+              "project": "Scarab lite TF、RIO",
               "isStandard": "是",
               "inUse": "是",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-8M-AF-GC08A3-HX 4p lens-8.5x8.5xH3.8-VM18846-for Rio"
             }
           ],
           "filterKey": "type",
