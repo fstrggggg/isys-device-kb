@@ -641,7 +641,8 @@
               "pn": "ASA2001256C1",
               "project": "Beryl Dish/TF/VZW、Beryl TMO、ladybird Pro、\nScarab pro VZW/TF/OM、dragonfly VZW/TF/CAN/OM\nK80 SE NA",
               "isStandard": "是",
-              "inUse": "是"
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
