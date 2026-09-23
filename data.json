@@ -599,7 +599,8 @@
               "custom3": "TCL"
             },
             {
-              "pixel": "0.08M"
+              "pixel": "0.08M",
+              "headSize": "6.5 × 6.5 × 3.08 mm"
             }
           ],
           "filterKey": "type",
