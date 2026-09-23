@@ -601,7 +601,8 @@
             {
               "pixel": "0.08M",
               "headSize": "6.5 × 6.5 × 3.08 mm",
-              "direction": "3点"
+              "direction": "3点",
+              "sensor": "GC6163B-C08Y0"
             }
           ],
           "filterKey": "type",
