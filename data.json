@@ -530,7 +530,8 @@
               "lens": "华鑫 HX-M0803G",
               "vcm": "LYD8M6026-225DWS",
               "driveIc": "AW86017",
-              "vendor": "CXT"
+              "vendor": "CXT",
+              "custom2": "BAM04-30083-0500"
             }
           ],
           "filterKey": "type",
