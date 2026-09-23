@@ -558,7 +558,8 @@
               "project": "Scarab lite TF、RIO",
               "isStandard": "是",
               "inUse": "是",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "note": "好久没用了"
             }
           ],
           "filterKey": "type",
