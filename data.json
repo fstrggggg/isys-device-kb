@@ -487,7 +487,8 @@
               "ir": "蓝玻",
               "lens": "萨至德 S1321A-3",
               "vcm": "LYQ13M6526-401FL",
-              "driveIc": "AW86016CSR"
+              "driveIc": "AW86016CSR",
+              "custom1": "TH24C64UBCSBI"
             }
           ],
           "filterKey": "type",
