@@ -588,7 +588,8 @@
               "direction": "12点",
               "sensor": "GC05A3-MCDM8",
               "ir": "蓝玻",
-              "lens": "禾瑞 TR0537B-H456"
+              "lens": "禾瑞 TR0537B-H456",
+              "vendor": "联合"
             }
           ],
           "filterKey": "type",
