@@ -556,7 +556,9 @@
               "mpn": "PT8A3452",
               "pn": "ASA8001150C1",
               "project": "Scarab lite TF、RIO",
-              "isStandard": "否"
+              "isStandard": "是",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
