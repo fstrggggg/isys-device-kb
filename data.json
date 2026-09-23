@@ -526,7 +526,8 @@
               "headSize": "8.5 × 8.5 × 3.8 mm",
               "direction": "12点",
               "sensor": "GC08A3-MAFC0",
-              "ir": "蓝玻"
+              "ir": "蓝玻",
+              "lens": "华鑫 HX-M0803G"
             }
           ],
           "filterKey": "type",
