@@ -629,7 +629,8 @@
               "type": "Depth",
               "pixel": "2M",
               "headSize": "6.5 × 6.5 × 3.15 mm",
-              "direction": "3点"
+              "direction": "3点",
+              "sensor": "GC02M1B-C24Y6"
             }
           ],
           "filterKey": "type",
