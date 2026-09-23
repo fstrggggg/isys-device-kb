@@ -494,7 +494,9 @@
               "mpn": "VM1AE31",
               "pn": "ASA1300119C1",
               "project": "Beryl Dish/TF/VZW、Beryl TMO",
-              "isStandard": "是"
+              "isStandard": "是",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
