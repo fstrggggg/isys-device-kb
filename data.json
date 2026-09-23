@@ -632,7 +632,9 @@
               "direction": "3点",
               "sensor": "GC02M1B-C24Y6",
               "lens": "HX-M0235N-H466",
-              "vcm": "N/A"
+              "vcm": "N/A",
+              "driveIc": "N/A",
+              "custom1": "N/A"
             }
           ],
           "filterKey": "type",
