@@ -580,7 +580,10 @@
               "inUse": "否",
               "custom3": "TCL",
               "note": "GC05A2芯片EOL",
-              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-5M-FF-GC05A2-HR 3P lens-6.5x6.5xH3.95-TCL0008-for RIO"
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-5M-FF-GC05A2-HR 3P lens-6.5x6.5xH3.95-TCL0008-for RIO",
+              "vcm": "N/A",
+              "driveIc": "N/A",
+              "custom1": "N/A"
             },
             {
               "type": "Rear",
@@ -597,7 +600,10 @@
               "project": "GFlip系列",
               "isStandard": "是",
               "inUse": "是",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "vcm": "N/A",
+              "driveIc": "N/A",
+              "custom1": "N/A"
             },
             {
               "pixel": "0.08M",
@@ -605,7 +611,9 @@
               "direction": "3点",
               "sensor": "GC6163B-C08Y0",
               "lens": "宜章山睛 SJ6002-65",
-              "vendor": "CXT"
+              "vendor": "CXT",
+              "vcm": "N/A",
+              "driveIc": "N/A"
             }
           ],
           "filterKey": "type",
