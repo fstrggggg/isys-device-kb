@@ -570,7 +570,8 @@
               "sensor": "GC05A2-MCRC0",
               "ir": "白玻",
               "lens": "禾瑞 TR0537C-H182",
-              "vendor": "联合"
+              "vendor": "联合",
+              "custom2": "BAM04-30083-0500"
             }
           ],
           "filterKey": "type",
