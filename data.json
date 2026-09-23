@@ -573,7 +573,8 @@
               "vendor": "联合",
               "custom2": "BAM04-30083-0500",
               "mpn": "TCL0008BF",
-              "pn": "ASA5001276C1"
+              "pn": "ASA5001276C1",
+              "project": "GFlip系列"
             }
           ],
           "filterKey": "type",
