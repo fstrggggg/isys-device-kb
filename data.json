@@ -692,7 +692,9 @@
               "headSize": "6.5 × 6.5 × 4.59mm",
               "direction": "3点",
               "sensor": "GC05A2-MCHD0",
-              "ir": "蓝玻"
+              "ir": "蓝玻",
+              "lens": "品创 PC5401-65HD-60",
+              "vcm": "N/A"
             }
           ],
           "filterKey": "type",
