@@ -568,7 +568,8 @@
               "headSize": "6.5 × 6.5 × 3.95 mm",
               "direction": "12点",
               "sensor": "GC05A2-MCRC0",
-              "ir": "白玻"
+              "ir": "白玻",
+              "lens": "禾瑞 TR0537C-H182"
             }
           ],
           "filterKey": "type",
