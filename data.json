@@ -544,7 +544,9 @@
               "type": "Rear",
               "pixel": "8M",
               "headSize": "8.5 × 8.5 × 3.8 mm",
-              "direction": "12点"
+              "direction": "12点",
+              "sensor": "SC820CS-CR7NN01",
+              "ir": "蓝玻"
             }
           ],
           "filterKey": "type",
