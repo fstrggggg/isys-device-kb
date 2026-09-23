@@ -635,7 +635,8 @@
               "vcm": "N/A",
               "driveIc": "N/A",
               "custom1": "N/A",
-              "vendor": "联合"
+              "vendor": "联合",
+              "custom2": "BAM04-30083-0500"
             }
           ],
           "filterKey": "type",
