@@ -598,7 +598,9 @@
               "inUse": "是",
               "custom3": "TCL"
             },
-            {}
+            {
+              "pixel": "0.08M"
+            }
           ],
           "filterKey": "type",
           "filterLabel": "Type",
