@@ -512,7 +512,8 @@
               "custom1": "CN3969P-T",
               "vendor": "联合",
               "custom2": "BAM04-30083-0500",
-              "mpn": "LTCFA60089V1.0"
+              "mpn": "LTCFA60089V1.0",
+              "pn": "ASA1300144C1"
             }
           ],
           "filterKey": "type",
