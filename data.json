@@ -566,7 +566,8 @@
               "type": "Rear",
               "pixel": "5M",
               "headSize": "6.5 × 6.5 × 3.95 mm",
-              "direction": "12点"
+              "direction": "12点",
+              "sensor": "GC05A2-MCRC0"
             }
           ],
           "filterKey": "type",
