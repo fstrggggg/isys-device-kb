@@ -585,7 +585,9 @@
               "type": "Rear",
               "pixel": "5M",
               "headSize": "6.5 × 6.5 × 3.95 mm",
-              "direction": "12点"
+              "direction": "12点",
+              "sensor": "GC05A3-MCDM8",
+              "ir": "蓝玻"
             }
           ],
           "filterKey": "type",
