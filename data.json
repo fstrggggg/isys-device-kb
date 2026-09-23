@@ -669,7 +669,9 @@
               "type": "UW",
               "pixel": "5M",
               "headSize": "6.5 × 6.5 × 4.59mm",
-              "direction": "3点"
+              "direction": "3点",
+              "sensor": "GC05A3-MCDM8",
+              "ir": "蓝玻"
             }
           ],
           "filterKey": "type",
