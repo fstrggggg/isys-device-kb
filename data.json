@@ -589,7 +589,8 @@
               "sensor": "GC05A3-MCDM8",
               "ir": "蓝玻",
               "lens": "禾瑞 TR0537B-H456",
-              "vendor": "联合"
+              "vendor": "联合",
+              "custom2": "BAM04-30083-0500"
             }
           ],
           "filterKey": "type",
