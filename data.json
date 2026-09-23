@@ -572,7 +572,8 @@
               "lens": "禾瑞 TR0537C-H182",
               "vendor": "联合",
               "custom2": "BAM04-30083-0500",
-              "mpn": "TCL0008BF"
+              "mpn": "TCL0008BF",
+              "pn": "ASA5001276C1"
             }
           ],
           "filterKey": "type",
