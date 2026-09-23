@@ -704,7 +704,8 @@
               "project": "Aster pro、Ruby VZW/TF、Goldfinch Pro Dish、Sunrise NA OM、Sunrise CAN、BeryL BBH、Moent VZW",
               "isStandard": "是",
               "inUse": "否",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "note": "GC05A2芯片EOL"
             }
           ],
           "filterKey": "type",
