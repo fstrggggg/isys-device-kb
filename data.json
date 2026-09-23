@@ -533,7 +533,11 @@
               "vendor": "CXT",
               "custom2": "BAM04-30083-0500",
               "mpn": "VM18846",
-              "pn": "ASA8001137C1"
+              "pn": "ASA8001137C1",
+              "project": "Scarab lite TF",
+              "isStandard": "是",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
