@@ -506,7 +506,8 @@
               "direction": "12点",
               "sensor": "GC13A0-MAFM8",
               "ir": "蓝玻",
-              "lens": "萨至德 S1321A"
+              "lens": "萨至德 S1321A",
+              "vcm": "LYD13M6526-T1DWA"
             }
           ],
           "filterKey": "type",
