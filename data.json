@@ -700,7 +700,8 @@
               "vendor": "CXT",
               "custom2": "BAM04-30083-0500",
               "mpn": "VM15E56",
-              "pn": "ASA5001289C1\nASA5001296C1-SKD&CKD"
+              "pn": "ASA5001289C1\nASA5001296C1-SKD&CKD",
+              "project": "Aster pro、Ruby VZW/TF、Goldfinch Pro Dish、Sunrise NA OM\n、Sunrise CAN、BeryL BBH、Moent VZW"
             }
           ],
           "filterKey": "type",
