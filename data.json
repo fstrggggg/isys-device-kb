@@ -649,7 +649,8 @@
               "type": "Macro",
               "pixel": "2M",
               "headSize": "6.5 × 6.5 × 3.227 mm",
-              "direction": "12点"
+              "direction": "12点",
+              "sensor": "GC02M1-C24YK"
             }
           ],
           "filterKey": "type",
