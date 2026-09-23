@@ -638,7 +638,10 @@
               "vendor": "联合",
               "custom2": "BAM04-30083-0500",
               "mpn": "TCL0010",
-              "pn": "ASA2001256C1"
+              "pn": "ASA2001256C1",
+              "project": "Beryl Dish/TF/VZW、Beryl TMO、ladybird Pro、\nScarab pro VZW/TF/OM、dragonfly VZW/TF/CAN/OM\nK80 SE NA",
+              "isStandard": "是",
+              "inUse": "是"
             }
           ],
           "filterKey": "type",
