@@ -620,7 +620,8 @@
               "pn": "ASA0080001C1-国内交货\nASA0080002C1-加工贸易",
               "isStandard": "是",
               "inUse": "是",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "project": "Monet GL、K80 GL"
             }
           ],
           "filterKey": "type",
