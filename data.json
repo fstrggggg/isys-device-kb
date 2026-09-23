@@ -509,7 +509,8 @@
               "lens": "萨至德 S1321A",
               "vcm": "LYD13M6526-T1DWA",
               "driveIc": "CN3969P-T",
-              "custom1": "CN3969P-T"
+              "custom1": "CN3969P-T",
+              "vendor": "联合"
             }
           ],
           "filterKey": "type",
