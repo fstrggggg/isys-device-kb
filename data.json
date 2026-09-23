@@ -569,7 +569,8 @@
               "direction": "12点",
               "sensor": "GC05A2-MCRC0",
               "ir": "白玻",
-              "lens": "禾瑞 TR0537C-H182"
+              "lens": "禾瑞 TR0537C-H182",
+              "vendor": "联合"
             }
           ],
           "filterKey": "type",
