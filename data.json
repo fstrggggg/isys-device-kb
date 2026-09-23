@@ -505,7 +505,8 @@
               "headSize": "9.9 × 9.9 × 3.8 mm",
               "direction": "12点",
               "sensor": "GC13A0-MAFM8",
-              "ir": "蓝玻"
+              "ir": "蓝玻",
+              "lens": "萨至德 S1321A"
             }
           ],
           "filterKey": "type",
