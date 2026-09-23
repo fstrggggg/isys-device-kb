@@ -583,7 +583,9 @@
             },
             {
               "type": "Rear",
-              "pixel": "5M"
+              "pixel": "5M",
+              "headSize": "6.5 × 6.5 × 3.95 mm",
+              "direction": "12点"
             }
           ],
           "filterKey": "type",
