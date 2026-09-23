@@ -532,7 +532,8 @@
               "driveIc": "AW86017",
               "vendor": "CXT",
               "custom2": "BAM04-30083-0500",
-              "mpn": "VM18846"
+              "mpn": "VM18846",
+              "pn": "ASA8001137C1"
             }
           ],
           "filterKey": "type",
