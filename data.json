@@ -521,7 +521,8 @@
               "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-13M-AF-GC13A0-S1231A 5P-8.5×8.5×H3.78-LTCFA60089-for K80 main"
             },
             {
-              "type": "Rear"
+              "type": "Rear",
+              "pixel": "8M"
             }
           ],
           "filterKey": "type",
