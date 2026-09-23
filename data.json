@@ -547,7 +547,8 @@
               "direction": "12点",
               "sensor": "SC820CS-CR7NN01",
               "ir": "蓝玻",
-              "lens": "SPY8103C-MD-HZ014"
+              "lens": "SPY8103C-MD-HZ014",
+              "vcm": "VCC26B804"
             }
           ],
           "filterKey": "type",
