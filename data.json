@@ -647,7 +647,8 @@
             },
             {
               "type": "Macro",
-              "pixel": "2M"
+              "pixel": "2M",
+              "headSize": "6.5 × 6.5 × 3.227 mm"
             }
           ],
           "filterKey": "type",
