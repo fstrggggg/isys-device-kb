@@ -644,7 +644,8 @@
               "inUse": "是",
               "custom3": "TCL",
               "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-2M-FF-GC02M1B-HX 3P Lens-6.5x6.5xH3.15-TCL0010-depth for ladybird pro"
-            }
+            },
+            {}
           ],
           "filterKey": "type",
           "filterLabel": "Type",
