@@ -552,7 +552,8 @@
               "driveIc": "DW9718P",
               "custom1": "P24C64F-A4H-MIR",
               "vendor": "TSP",
-              "custom2": "BAM04-30083-0500"
+              "custom2": "BAM04-30083-0500",
+              "mpn": "PT8A3452"
             }
           ],
           "filterKey": "type",
