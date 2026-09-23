@@ -513,7 +513,11 @@
               "vendor": "联合",
               "custom2": "BAM04-30083-0500",
               "mpn": "LTCFA60089V1.0",
-              "pn": "ASA1300144C1"
+              "pn": "ASA1300144C1",
+              "project": "K80 SE GL、K80 SE NA",
+              "isStandard": "是",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
