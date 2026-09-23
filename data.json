@@ -507,7 +507,9 @@
               "sensor": "GC13A0-MAFM8",
               "ir": "蓝玻",
               "lens": "萨至德 S1321A",
-              "vcm": "LYD13M6526-T1DWA"
+              "vcm": "LYD13M6526-T1DWA",
+              "driveIc": "CN3969P-T",
+              "custom1": "CN3969P-T"
             }
           ],
           "filterKey": "type",
