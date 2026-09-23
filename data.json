@@ -634,7 +634,8 @@
               "lens": "HX-M0235N-H466",
               "vcm": "N/A",
               "driveIc": "N/A",
-              "custom1": "N/A"
+              "custom1": "N/A",
+              "vendor": "联合"
             }
           ],
           "filterKey": "type",
