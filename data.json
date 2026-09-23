@@ -656,7 +656,8 @@
               "driveIc": "N/A",
               "custom1": "N/A",
               "vendor": "CXT",
-              "custom2": "BAM04-30083-0500"
+              "custom2": "BAM04-30083-0500",
+              "mpn": "VC12A32"
             }
           ],
           "filterKey": "type",
