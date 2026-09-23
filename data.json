@@ -553,7 +553,8 @@
               "custom1": "P24C64F-A4H-MIR",
               "vendor": "TSP",
               "custom2": "BAM04-30083-0500",
-              "mpn": "PT8A3452"
+              "mpn": "PT8A3452",
+              "pn": "ASA8001150C1"
             }
           ],
           "filterKey": "type",
