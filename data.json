@@ -672,7 +672,11 @@
               "direction": "3点",
               "sensor": "GC05A3-MCDM8",
               "ir": "蓝玻",
-              "lens": "品创 PC5401-65HD-60"
+              "lens": "品创 PC5401-65HD-60",
+              "vcm": "N/A",
+              "driveIc": "N/A",
+              "custom1": "N/A",
+              "vendor": "CXT"
             }
           ],
           "filterKey": "type",
