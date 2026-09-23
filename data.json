@@ -613,7 +613,8 @@
               "lens": "宜章山睛 SJ6002-65",
               "vendor": "CXT",
               "vcm": "N/A",
-              "driveIc": "N/A"
+              "driveIc": "N/A",
+              "custom1": "N/A"
             }
           ],
           "filterKey": "type",
