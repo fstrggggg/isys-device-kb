@@ -592,7 +592,11 @@
               "vendor": "联合",
               "custom2": "BAM04-30083-0500",
               "mpn": "TCL0008BF-V2",
-              "pn": "ASA5001326C1-国内交货\nASA5001327C1-加工贸易"
+              "pn": "ASA5001326C1-国内交货\nASA5001327C1-加工贸易",
+              "project": "GFlip系列",
+              "isStandard": "是",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
