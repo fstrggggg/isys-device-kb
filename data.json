@@ -550,7 +550,8 @@
               "lens": "SPY8103C-MD-HZ014",
               "vcm": "VCC26B804",
               "driveIc": "DW9718P",
-              "custom1": "P24C64F-A4H-MIR"
+              "custom1": "P24C64F-A4H-MIR",
+              "vendor": "TSp"
             }
           ],
           "filterKey": "type",
