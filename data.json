@@ -600,7 +600,8 @@
             },
             {
               "pixel": "0.08M",
-              "headSize": "6.5 × 6.5 × 3.08 mm"
+              "headSize": "6.5 × 6.5 × 3.08 mm",
+              "direction": "3点"
             }
           ],
           "filterKey": "type",
