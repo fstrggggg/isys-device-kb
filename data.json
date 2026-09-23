@@ -603,7 +603,8 @@
               "headSize": "6.5 × 6.5 × 3.08 mm",
               "direction": "3点",
               "sensor": "GC6163B-C08Y0",
-              "lens": "宜章山睛 SJ6002-65"
+              "lens": "宜章山睛 SJ6002-65",
+              "vendor": "CXT"
             }
           ],
           "filterKey": "type",
