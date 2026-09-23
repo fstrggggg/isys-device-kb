@@ -488,7 +488,8 @@
               "lens": "萨至德 S1321A-3",
               "vcm": "LYQ13M6526-401FL",
               "driveIc": "AW86016CSR",
-              "custom1": "TH24C64UBCSBI"
+              "custom1": "TH24C64UBCSBI",
+              "vendor": "CXT"
             }
           ],
           "filterKey": "type",
