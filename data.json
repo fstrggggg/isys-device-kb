@@ -554,7 +554,9 @@
               "vendor": "TSP",
               "custom2": "BAM04-30083-0500",
               "mpn": "PT8A3452",
-              "pn": "ASA8001150C1"
+              "pn": "ASA8001150C1",
+              "project": "Scarab lite TF、RIO",
+              "isStandard": "否"
             }
           ],
           "filterKey": "type",
