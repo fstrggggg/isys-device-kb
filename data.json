@@ -616,7 +616,11 @@
               "driveIc": "N/A",
               "custom1": "N/A",
               "custom2": "BAM04-30083-0500",
-              "mpn": "VC10H10"
+              "mpn": "VC10H10",
+              "pn": "ASA0080001C1-国内交货\nASA0080002C1-加工贸易",
+              "isStandard": "是",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
