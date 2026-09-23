@@ -627,7 +627,9 @@
             },
             {
               "type": "Depth",
-              "pixel": "2M"
+              "pixel": "2M",
+              "headSize": "6.5 × 6.5 × 3.15 mm",
+              "direction": "3点"
             }
           ],
           "filterKey": "type",
