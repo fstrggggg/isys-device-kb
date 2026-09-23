@@ -551,7 +551,7 @@
               "vcm": "VCC26B804",
               "driveIc": "DW9718P",
               "custom1": "P24C64F-A4H-MIR",
-              "vendor": "TSp"
+              "vendor": "TSP"
             }
           ],
           "filterKey": "type",
