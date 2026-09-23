@@ -658,7 +658,9 @@
               "vendor": "CXT",
               "custom2": "BAM04-30083-0500",
               "mpn": "VC12A32",
-              "pn": "ASA2001254C1"
+              "pn": "ASA2001254C1",
+              "project": "Goldfinch NP pro、Goldfinch NP CN",
+              "isStandard": "是"
             }
           ],
           "filterKey": "type",
