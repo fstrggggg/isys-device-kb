@@ -76,7 +76,7 @@
               "key": "vcm",
               "label": "VCM",
               "width": "130px",
-              "userWidth": 169,
+              "userWidth": 179,
               "filter": "text",
               "link": "vcm"
             },
@@ -485,7 +485,8 @@
               "direction": "12点",
               "sensor": "GC13A0-MAGD0",
               "ir": "蓝玻",
-              "lens": "萨至德 S1321A-3"
+              "lens": "萨至德 S1321A-3",
+              "vcm": "LYQ13M6526-401FL"
             }
           ],
           "filterKey": "type",
