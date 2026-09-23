@@ -510,7 +510,8 @@
               "vcm": "LYD13M6526-T1DWA",
               "driveIc": "CN3969P-T",
               "custom1": "CN3969P-T",
-              "vendor": "联合"
+              "vendor": "联合",
+              "custom2": "BAM04-30083-0500"
             }
           ],
           "filterKey": "type",
