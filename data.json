@@ -597,7 +597,8 @@
               "isStandard": "是",
               "inUse": "是",
               "custom3": "TCL"
-            }
+            },
+            {}
           ],
           "filterKey": "type",
           "filterLabel": "Type",
