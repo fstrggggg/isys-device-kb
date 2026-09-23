@@ -660,7 +660,9 @@
               "mpn": "VC12A32",
               "pn": "ASA2001254C1",
               "project": "Goldfinch NP pro、Goldfinch NP CN、Ladybird pro",
-              "isStandard": "是"
+              "isStandard": "是",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
