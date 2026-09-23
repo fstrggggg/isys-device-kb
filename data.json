@@ -679,7 +679,11 @@
               "vendor": "CXT",
               "custom2": "BAM04-30083-0500",
               "mpn": "VM15H82",
-              "pn": "ASA5001318C1-国内交货\nASA5001319C1-加工贸易"
+              "pn": "ASA5001318C1-国内交货\nASA5001319C1-加工贸易",
+              "project": "Beryl BBH、Monet VZW、B03",
+              "isStandard": "是",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
