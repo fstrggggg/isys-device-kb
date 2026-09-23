@@ -581,7 +581,10 @@
               "note": "GC05A2芯片EOL",
               "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-5M-FF-GC05A2-HR 3P lens-6.5x6.5xH3.95-TCL0008-for RIO"
             },
-            {}
+            {
+              "type": "Rear",
+              "pixel": "5M"
+            }
           ],
           "filterKey": "type",
           "filterLabel": "Type",
