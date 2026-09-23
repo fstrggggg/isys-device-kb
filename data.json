@@ -562,7 +562,10 @@
               "note": "好久没用了",
               "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\TSP\\standard\\TSP-8M-AF-SC820CS-SPY 4P Lens-8.5x8.5xH3.8-PT8A3452-For RIO"
             },
-            {}
+            {
+              "type": "Rear",
+              "pixel": "5M"
+            }
           ],
           "filterKey": "type",
           "filterLabel": "Type",
