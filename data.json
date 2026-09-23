@@ -614,7 +614,8 @@
               "vendor": "CXT",
               "vcm": "N/A",
               "driveIc": "N/A",
-              "custom1": "N/A"
+              "custom1": "N/A",
+              "custom2": "BAM04-30083-0500"
             }
           ],
           "filterKey": "type",
