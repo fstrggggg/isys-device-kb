@@ -529,7 +529,8 @@
               "ir": "蓝玻",
               "lens": "华鑫 HX-M0803G",
               "vcm": "LYD8M6026-225DWS",
-              "driveIc": "AW86017"
+              "driveIc": "AW86017",
+              "vendor": "CXT"
             }
           ],
           "filterKey": "type",
