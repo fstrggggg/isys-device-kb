@@ -4505,7 +4505,9 @@
           "stroke": "1150",
           "load": "X＞90‘，Y＞60"
         },
-        {}
+        {
+          "model": "VM60-SY16"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
