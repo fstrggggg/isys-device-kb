@@ -4452,7 +4452,8 @@
           "stroke": "240"
         },
         {
-          "model": "B3160-JT2"
+          "model": "B3160-JT2",
+          "custom1": "M6.0*P0.25"
         }
       ],
       "filterKey": "kind",
