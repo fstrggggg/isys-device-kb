@@ -4632,7 +4632,8 @@
           "current": "100",
           "stroke": "-150~270",
           "load": "±120"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
