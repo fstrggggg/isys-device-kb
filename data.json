@@ -4538,7 +4538,8 @@
           "size": "10.8*10.8*2.6",
           "kind": "开环",
           "vendor": "友华",
-          "current": "100"
+          "current": "100",
+          "stroke": "-100-250"
         }
       ],
       "filterKey": "kind",
