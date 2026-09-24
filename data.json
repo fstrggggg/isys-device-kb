@@ -4410,7 +4410,8 @@
           "model": "TVA-8215HA",
           "custom1": "M8.23",
           "size": "12.3*12.3*3.1",
-          "kind": "OIS hall"
+          "kind": "OIS hall",
+          "vendor": "TDK"
         }
       ],
       "filterKey": "kind",
