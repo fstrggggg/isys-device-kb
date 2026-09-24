@@ -4426,7 +4426,9 @@
         },
         {
           "model": "ATMC1Z502A",
-          "custom1": "M6.5*P0.25"
+          "custom1": "M6.5*P0.25",
+          "size": "8.5*8.5*3.65",
+          "kind": "开环"
         }
       ],
       "filterKey": "kind",
