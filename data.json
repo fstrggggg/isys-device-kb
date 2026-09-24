@@ -4387,7 +4387,9 @@
           "current": "±65",
           "stroke": "-40~220"
         },
-        {}
+        {
+          "model": "TVC-651ABF"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
