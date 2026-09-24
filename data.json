@@ -4541,7 +4541,9 @@
           "current": "100",
           "stroke": "-100-250"
         },
-        {}
+        {
+          "model": "VB06-12"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
