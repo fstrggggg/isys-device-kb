@@ -4459,7 +4459,8 @@
           "vendor": "金诚泰",
           "current": "80",
           "stroke": "200"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
