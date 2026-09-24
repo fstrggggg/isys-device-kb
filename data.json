@@ -4500,7 +4500,8 @@
           "model": "ZD2063-01",
           "size": "19.875*11.94*6.3",
           "kind": "潜望 OIS",
-          "vendor": "睿恩"
+          "vendor": "睿恩",
+          "current": "100"
         }
       ],
       "filterKey": "kind",
