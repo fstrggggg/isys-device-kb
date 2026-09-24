@@ -4582,7 +4582,8 @@
           "custom1": "M6.8*P0.2",
           "size": "8.8*8.8*2.6",
           "kind": "开环",
-          "vendor": "浩泽"
+          "vendor": "浩泽",
+          "current": "115"
         }
       ],
       "filterKey": "kind",
