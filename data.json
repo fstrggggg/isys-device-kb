@@ -4638,7 +4638,8 @@
           "custom1": "M8.23",
           "size": "12.3*12.3*3.2",
           "kind": "OIS IC",
-          "vendor": "浩泽"
+          "vendor": "浩泽",
+          "current": "100"
         }
       ],
       "filterKey": "kind",
