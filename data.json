@@ -4605,7 +4605,8 @@
           "stroke": "-100~250"
         },
         {
-          "model": "DEE26C502"
+          "model": "DEE26C502",
+          "custom1": "M7.5*0.2"
         }
       ],
       "filterKey": "kind",
