@@ -4559,7 +4559,9 @@
           "current": "100",
           "stroke": "100-250"
         },
-        {}
+        {
+          "model": "VI26S305"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
