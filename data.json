@@ -4516,7 +4516,9 @@
         },
         {
           "model": "CD8528H-A1",
-          "custom1": "M6.5*P0.2"
+          "custom1": "M6.5*P0.2",
+          "size": "8.5*8.5*2.8",
+          "kind": "开环"
         }
       ],
       "filterKey": "kind",
