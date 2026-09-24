@@ -4379,7 +4379,8 @@
           "stroke": "260"
         },
         {
-          "model": "TVN-668ABA"
+          "model": "TVN-668ABA",
+          "custom1": "M6.5*P0.25"
         }
       ],
       "filterKey": "kind",
