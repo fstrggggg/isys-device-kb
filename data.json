@@ -707,11 +707,6 @@
               "custom3": "TCL",
               "note": "GC05A2芯片EOL",
               "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-5M-FF-GC05A2-PC5401 3P Lens-6.5x6.5xH4.59-VM15E56-UW- Ruby"
-            },
-            {
-              "type": "UW",
-              "pixel": "8M",
-              "headSize": "8.5 × 8.5 × 3.8mm"
             }
           ],
           "filterKey": "type",
@@ -4222,7 +4217,7 @@
         },
         {
           "key": "size",
-          "label": "尺寸",
+          "label": "尺寸(mm)",
           "width": "150px",
           "filter": "text"
         },
@@ -4247,19 +4242,19 @@
         },
         {
           "key": "current",
-          "label": "额定电流",
+          "label": "额定电流(mA)",
           "width": "96px",
           "filter": "text"
         },
         {
           "key": "stroke",
-          "label": "AF 额定行程",
+          "label": "AF 额定行程（um）",
           "width": "88px",
           "filter": "text"
         },
         {
           "key": "load",
-          "label": "OIS 额定行程",
+          "label": "OIS 额定行程(um)",
           "width": "76px",
           "filter": "text"
         },
@@ -4284,9 +4279,9 @@
           "stroke": "-100~270",
           "size": "8.5 × 8.5 × 3.4 mm",
           "current": "AF 100 mA\nOIS 110mA",
-          "load": "5 g",
-          "status": "MP",
-          "remark": "前摄/超广角定焦替代",
+          "load": "±100",
+          "status": "",
+          "remark": "",
           "custom1": "M8.23"
         },
         {
@@ -4297,8 +4292,8 @@
           "size": "10.5 × 10.5 × 4.2 mm",
           "current": "120 mA",
           "load": "12 g",
-          "status": "MP",
-          "remark": "主摄 AF 主流方案"
+          "status": "",
+          "remark": ""
         },
         {
           "model": "VC-OIS-6601",
@@ -4308,8 +4303,8 @@
           "size": "12.5 × 12.5 × 5.0 mm",
           "current": "200 mA",
           "load": "20 g",
-          "status": "MP",
-          "remark": "Sensor-Shift 兼容"
+          "status": "",
+          "remark": ""
         },
         {
           "model": "VC-PL-8801",
@@ -4319,8 +4314,8 @@
           "size": "15.0 × 13.0 × 6.2 mm",
           "current": "260 mA",
           "load": "28 g",
-          "status": "EVT",
-          "remark": "长焦棱镜马达"
+          "status": "",
+          "remark": ""
         },
         {
           "model": "VC-CL-5410",
@@ -4330,8 +4325,8 @@
           "size": "11.0 × 11.0 × 4.5 mm",
           "current": "130 mA",
           "load": "15 g",
-          "status": "EVT",
-          "remark": "cost-down 备选"
+          "status": "",
+          "remark": ""
         }
       ],
       "filterKey": "kind",
