@@ -4621,7 +4621,8 @@
           "vendor": "浩泽",
           "current": "100",
           "stroke": "-110~230"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
