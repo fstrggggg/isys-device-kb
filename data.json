@@ -4545,7 +4545,8 @@
           "model": "VB06-12",
           "custom1": "M7.5*0.2",
           "size": "10.8*10.8*2.6",
-          "kind": "开环"
+          "kind": "开环",
+          "vendor": "友华"
         }
       ],
       "filterKey": "kind",
