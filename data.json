@@ -4531,7 +4531,8 @@
           "vendor": "友华",
           "current": "90",
           "stroke": "260"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
