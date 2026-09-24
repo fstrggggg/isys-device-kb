@@ -4349,7 +4349,8 @@
           "vendor": "比路",
           "current": "80",
           "stroke": "200"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
