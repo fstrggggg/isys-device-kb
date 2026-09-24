@@ -4560,7 +4560,8 @@
           "stroke": "100-250"
         },
         {
-          "model": "VI26S305"
+          "model": "VI26S305",
+          "custom1": "M6.8*P0.25"
         }
       ],
       "filterKey": "kind",
