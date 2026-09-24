@@ -4360,7 +4360,9 @@
           "current": "-50~90",
           "stroke": "-70~180"
         },
-        {}
+        {
+          "model": "BZM-BL73-B"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
