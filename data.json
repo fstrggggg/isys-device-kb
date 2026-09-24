@@ -4327,7 +4327,7 @@
           "stroke": "180",
           "size": "8.5 × 8.5× 2.9mm",
           "current": "80 mA",
-          "load": "15 g",
+          "load": "",
           "status": "",
           "remark": "",
           "custom1": "M5.5*P0.25"
