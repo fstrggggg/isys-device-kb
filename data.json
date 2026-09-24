@@ -4524,7 +4524,8 @@
           "stroke": "200"
         },
         {
-          "model": "VV09"
+          "model": "VV09",
+          "custom1": "M5.0*P0.25"
         }
       ],
       "filterKey": "kind",
