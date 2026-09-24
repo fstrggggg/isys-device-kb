@@ -4614,7 +4614,8 @@
           "stroke": "-100~270"
         },
         {
-          "model": "DDD26C523"
+          "model": "DDD26C523",
+          "custom1": "M7.5*0.2"
         }
       ],
       "filterKey": "kind",
