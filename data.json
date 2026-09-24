@@ -4293,7 +4293,8 @@
           "current": "120 mA",
           "load": "12 g",
           "status": "",
-          "remark": ""
+          "remark": "",
+          "custom1": "M6.0*P0.25"
         },
         {
           "model": "VC-OIS-6601",
