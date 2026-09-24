@@ -4641,11 +4641,12 @@
           "vendor": "浩泽",
           "current": "100",
           "stroke": "1150",
-          "load": "X＞90，Y＞60"
+          "load": ""
         },
         {
           "model": "APM",
-          "stroke": "1150"
+          "stroke": "1150",
+          "load": "X＞90，Y＞60"
         }
       ],
       "filterKey": "kind",
