@@ -4520,7 +4520,8 @@
           "size": "8.5*8.5*2.8",
           "kind": "开环",
           "vendor": "三美达",
-          "current": "90mA"
+          "current": "90mA",
+          "stroke": "200"
         }
       ],
       "filterKey": "kind",
