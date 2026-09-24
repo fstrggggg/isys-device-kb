@@ -4588,7 +4588,8 @@
         },
         {
           "model": "DS26R601",
-          "custom1": "M8.5*P0.2"
+          "custom1": "M8.5*P0.2",
+          "size": "10.8*10.8*2.6"
         }
       ],
       "filterKey": "kind",
