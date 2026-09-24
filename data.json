@@ -4583,7 +4583,8 @@
           "size": "8.8*8.8*2.6",
           "kind": "开环",
           "vendor": "浩泽",
-          "current": "115"
+          "current": "115",
+          "stroke": "300"
         }
       ],
       "filterKey": "kind",
