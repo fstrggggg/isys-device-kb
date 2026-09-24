@@ -4338,7 +4338,7 @@
           "size": "8.5*8.5*3.65mm",
           "kind": "开环",
           "vendor": "比路",
-          "current": "80mA",
+          "current": "80",
           "stroke": "180"
         },
         {
@@ -4347,7 +4347,7 @@
           "size": "8.5*8.5*2.9",
           "kind": "开环",
           "vendor": "比路",
-          "current": "80mA",
+          "current": "80",
           "stroke": "200"
         }
       ],
