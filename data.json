@@ -4644,7 +4644,8 @@
           "load": "X＞90，Y＞60"
         },
         {
-          "model": "APM"
+          "model": "APM",
+          "stroke": "1150"
         }
       ],
       "filterKey": "kind",
