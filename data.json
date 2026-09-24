@@ -4506,7 +4506,8 @@
           "load": "X＞90‘，Y＞60"
         },
         {
-          "model": "VM60-SY16"
+          "model": "VM60-SY16",
+          "custom1": "M6.0*P0.25"
         }
       ],
       "filterKey": "kind",
