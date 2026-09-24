@@ -4634,7 +4634,8 @@
           "load": "±120"
         },
         {
-          "model": "OGG31D412"
+          "model": "OGG31D412",
+          "custom1": "M8.23"
         }
       ],
       "filterKey": "kind",
