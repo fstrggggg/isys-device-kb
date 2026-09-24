@@ -4514,7 +4514,9 @@
           "current": "80mA",
           "stroke": "180"
         },
-        {}
+        {
+          "model": "CD8528H-A1"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
