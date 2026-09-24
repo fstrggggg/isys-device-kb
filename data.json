@@ -4600,7 +4600,8 @@
           "custom1": "M8.4*P0.2",
           "size": "10.8*10.8*2.6",
           "kind": "中置AF",
-          "vendor": "浩泽"
+          "vendor": "浩泽",
+          "current": "100"
         }
       ],
       "filterKey": "kind",
