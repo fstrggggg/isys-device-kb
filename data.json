@@ -4533,7 +4533,8 @@
           "stroke": "260"
         },
         {
-          "model": "VB06-8"
+          "model": "VB06-8",
+          "custom1": "M8.5*P0.2"
         }
       ],
       "filterKey": "kind",
