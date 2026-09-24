@@ -4623,7 +4623,8 @@
           "stroke": "-110~230"
         },
         {
-          "model": "OJJ37F5075"
+          "model": "OJJ37F5075",
+          "custom1": "M10.73"
         }
       ],
       "filterKey": "kind",
