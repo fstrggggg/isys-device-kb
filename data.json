@@ -4415,7 +4415,9 @@
           "current": "AF:100\nOIS:100",
           "stroke": "-100~280"
         },
-        {}
+        {
+          "model": "ATMC1Z501A"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
