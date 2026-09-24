@@ -4522,7 +4522,8 @@
           "vendor": "三美达",
           "current": "90mA",
           "stroke": "200"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
