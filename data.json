@@ -4326,7 +4326,7 @@
           "kind": "开环",
           "stroke": "0.50 mm",
           "size": "8.5 × 8.5× 2.9mm",
-          "current": "130 mA",
+          "current": "80 mA",
           "load": "15 g",
           "status": "",
           "remark": "",
