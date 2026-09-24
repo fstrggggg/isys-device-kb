@@ -4275,7 +4275,7 @@
         {
           "model": "MVS07A060",
           "vendor": "成都易迅",
-          "kind": "OIS 闭环",
+          "kind": "OIS hall",
           "stroke": "0.30 mm",
           "size": "8.5 × 8.5 × 3.4 mm",
           "current": "100 mA",
