@@ -4528,7 +4528,8 @@
           "custom1": "M5.0*P0.25",
           "size": "8.5*8.5*2.6",
           "kind": "开环",
-          "vendor": "友华"
+          "vendor": "友华",
+          "current": "90"
         }
       ],
       "filterKey": "kind",
