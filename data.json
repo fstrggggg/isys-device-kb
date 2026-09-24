@@ -4400,7 +4400,8 @@
           "model": "TVA-710KSA",
           "custom1": "M7.1",
           "size": "10.5*10.5*5.55",
-          "kind": "OIS hall"
+          "kind": "OIS hall",
+          "vendor": "TDK"
         }
       ],
       "filterKey": "kind",
