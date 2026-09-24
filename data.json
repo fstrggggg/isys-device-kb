@@ -4403,7 +4403,8 @@
           "kind": "OIS hall",
           "vendor": "TDK",
           "current": "AF80\nOIS:70",
-          "stroke": "300"
+          "stroke": "300",
+          "load": "±85"
         }
       ],
       "filterKey": "kind",
