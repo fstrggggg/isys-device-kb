@@ -4451,7 +4451,9 @@
           "current": "80",
           "stroke": "240"
         },
-        {}
+        {
+          "model": "B3160-JT2"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
