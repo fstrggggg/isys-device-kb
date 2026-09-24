@@ -4341,7 +4341,9 @@
           "current": "80mA",
           "stroke": "180"
         },
-        {}
+        {
+          "model": "BKM-QT5"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
