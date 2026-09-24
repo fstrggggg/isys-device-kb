@@ -4216,9 +4216,9 @@
           "filter": "text"
         },
         {
-          "key": "vendor",
-          "label": "供应商",
-          "width": "112px",
+          "key": "size",
+          "label": "尺寸",
+          "width": "150px",
           "filter": "text"
         },
         {
@@ -4235,26 +4235,26 @@
           ]
         },
         {
-          "key": "stroke",
-          "label": "行程",
-          "width": "88px",
-          "filter": "text"
-        },
-        {
-          "key": "size",
-          "label": "尺寸",
-          "width": "150px",
+          "key": "vendor",
+          "label": "供应商",
+          "width": "112px",
           "filter": "text"
         },
         {
           "key": "current",
-          "label": "驱动电流",
+          "label": "额定电流",
           "width": "96px",
           "filter": "text"
         },
         {
+          "key": "stroke",
+          "label": "AF 额定行程",
+          "width": "88px",
+          "filter": "text"
+        },
+        {
           "key": "load",
-          "label": "承载",
+          "label": "OIS 额定行程",
           "width": "76px",
           "filter": "text"
         },
