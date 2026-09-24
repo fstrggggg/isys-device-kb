@@ -707,6 +707,11 @@
               "custom3": "TCL",
               "note": "GC05A2芯片EOL",
               "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-5M-FF-GC05A2-PC5401 3P Lens-6.5x6.5xH4.59-VM15E56-UW- Ruby"
+            },
+            {
+              "type": "UW",
+              "pixel": "8M",
+              "headSize": "8.5 × 8.5 × 3.8mm"
             }
           ],
           "filterKey": "type",
@@ -4217,7 +4222,7 @@
         },
         {
           "key": "size",
-          "label": "尺寸(mm)",
+          "label": "尺寸",
           "width": "150px",
           "filter": "text"
         },
@@ -4242,19 +4247,19 @@
         },
         {
           "key": "current",
-          "label": "额定电流(mA)",
+          "label": "额定电流",
           "width": "96px",
           "filter": "text"
         },
         {
           "key": "stroke",
-          "label": "AF 额定行程（um）",
+          "label": "AF 额定行程",
           "width": "88px",
           "filter": "text"
         },
         {
           "key": "load",
-          "label": "OIS 额定行程(um)",
+          "label": "OIS 额定行程",
           "width": "76px",
           "filter": "text"
         },
@@ -4279,9 +4284,9 @@
           "stroke": "-100~270",
           "size": "8.5 × 8.5 × 3.4 mm",
           "current": "AF 100 mA\nOIS 110mA",
-          "load": "±100",
-          "status": "",
-          "remark": "",
+          "load": "5 g",
+          "status": "MP",
+          "remark": "前摄/超广角定焦替代",
           "custom1": "M8.23"
         },
         {
@@ -4292,8 +4297,8 @@
           "size": "10.5 × 10.5 × 4.2 mm",
           "current": "120 mA",
           "load": "12 g",
-          "status": "",
-          "remark": ""
+          "status": "MP",
+          "remark": "主摄 AF 主流方案"
         },
         {
           "model": "VC-OIS-6601",
