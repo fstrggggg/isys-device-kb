@@ -4624,7 +4624,8 @@
         },
         {
           "model": "OJJ37F5075",
-          "custom1": "M10.73"
+          "custom1": "M10.73",
+          "size": "15.3*15.3*3.7"
         }
       ],
       "filterKey": "kind",
