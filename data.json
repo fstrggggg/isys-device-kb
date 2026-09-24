@@ -4280,7 +4280,8 @@
           "current": "100 mA",
           "load": "5 g",
           "status": "MP",
-          "remark": "前摄/超广角定焦替代"
+          "remark": "前摄/超广角定焦替代",
+          "custom1": "M8.23"
         },
         {
           "model": "VC-CL-5402",
