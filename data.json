@@ -4329,7 +4329,8 @@
           "current": "130 mA",
           "load": "15 g",
           "status": "",
-          "remark": ""
+          "remark": "",
+          "custom1": "M5.5*P0.25"
         }
       ],
       "filterKey": "kind",
