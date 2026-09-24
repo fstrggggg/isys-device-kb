@@ -4461,7 +4461,8 @@
           "stroke": "200"
         },
         {
-          "model": "B2755"
+          "model": "B2755",
+          "custom1": "M5.5*P0.25"
         }
       ],
       "filterKey": "kind",
