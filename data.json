@@ -4303,7 +4303,7 @@
           "stroke": "200",
           "size": "8.5× 8.5 × 2.6mm",
           "current": "95 mA",
-          "load": "20 g",
+          "load": "",
           "status": "",
           "remark": "",
           "custom1": "M5.5*P0.25"
