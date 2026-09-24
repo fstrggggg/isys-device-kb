@@ -4362,7 +4362,8 @@
         },
         {
           "model": "BZM-BL73-B",
-          "custom1": "M6.5*P0.25"
+          "custom1": "M6.5*P0.25",
+          "size": "8.5*8.5*3.4"
         }
       ],
       "filterKey": "kind",
