@@ -4333,7 +4333,8 @@
           "custom1": "M5.5*P0.25"
         },
         {
-          "model": "BKM-BL45-A"
+          "model": "BKM-BL45-A",
+          "custom1": "M5.5*P0.35"
         }
       ],
       "filterKey": "kind",
