@@ -4228,6 +4228,7 @@
           "filter": "select",
           "options": [
             "开环",
+            "中置AF",
             "闭环",
             "OIS 闭环",
             "OIS hall",
