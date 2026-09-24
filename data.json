@@ -4486,7 +4486,8 @@
           "vendor": "睿恩",
           "current": "100",
           "stroke": "-70~260"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
