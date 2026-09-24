@@ -4443,7 +4443,8 @@
           "stroke": "-50~300"
         },
         {
-          "model": "A8532M60"
+          "model": "A8532M60",
+          "custom1": "M6.0*P0.35"
         }
       ],
       "filterKey": "kind",
