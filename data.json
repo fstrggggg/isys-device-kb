@@ -4604,7 +4604,9 @@
           "current": "100",
           "stroke": "-100~250"
         },
-        {}
+        {
+          "model": "DEE26C502"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
