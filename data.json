@@ -4383,7 +4383,8 @@
           "custom1": "M6.5*P0.25",
           "size": "8.5*8.5*3.55",
           "kind": "中置AF",
-          "vendor": "TDK"
+          "vendor": "TDK",
+          "current": "±65"
         }
       ],
       "filterKey": "kind",
