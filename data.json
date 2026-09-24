@@ -4596,7 +4596,8 @@
           "stroke": "-100~250"
         },
         {
-          "model": "DS26B402"
+          "model": "DS26B402",
+          "custom1": "M8.4*P0.2"
         }
       ],
       "filterKey": "kind",
