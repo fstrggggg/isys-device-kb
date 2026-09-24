@@ -4441,7 +4441,8 @@
           "vendor": "APLS",
           "current": "-20~100",
           "stroke": "-50~300"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
