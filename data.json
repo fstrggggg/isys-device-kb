@@ -4525,7 +4525,9 @@
         },
         {
           "model": "VV09",
-          "custom1": "M5.0*P0.25"
+          "custom1": "M5.0*P0.25",
+          "size": "8.5*8.5*2.6",
+          "kind": "开环"
         }
       ],
       "filterKey": "kind",
