@@ -4407,7 +4407,8 @@
           "load": "±85"
         },
         {
-          "model": "TVA-8215HA"
+          "model": "TVA-8215HA",
+          "custom1": "M8.23"
         }
       ],
       "filterKey": "kind",
