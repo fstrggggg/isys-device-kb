@@ -4455,7 +4455,9 @@
           "model": "B3160-JT2",
           "custom1": "M6.0*P0.25",
           "size": "8.5*8.5*3.4",
-          "kind": "开环"
+          "kind": "开环",
+          "vendor": "金诚泰",
+          "current": "80"
         }
       ],
       "filterKey": "kind",
