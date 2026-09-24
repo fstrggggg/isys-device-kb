@@ -4643,7 +4643,9 @@
           "stroke": "1150",
           "load": "X＞90，Y＞60"
         },
-        {}
+        {
+          "model": "APM"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
