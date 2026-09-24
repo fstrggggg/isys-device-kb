@@ -4597,7 +4597,9 @@
         },
         {
           "model": "DS26B402",
-          "custom1": "M8.4*P0.2"
+          "custom1": "M8.4*P0.2",
+          "size": "10.8*10.8*2.6",
+          "kind": "中置AF"
         }
       ],
       "filterKey": "kind",
