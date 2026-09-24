@@ -4424,7 +4424,9 @@
           "current": "90mA",
           "stroke": "200um"
         },
-        {}
+        {
+          "model": "ATMC1Z502A"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
