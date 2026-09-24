@@ -4438,7 +4438,8 @@
           "custom1": "M8.03",
           "size": "10*10*4.3",
           "kind": "中置AF",
-          "vendor": "APLS"
+          "vendor": "APLS",
+          "current": "-20~100"
         }
       ],
       "filterKey": "kind",
