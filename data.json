@@ -4519,7 +4519,8 @@
           "custom1": "M6.5*P0.2",
           "size": "8.5*8.5*2.8",
           "kind": "开环",
-          "vendor": "三美达"
+          "vendor": "三美达",
+          "current": "90mA"
         }
       ],
       "filterKey": "kind",
