@@ -4493,8 +4493,10 @@
           "size": "9.9*9.9*2.55",
           "kind": "中置AF",
           "vendor": "睿恩",
-          "current": "100"
-        }
+          "current": "100",
+          "stroke": "-70~260"
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
