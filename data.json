@@ -4434,7 +4434,8 @@
           "stroke": "200"
         },
         {
-          "model": "ATMJ1Z711A"
+          "model": "ATMJ1Z711A",
+          "custom1": "M8.03"
         }
       ],
       "filterKey": "kind",
