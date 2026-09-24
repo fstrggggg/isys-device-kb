@@ -4629,7 +4629,8 @@
           "size": "15.3*15.3*3.7",
           "kind": "OIS IC",
           "vendor": "浩泽",
-          "current": "100"
+          "current": "100",
+          "stroke": "-150~270"
         }
       ],
       "filterKey": "kind",
