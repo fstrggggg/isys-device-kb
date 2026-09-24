@@ -4391,7 +4391,8 @@
           "model": "TVC-651ABF",
           "custom1": "M6.5*P0.25",
           "size": "8.5*8.5*3.65",
-          "kind": "闭环"
+          "kind": "闭环",
+          "vendor": "TDK"
         }
       ],
       "filterKey": "kind",
