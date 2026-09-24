@@ -4388,7 +4388,8 @@
           "stroke": "-40~220"
         },
         {
-          "model": "TVC-651ABF"
+          "model": "TVC-651ABF",
+          "custom1": "M6.5*P0.25"
         }
       ],
       "filterKey": "kind",
