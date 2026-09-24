@@ -4406,7 +4406,9 @@
           "stroke": "300",
           "load": "±85"
         },
-        {}
+        {
+          "model": "TVA-8215HA"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
