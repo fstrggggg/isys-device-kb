@@ -4297,7 +4297,7 @@
           "custom1": "M6.0*P0.25"
         },
         {
-          "model": "LYD8M5526-264FW",
+          "model": "LYD8M5526",
           "vendor": "良友",
           "kind": "开环",
           "stroke": "200",
