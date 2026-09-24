@@ -4586,7 +4586,9 @@
           "current": "115",
           "stroke": "300"
         },
-        {}
+        {
+          "model": "DS26R601"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
