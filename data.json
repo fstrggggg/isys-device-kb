@@ -4608,7 +4608,9 @@
           "model": "DEE26C502",
           "custom1": "M7.5*0.2",
           "size": "10.8*10.8*2.6",
-          "kind": "中置AF"
+          "kind": "中置AF",
+          "vendor": "浩泽",
+          "current": "100"
         }
       ],
       "filterKey": "kind",
