@@ -4433,7 +4433,9 @@
           "current": "90",
           "stroke": "200"
         },
-        {}
+        {
+          "model": "ATMJ1Z711A"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
