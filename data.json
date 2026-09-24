@@ -4510,7 +4510,9 @@
           "custom1": "M6.0*P0.25",
           "size": "8.5*8.5*3.2",
           "kind": "开环",
-          "vendor": "贵鑫"
+          "vendor": "贵鑫",
+          "current": "80mA",
+          "stroke": "180"
         }
       ],
       "filterKey": "kind",
