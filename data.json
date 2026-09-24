@@ -4365,7 +4365,8 @@
           "custom1": "M6.5*P0.25",
           "size": "8.5*8.5*3.4",
           "kind": "中置AF",
-          "vendor": "比路"
+          "vendor": "比路",
+          "current": "-50~90"
         }
       ],
       "filterKey": "kind",
