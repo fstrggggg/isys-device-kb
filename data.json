@@ -4335,7 +4335,8 @@
         {
           "model": "BKM-BL45-A",
           "custom1": "M5.5*P0.35",
-          "size": "8.5*8.5*3.65mm"
+          "size": "8.5*8.5*3.65mm",
+          "kind": "开环"
         }
       ],
       "filterKey": "kind",
