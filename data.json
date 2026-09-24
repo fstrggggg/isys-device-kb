@@ -4469,7 +4469,9 @@
           "current": "80",
           "stroke": "200"
         },
-        {}
+        {
+          "model": "B3665-JT2"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
