@@ -4527,7 +4527,8 @@
           "model": "VV09",
           "custom1": "M5.0*P0.25",
           "size": "8.5*8.5*2.6",
-          "kind": "开环"
+          "kind": "开环",
+          "vendor": "友华"
         }
       ],
       "filterKey": "kind",
