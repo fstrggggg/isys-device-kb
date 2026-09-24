@@ -4432,7 +4432,8 @@
           "vendor": "ALPS",
           "current": "90",
           "stroke": "200"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
