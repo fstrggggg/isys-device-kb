@@ -4340,7 +4340,8 @@
           "vendor": "比路",
           "current": "80mA",
           "stroke": "180"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
