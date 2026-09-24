@@ -4648,7 +4648,8 @@
           "stroke": "1150",
           "load": "X＞90，Y＞60",
           "size": "19.875*11.94*6.3",
-          "kind": "潜望 OIS"
+          "kind": "潜望 OIS",
+          "vendor": "比路"
         }
       ],
       "filterKey": "kind",
