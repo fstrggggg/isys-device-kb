@@ -4384,7 +4384,8 @@
           "size": "8.5*8.5*3.55",
           "kind": "中置AF",
           "vendor": "TDK",
-          "current": "±65"
+          "current": "±65",
+          "stroke": "-40~220"
         }
       ],
       "filterKey": "kind",
