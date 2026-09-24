@@ -4321,7 +4321,7 @@
           "custom1": "M6.0*P0.25"
         },
         {
-          "model": "VC-CL-5410",
+          "model": "BKM-BL24",
           "vendor": "中蓝",
           "kind": "闭环",
           "stroke": "0.50 mm",
