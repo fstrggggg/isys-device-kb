@@ -4300,7 +4300,7 @@
           "model": "LYD8M5526-264FW",
           "vendor": "良友",
           "kind": "开环",
-          "stroke": "0.55 mm",
+          "stroke": "200",
           "size": "8.5× 8.5 × 2.6mm",
           "current": "95 mA",
           "load": "20 g",
