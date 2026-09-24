@@ -4351,7 +4351,8 @@
           "stroke": "200"
         },
         {
-          "model": "BZM-BL44-C"
+          "model": "BZM-BL44-C",
+          "custom1": "M6.5*P0.25"
         }
       ],
       "filterKey": "kind",
