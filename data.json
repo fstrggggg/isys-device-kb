@@ -4475,7 +4475,8 @@
           "size": "8.5*8.5*3.65",
           "kind": "开环",
           "vendor": "金诚泰",
-          "current": "80"
+          "current": "80",
+          "stroke": "250"
         }
       ],
       "filterKey": "kind",
