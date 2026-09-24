@@ -4430,7 +4430,8 @@
           "size": "8.5*8.5*3.65",
           "kind": "开环",
           "vendor": "ALPS",
-          "current": "90"
+          "current": "90",
+          "stroke": "200"
         }
       ],
       "filterKey": "kind",
