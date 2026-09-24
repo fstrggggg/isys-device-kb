@@ -4416,7 +4416,8 @@
           "stroke": "-100~280"
         },
         {
-          "model": "ATMC1Z501A"
+          "model": "ATMC1Z501A",
+          "custom1": "M6.5*P0.25"
         }
       ],
       "filterKey": "kind",
