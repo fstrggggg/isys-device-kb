@@ -4587,7 +4587,8 @@
           "stroke": "300"
         },
         {
-          "model": "DS26R601"
+          "model": "DS26R601",
+          "custom1": "M8.5*P0.2"
         }
       ],
       "filterKey": "kind",
