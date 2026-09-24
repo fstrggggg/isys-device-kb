@@ -4361,7 +4361,8 @@
           "stroke": "-70~180"
         },
         {
-          "model": "BZM-BL73-B"
+          "model": "BZM-BL73-B",
+          "custom1": "M6.5*P0.25"
         }
       ],
       "filterKey": "kind",
