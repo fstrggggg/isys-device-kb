@@ -4342,7 +4342,8 @@
           "stroke": "180"
         },
         {
-          "model": "BKM-QT5"
+          "model": "BKM-QT5",
+          "custom1": "M6.0*P0.25"
         }
       ],
       "filterKey": "kind",
