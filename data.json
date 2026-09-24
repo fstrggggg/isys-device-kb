@@ -4569,7 +4569,8 @@
           "stroke": "260"
         },
         {
-          "model": "A28W301"
+          "model": "A28W301",
+          "custom1": "M6.5*P0.2"
         }
       ],
       "filterKey": "kind",
