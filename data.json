@@ -4572,7 +4572,8 @@
           "model": "A28W301",
           "custom1": "M6.5*P0.2",
           "size": "8.5*8.5*2.8",
-          "kind": "开环"
+          "kind": "开环",
+          "vendor": "浩泽"
         }
       ],
       "filterKey": "kind",
