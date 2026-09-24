@@ -4292,8 +4292,8 @@
           "size": "10.5 × 10.5 × 4.2 mm",
           "current": "120 mA",
           "load": "12 g",
-          "status": "MP",
-          "remark": "主摄 AF 主流方案"
+          "status": "",
+          "remark": ""
         },
         {
           "model": "VC-OIS-6601",
