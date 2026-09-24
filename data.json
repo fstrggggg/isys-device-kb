@@ -4377,7 +4377,8 @@
           "vendor": "TDK",
           "current": "80",
           "stroke": "260"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
