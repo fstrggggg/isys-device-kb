@@ -4532,7 +4532,9 @@
           "current": "90",
           "stroke": "260"
         },
-        {}
+        {
+          "model": "VB06-8"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
