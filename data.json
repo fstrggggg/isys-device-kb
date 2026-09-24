@@ -4488,7 +4488,8 @@
           "stroke": "-70~260"
         },
         {
-          "model": "BF9925-42"
+          "model": "BF9925-42",
+          "custom1": "M7.5*0.2"
         }
       ],
       "filterKey": "kind",
