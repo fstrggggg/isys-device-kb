@@ -4412,7 +4412,8 @@
           "size": "12.3*12.3*3.1",
           "kind": "OIS hall",
           "vendor": "TDK",
-          "current": "AF:100\nOIS:100"
+          "current": "AF:100\nOIS:100",
+          "stroke": "-100~280"
         }
       ],
       "filterKey": "kind",
