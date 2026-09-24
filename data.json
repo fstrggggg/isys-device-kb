@@ -4370,7 +4370,8 @@
           "stroke": "-70~180"
         },
         {
-          "model": "TVF-606ABG"
+          "model": "TVF-606ABG",
+          "custom1": "M6.5*P0.25"
         }
       ],
       "filterKey": "kind",
