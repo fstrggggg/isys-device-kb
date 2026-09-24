@@ -4619,7 +4619,8 @@
           "size": "9.9*9.9*2.55",
           "kind": "中置AF",
           "vendor": "浩泽",
-          "current": "100"
+          "current": "100",
+          "stroke": "-100"
         }
       ],
       "filterKey": "kind",
