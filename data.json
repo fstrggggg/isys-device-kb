@@ -4444,7 +4444,9 @@
         },
         {
           "model": "A8532M60",
-          "custom1": "M6.0*P0.35"
+          "custom1": "M6.0*P0.35",
+          "size": "8.5*8.5*3.4",
+          "kind": "开环"
         }
       ],
       "filterKey": "kind",
