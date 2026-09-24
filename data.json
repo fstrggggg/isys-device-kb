@@ -4633,7 +4633,9 @@
           "stroke": "-150~270",
           "load": "±120"
         },
-        {}
+        {
+          "model": "OGG31D412"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
