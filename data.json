@@ -4378,7 +4378,9 @@
           "current": "80",
           "stroke": "260"
         },
-        {}
+        {
+          "model": "TVN-668ABA"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
