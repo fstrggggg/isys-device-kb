@@ -4211,7 +4211,7 @@
         },
         {
           "key": "custom1",
-          "label": "镜筒尺寸",
+          "label": "镜筒尺寸(mm)",
           "width": "120px",
           "filter": "text"
         },
