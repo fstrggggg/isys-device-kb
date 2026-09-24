@@ -4450,7 +4450,8 @@
           "vendor": "思考",
           "current": "80",
           "stroke": "240"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
