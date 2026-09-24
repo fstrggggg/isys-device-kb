@@ -4421,7 +4421,8 @@
           "size": "8.5*8.5*3.65",
           "kind": "开环",
           "vendor": "ALPS",
-          "current": "90mA"
+          "current": "90mA",
+          "stroke": "200um"
         }
       ],
       "filterKey": "kind",
