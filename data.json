@@ -4483,7 +4483,8 @@
           "custom1": "M7.5*0.2",
           "size": "9.9*9.9*2.5",
           "kind": "中置AF",
-          "vendor": "睿恩"
+          "vendor": "睿恩",
+          "current": "100"
         }
       ],
       "filterKey": "kind",
