@@ -4501,7 +4501,7 @@
           "size": "19.875*11.94*6.3",
           "kind": "潜望 OIS",
           "vendor": "睿恩",
-          "current": "100",
+          "current": "AF:140\nOIS:110",
           "stroke": "-70~260"
         }
       ],
