@@ -4442,7 +4442,9 @@
           "current": "-20~100",
           "stroke": "-50~300"
         },
-        {}
+        {
+          "model": "A8532M60"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
