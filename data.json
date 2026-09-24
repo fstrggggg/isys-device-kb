@@ -4317,7 +4317,8 @@
           "current": "260 mA",
           "load": "28 g",
           "status": "",
-          "remark": ""
+          "remark": "",
+          "custom1": "M6.0*P0.25"
         },
         {
           "model": "VC-CL-5410",
