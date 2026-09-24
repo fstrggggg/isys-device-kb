@@ -4323,7 +4323,7 @@
         {
           "model": "BKM-BL24",
           "vendor": "中蓝",
-          "kind": "闭环",
+          "kind": "开环",
           "stroke": "0.50 mm",
           "size": "8.5 × 8.5× 2.9mm",
           "current": "130 mA",
