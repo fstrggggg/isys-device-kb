@@ -4460,7 +4460,9 @@
           "current": "80",
           "stroke": "200"
         },
-        {}
+        {
+          "model": "B2755"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
