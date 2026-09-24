@@ -4350,7 +4350,9 @@
           "current": "80",
           "stroke": "200"
         },
-        {}
+        {
+          "model": "BZM-BL44-C"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
