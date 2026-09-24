@@ -4346,7 +4346,8 @@
           "custom1": "M6.0*P0.25",
           "size": "8.5*8.5*2.9",
           "kind": "开环",
-          "vendor": "比路"
+          "vendor": "比路",
+          "current": "80mA"
         }
       ],
       "filterKey": "kind",
