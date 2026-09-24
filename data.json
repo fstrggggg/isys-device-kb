@@ -4620,7 +4620,7 @@
           "kind": "中置AF",
           "vendor": "浩泽",
           "current": "100",
-          "stroke": "-100"
+          "stroke": "-110~230"
         }
       ],
       "filterKey": "kind",
