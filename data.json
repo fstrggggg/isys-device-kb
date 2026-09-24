@@ -4567,7 +4567,8 @@
           "vendor": "浩泽",
           "current": "100",
           "stroke": "260"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
