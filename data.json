@@ -4613,7 +4613,9 @@
           "current": "100",
           "stroke": "-100~270"
         },
-        {}
+        {
+          "model": "DDD26C523"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
