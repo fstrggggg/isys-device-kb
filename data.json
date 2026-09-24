@@ -4542,7 +4542,8 @@
           "stroke": "-100-250"
         },
         {
-          "model": "VB06-12"
+          "model": "VB06-12",
+          "custom1": "M7.5*0.2"
         }
       ],
       "filterKey": "kind",
