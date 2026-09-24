@@ -4447,7 +4447,8 @@
           "custom1": "M6.0*P0.35",
           "size": "8.5*8.5*3.4",
           "kind": "开环",
-          "vendor": "思考"
+          "vendor": "思考",
+          "current": "80"
         }
       ],
       "filterKey": "kind",
