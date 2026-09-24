@@ -4435,7 +4435,9 @@
         },
         {
           "model": "ATMJ1Z711A",
-          "custom1": "M8.03"
+          "custom1": "M8.03",
+          "size": "10*10*4.3",
+          "kind": "中置AF"
         }
       ],
       "filterKey": "kind",
