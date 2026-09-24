@@ -4504,7 +4504,8 @@
           "current": "AF:140\nOIS:110",
           "stroke": "1150",
           "load": "X＞90‘，Y＞60"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
