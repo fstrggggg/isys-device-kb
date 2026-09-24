@@ -4578,7 +4578,8 @@
           "stroke": "245"
         },
         {
-          "model": "V126Z610"
+          "model": "V126Z610",
+          "custom1": "M6.8*P0.2"
         }
       ],
       "filterKey": "kind",
