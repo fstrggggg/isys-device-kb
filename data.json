@@ -4413,9 +4413,9 @@
           "kind": "OIS hall",
           "vendor": "TDK",
           "current": "AF:100\nOIS:100",
-          "stroke": "-100~280",
-          "load": "±110"
-        }
+          "stroke": "-100~280"
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
