@@ -4515,7 +4515,8 @@
           "stroke": "180"
         },
         {
-          "model": "CD8528H-A1"
+          "model": "CD8528H-A1",
+          "custom1": "M6.5*P0.2"
         }
       ],
       "filterKey": "kind",
