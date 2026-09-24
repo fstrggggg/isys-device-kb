@@ -4332,7 +4332,9 @@
           "remark": "",
           "custom1": "M5.5*P0.25"
         },
-        {}
+        {
+          "model": "BKM-BL45-A"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
