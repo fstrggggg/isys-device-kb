@@ -4291,7 +4291,7 @@
           "stroke": "225",
           "size": "8.5 × 8.5 × 2.6 mm",
           "current": "110 mA",
-          "load": "12 g",
+          "load": "",
           "status": "",
           "remark": "",
           "custom1": "M6.0*P0.25"
