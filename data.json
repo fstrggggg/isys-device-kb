@@ -4337,7 +4337,8 @@
           "custom1": "M5.5*P0.35",
           "size": "8.5*8.5*3.65mm",
           "kind": "开环",
-          "vendor": "比路"
+          "vendor": "比路",
+          "current": "80mA"
         }
       ],
       "filterKey": "kind",
