@@ -4568,7 +4568,9 @@
           "current": "100",
           "stroke": "260"
         },
-        {}
+        {
+          "model": "A28W301"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
