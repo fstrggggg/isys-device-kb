@@ -4369,7 +4369,9 @@
           "current": "-50~90",
           "stroke": "-70~180"
         },
-        {}
+        {
+          "model": "TVF-606ABG"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
