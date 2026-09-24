@@ -4393,7 +4393,8 @@
           "size": "8.5*8.5*3.65",
           "kind": "闭环",
           "vendor": "TDK",
-          "current": "100"
+          "current": "100",
+          "stroke": "260"
         }
       ],
       "filterKey": "kind",
