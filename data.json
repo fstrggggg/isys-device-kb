@@ -4423,7 +4423,8 @@
           "vendor": "ALPS",
           "current": "90mA",
           "stroke": "200um"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
