@@ -4502,7 +4502,7 @@
           "kind": "潜望 OIS",
           "vendor": "睿恩",
           "current": "AF:140\nOIS:110",
-          "stroke": "-70~260"
+          "stroke": "1150"
         }
       ],
       "filterKey": "kind",
