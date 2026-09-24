@@ -4299,7 +4299,7 @@
         {
           "model": "LYD8M5526-264FW",
           "vendor": "新思考",
-          "kind": "OIS 闭环",
+          "kind": "开环",
           "stroke": "0.55 mm",
           "size": "8.5× 8.5 × 2.6mm",
           "current": "200 mA",
