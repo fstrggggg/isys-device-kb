@@ -4331,7 +4331,8 @@
           "status": "",
           "remark": "",
           "custom1": "M5.5*P0.25"
-        }
+        },
+        {}
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
