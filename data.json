@@ -4595,7 +4595,9 @@
           "current": "100",
           "stroke": "-100~250"
         },
-        {}
+        {
+          "model": "DS26B402"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
