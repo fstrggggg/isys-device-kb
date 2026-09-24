@@ -4577,7 +4577,9 @@
           "current": "90",
           "stroke": "245"
         },
-        {}
+        {
+          "model": "V126Z610"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
