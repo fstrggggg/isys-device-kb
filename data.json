@@ -4637,7 +4637,8 @@
           "model": "OGG31D412",
           "custom1": "M8.23",
           "size": "12.3*12.3*3.2",
-          "kind": "OIS IC"
+          "kind": "OIS IC",
+          "vendor": "浩泽"
         }
       ],
       "filterKey": "kind",
