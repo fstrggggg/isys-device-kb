@@ -4396,7 +4396,9 @@
           "current": "100",
           "stroke": "260"
         },
-        {}
+        {
+          "model": "TVA-710KSA"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
