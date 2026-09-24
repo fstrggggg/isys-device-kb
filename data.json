@@ -4305,7 +4305,8 @@
           "current": "200 mA",
           "load": "20 g",
           "status": "",
-          "remark": ""
+          "remark": "",
+          "custom1": "M5.5*P0.25"
         },
         {
           "model": "VC-PL-8801",
