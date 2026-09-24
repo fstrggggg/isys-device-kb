@@ -4470,7 +4470,8 @@
           "stroke": "200"
         },
         {
-          "model": "B3665-JT2"
+          "model": "B3665-JT2",
+          "custom1": "M6.5*P0.25"
         }
       ],
       "filterKey": "kind",
