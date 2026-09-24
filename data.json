@@ -4487,7 +4487,9 @@
           "current": "100",
           "stroke": "-70~260"
         },
-        {}
+        {
+          "model": "BF"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
