@@ -4397,7 +4397,8 @@
           "stroke": "260"
         },
         {
-          "model": "TVA-710KSA"
+          "model": "TVA-710KSA",
+          "custom1": "M7.1"
         }
       ],
       "filterKey": "kind",
