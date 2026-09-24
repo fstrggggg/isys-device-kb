@@ -4509,7 +4509,8 @@
           "model": "VM60-SY16",
           "custom1": "M6.0*P0.25",
           "size": "8.5*8.5*3.2",
-          "kind": "开环"
+          "kind": "开环",
+          "vendor": "贵鑫"
         }
       ],
       "filterKey": "kind",
