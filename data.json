@@ -4523,7 +4523,9 @@
           "current": "90mA",
           "stroke": "200"
         },
-        {}
+        {
+          "model": "VV09"
+        }
       ],
       "filterKey": "kind",
       "filterLabel": "类型",
