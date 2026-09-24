@@ -4439,7 +4439,8 @@
           "size": "10*10*4.3",
           "kind": "中置AF",
           "vendor": "APLS",
-          "current": "-20~100"
+          "current": "-20~100",
+          "stroke": "-50~300"
         }
       ],
       "filterKey": "kind",
