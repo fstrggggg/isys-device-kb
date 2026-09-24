@@ -4302,7 +4302,7 @@
           "kind": "开环",
           "stroke": "0.55 mm",
           "size": "8.5× 8.5 × 2.6mm",
-          "current": "200 mA",
+          "current": "95 mA",
           "load": "20 g",
           "status": "",
           "remark": "",
