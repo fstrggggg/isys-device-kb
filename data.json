@@ -4465,7 +4465,9 @@
           "custom1": "M5.5*P0.25",
           "size": "8.5*8.5*2.9",
           "kind": "开环",
-          "vendor": "金诚泰"
+          "vendor": "金诚泰",
+          "current": "80",
+          "stroke": "200"
         }
       ],
       "filterKey": "kind",
