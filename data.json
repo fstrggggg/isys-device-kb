@@ -4563,7 +4563,9 @@
           "model": "VI26S305",
           "custom1": "M6.8*P0.25",
           "size": "8.8/*8.8*2.6",
-          "kind": "开环"
+          "kind": "开环",
+          "vendor": "浩泽",
+          "current": "100"
         }
       ],
       "filterKey": "kind",
