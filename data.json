@@ -873,7 +873,8 @@
               "project": "Beryl TMO、Beryl Dish/VZW/TF",
               "isStandard": "是",
               "inUse": "是",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-5M-FF-GC05A3-TR0539C 3P Lens-6.5x6.5xH4.514-VM15H81"
             }
           ],
           "filterKey": "type",
