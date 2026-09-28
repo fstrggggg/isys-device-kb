@@ -751,7 +751,8 @@
               "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Truly\\Standard\\Truly-8M-AF-GC08A8-AAC 5P Lens-8.5×8.5×H3.8-CMF586-UW for frida"
             },
             {
-              "type": "UW"
+              "type": "UW",
+              "pixel": "8M"
             }
           ],
           "filterKey": "type",
