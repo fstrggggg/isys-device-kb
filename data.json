@@ -790,6 +790,9 @@
               "isStandard": "是",
               "inUse": "是",
               "custom3": "TCL"
+            },
+            {
+              "type": "Front"
             }
           ],
           "filterKey": "type",
