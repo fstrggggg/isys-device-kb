@@ -882,7 +882,8 @@
               "headSize": "6.5 × 6.5 × 4.514mm",
               "direction": "3点",
               "sensor": "GC05A2-MCRC0",
-              "ir": "白玻"
+              "ir": "白玻",
+              "lens": "TR0539C-H268"
             }
           ],
           "filterKey": "type",
