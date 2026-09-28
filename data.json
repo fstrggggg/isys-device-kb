@@ -806,7 +806,10 @@
               "custom2": "BAM04-30083-0500",
               "mpn": "VC12832",
               "pn": "ASA2001250C1",
-              "project": "RIO"
+              "project": "RIO",
+              "isStandard": "否",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
