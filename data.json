@@ -741,7 +741,8 @@
               "driveIc": "PD9101AM-C6H-MIR",
               "custom1": "N/A",
               "vendor": "信利",
-              "custom2": "BAM04-30083-0500"
+              "custom2": "BAM04-30083-0500",
+              "mpn": "CMF586"
             }
           ],
           "filterKey": "type",
