@@ -915,7 +915,8 @@
               "pn": "ASA8001163C1",
               "project": "Aster/Aster pro、BeryL BBH",
               "isStandard": "是",
-              "inUse": "是"
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
