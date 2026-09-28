@@ -870,7 +870,10 @@
               "custom2": "BAM04-30083-0500",
               "mpn": "VM15H81",
               "pn": "ASA5001320C1-国内交货\nASA5001321C1-加工贸易",
-              "project": "Beryl TMO、Beryl Dish/VZW/TF"
+              "project": "Beryl TMO、Beryl Dish/VZW/TF",
+              "isStandard": "是",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
