@@ -757,7 +757,10 @@
               "direction": "3点",
               "sensor": "GC08A8-MADD0",
               "ir": "蓝玻",
-              "lens": "AAC-085672A01-100-X1"
+              "lens": "AAC-085672A01-100-X1",
+              "vcm": "N/A",
+              "driveIc": "N/A",
+              "custom1": "N/A"
             }
           ],
           "filterKey": "type",
