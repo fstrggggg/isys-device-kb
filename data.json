@@ -911,7 +911,8 @@
               "custom1": "N/A",
               "vendor": "CXT",
               "custom2": "BAM04-30083-0500",
-              "mpn": "VM18E78"
+              "mpn": "VM18E78",
+              "pn": "ASA8001163C1"
             }
           ],
           "filterKey": "type",
