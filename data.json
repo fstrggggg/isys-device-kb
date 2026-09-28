@@ -878,7 +878,8 @@
             },
             {
               "type": "Front",
-              "pixel": "5M"
+              "pixel": "5M",
+              "headSize": "6.5 × 6.5 × 4.514mm"
             }
           ],
           "filterKey": "type",
