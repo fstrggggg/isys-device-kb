@@ -817,7 +817,9 @@
               "type": "Front",
               "pixel": "2M",
               "headSize": "6.5 × 6.5 × 3.92mm",
-              "direction": "3点"
+              "direction": "3点",
+              "sensor": "OV02B10",
+              "ir": "白玻"
             }
           ],
           "filterKey": "type",
