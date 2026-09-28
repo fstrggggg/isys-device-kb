@@ -916,7 +916,8 @@
               "project": "Aster/Aster pro、BeryL BBH",
               "isStandard": "是",
               "inUse": "是",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "note": "该模组有炫光问题，谨慎使用"
             }
           ],
           "filterKey": "type",
