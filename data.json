@@ -900,7 +900,8 @@
             },
             {
               "type": "Front",
-              "pixel": "8M"
+              "pixel": "8M",
+              "headSize": "6.5 × 6.5 × 4.48mm"
             }
           ],
           "filterKey": "type",
