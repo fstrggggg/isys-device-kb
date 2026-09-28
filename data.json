@@ -835,7 +835,8 @@
               "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-2M-FF-OV02B10-HR 2P lens-6.5x6.5xH3.7-TCL0007FF-for RIO"
             },
             {
-              "type": "Front"
+              "type": "Front",
+              "pixel": "5M"
             }
           ],
           "filterKey": "type",
