@@ -819,7 +819,9 @@
               "headSize": "6.5 × 6.5 × 3.92mm",
               "direction": "3点",
               "sensor": "OV02B10",
-              "ir": "白玻"
+              "ir": "白玻",
+              "lens": "禾瑞 TR215-H40",
+              "vcm": "N/A"
             }
           ],
           "filterKey": "type",
