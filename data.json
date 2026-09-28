@@ -717,7 +717,8 @@
               "ir": "蓝玻",
               "lens": "AAC-085672A01-100-X1",
               "vcm": "LYD8M5526-638DW",
-              "driveIc": "CN3927ELC"
+              "driveIc": "CN3927ELC",
+              "custom1": "N/A"
             }
           ],
           "filterKey": "type",
