@@ -917,7 +917,8 @@
               "isStandard": "是",
               "inUse": "是",
               "custom3": "TCL",
-              "note": "该模组有炫光问题，谨慎使用"
+              "note": "该模组有炫光问题，谨慎使用",
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-8M-FF-GC08A8- TR0848C 4P Lens-6.5x6.5xH4.48-VM18E78-for Aster"
             }
           ],
           "filterKey": "type",
