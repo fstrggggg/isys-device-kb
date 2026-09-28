@@ -863,7 +863,9 @@
               "sensor": "GC05A3-MCDM8",
               "ir": "蓝玻",
               "lens": "TR0539C-H268",
-              "vcm": "N/A"
+              "vcm": "N/A",
+              "driveIc": "N/A",
+              "custom1": "N/A"
             }
           ],
           "filterKey": "type",
