@@ -740,7 +740,8 @@
               "vcm": "LYD8M5526-638DW",
               "driveIc": "PD9101AM-C6H-MIR",
               "custom1": "N/A",
-              "vendor": "信利"
+              "vendor": "信利",
+              "custom2": "BAM04-30083-0500"
             }
           ],
           "filterKey": "type",
