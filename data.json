@@ -805,7 +805,8 @@
               "vendor": "CXT",
               "custom2": "BAM04-30083-0500",
               "mpn": "VC12832",
-              "pn": "ASA2001250C1"
+              "pn": "ASA2001250C1",
+              "project": "RIO"
             }
           ],
           "filterKey": "type",
