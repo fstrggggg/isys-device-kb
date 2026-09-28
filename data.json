@@ -768,7 +768,8 @@
               "project": "Monalisa",
               "isStandard": "否",
               "inUse": "是",
-              "custom3": "TCL"
+              "custom3": "TCL",
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-8M-FF-GC08A8-AAC 5P Lens-6.5x6.5xH4.425-LTCEF40258V1.0-UW for Monalisa"
             }
           ],
           "filterKey": "type",
