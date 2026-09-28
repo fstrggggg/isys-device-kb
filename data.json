@@ -712,7 +712,9 @@
               "type": "UW",
               "pixel": "8M",
               "headSize": "8.5 × 8.5 × 3.8mm",
-              "direction": "3点"
+              "direction": "3点",
+              "sensor": "GC08A8-MADD0",
+              "ir": "蓝玻"
             }
           ],
           "filterKey": "type",
