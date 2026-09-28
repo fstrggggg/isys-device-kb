@@ -883,7 +883,11 @@
               "direction": "3点",
               "sensor": "GC05A2-MCRC0",
               "ir": "白玻",
-              "lens": "TR0539C-H268"
+              "lens": "TR0539C-H268",
+              "vcm": "N/A",
+              "driveIc": "N/A",
+              "custom1": "N/A",
+              "vendor": "CXT"
             }
           ],
           "filterKey": "type",
