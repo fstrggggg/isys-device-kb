@@ -794,7 +794,8 @@
             {
               "type": "Front",
               "pixel": "2M",
-              "headSize": "6.5 × 6.5 × 3.92mm"
+              "headSize": "6.5 × 6.5 × 3.92mm",
+              "direction": "3点"
             }
           ],
           "filterKey": "type",
