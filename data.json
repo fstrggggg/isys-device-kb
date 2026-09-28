@@ -840,7 +840,8 @@
               "headSize": "6.5 × 6.5 × 4.13mm",
               "direction": "3点",
               "sensor": "GC05A3-MCDM8",
-              "ir": "蓝玻"
+              "ir": "蓝玻",
+              "lens": "TR0536A-H410"
             }
           ],
           "filterKey": "type",
