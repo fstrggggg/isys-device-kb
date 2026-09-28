@@ -827,7 +827,11 @@
               "vendor": "联合",
               "custom2": "BAM04-30083-0500",
               "mpn": "TCL0007",
-              "pn": "ASA2001253C1"
+              "pn": "ASA2001253C1",
+              "project": "RIO",
+              "isStandard": "否",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
