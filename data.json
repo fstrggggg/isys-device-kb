@@ -901,7 +901,8 @@
             {
               "type": "Front",
               "pixel": "8M",
-              "headSize": "6.5 × 6.5 × 4.48mm"
+              "headSize": "6.5 × 6.5 × 4.48mm",
+              "direction": "9点"
             }
           ],
           "filterKey": "type",
