@@ -905,7 +905,11 @@
               "direction": "9点",
               "sensor": "GC08A8-MADD0",
               "ir": "蓝玻",
-              "lens": "禾瑞 TR0848C-H358"
+              "lens": "禾瑞 TR0848C-H358",
+              "vcm": "N/A",
+              "driveIc": "N/A",
+              "custom1": "N/A",
+              "vendor": "CXT"
             }
           ],
           "filterKey": "type",
