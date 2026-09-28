@@ -719,7 +719,8 @@
               "vcm": "LYD8M5526-638DW",
               "driveIc": "CN3927ELC",
               "custom1": "N/A",
-              "vendor": "联合"
+              "vendor": "联合",
+              "custom2": "BAM04-30083-0500"
             }
           ],
           "filterKey": "type",
