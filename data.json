@@ -902,7 +902,9 @@
               "type": "Front",
               "pixel": "8M",
               "headSize": "6.5 × 6.5 × 4.48mm",
-              "direction": "9点"
+              "direction": "9点",
+              "sensor": "GC08A8-MADD0",
+              "ir": "蓝玻"
             }
           ],
           "filterKey": "type",
