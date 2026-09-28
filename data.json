@@ -720,7 +720,8 @@
               "driveIc": "CN3927ELC",
               "custom1": "N/A",
               "vendor": "联合",
-              "custom2": "BAM04-30083-0500"
+              "custom2": "BAM04-30083-0500",
+              "mpn": "LTC8A50042V1"
             }
           ],
           "filterKey": "type",
