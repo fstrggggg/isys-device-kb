@@ -792,7 +792,8 @@
               "custom3": "TCL"
             },
             {
-              "type": "Front"
+              "type": "Front",
+              "pixel": "2M"
             }
           ],
           "filterKey": "type",
