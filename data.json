@@ -739,7 +739,8 @@
               "lens": "AAC-085672A01-100-X1",
               "vcm": "LYD8M5526-638DW",
               "driveIc": "PD9101AM-C6H-MIR",
-              "custom1": "N/A"
+              "custom1": "N/A",
+              "vendor": "信利"
             }
           ],
           "filterKey": "type",
