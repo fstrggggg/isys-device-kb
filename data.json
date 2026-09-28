@@ -865,7 +865,8 @@
               "lens": "TR0539C-H268",
               "vcm": "N/A",
               "driveIc": "N/A",
-              "custom1": "N/A"
+              "custom1": "N/A",
+              "vendor": "CXT"
             }
           ],
           "filterKey": "type",
