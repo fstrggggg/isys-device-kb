@@ -766,7 +766,9 @@
               "mpn": "LTCEF40258V1.0",
               "pn": "ASA8001179C1-国内交货\nASA8001180C1-加工贸易\nASA8001213C1-CKD&SKD",
               "project": "Monalisa",
-              "isStandard": "是"
+              "isStandard": "否",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
