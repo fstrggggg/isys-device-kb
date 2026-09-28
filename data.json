@@ -735,7 +735,8 @@
               "headSize": "8.5 × 8.5 × 3.8mm",
               "direction": "3点",
               "sensor": "GC08A8-MADD0",
-              "ir": "蓝玻"
+              "ir": "蓝玻",
+              "lens": "AAC-085672A01-100-X1"
             }
           ],
           "filterKey": "type",
