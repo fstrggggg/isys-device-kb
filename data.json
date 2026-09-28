@@ -821,7 +821,9 @@
               "sensor": "OV02B10",
               "ir": "白玻",
               "lens": "禾瑞 TR215-H40",
-              "vcm": "N/A"
+              "vcm": "N/A",
+              "driveIc": "N/A",
+              "custom1": "N/A"
             }
           ],
           "filterKey": "type",
