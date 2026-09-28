@@ -722,7 +722,11 @@
               "vendor": "联合",
               "custom2": "BAM04-30083-0500",
               "mpn": "LTC8A50042V1",
-              "pn": "ASA8001191C1-国内交货\nASA8001192C1-加工贸易"
+              "pn": "ASA8001191C1-国内交货\nASA8001192C1-加工贸易",
+              "project": "Frida、Swing TMO、P80、P80 pro、P80 Ultra",
+              "isStandard": "是",
+              "inUse": "是",
+              "custom3": "TCL"
             }
           ],
           "filterKey": "type",
