@@ -801,7 +801,8 @@
               "lens": "禾瑞 TR213-H01",
               "vcm": "N/A",
               "driveIc": "N/A",
-              "custom1": "N/A"
+              "custom1": "N/A",
+              "vendor": "CXT"
             }
           ],
           "filterKey": "type",
