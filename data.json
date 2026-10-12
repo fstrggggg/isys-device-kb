@@ -1737,7 +1737,8 @@
               "isStandard": "是",
               "inUse": "是",
               "custom3": "麦博2",
-              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-2M-FF-GC02M3-TR529H115 3P Lens-6.5×6.5×H3.24-VC12G30-For 千岛湖 macro"
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-2M-FF-GC02M3-TR529H115 3P Lens-6.5×6.5×H3.24-VC12G30-For 千岛湖 macro",
+              "note": "双平台烧录；DOVDD:1.2V"
             },
             {
               "type": "Front（同面）\nL形FPC",
