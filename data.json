@@ -1615,7 +1615,8 @@
               "isStandard": "是",
               "inUse": "是",
               "custom3": "麦博2",
-              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-13M-AF-GC13A0-S1321A 5P Lens-8.5x8.5xH3.78-LTFA60056-For 千岛湖 main"
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-13M-AF-GC13A0-S1321A 5P Lens-8.5x8.5xH3.78-LTFA60056-For 千岛湖 main",
+              "note": "双平台烧录"
             },
             {
               "type": "Rear（同面）",
