@@ -1593,7 +1593,8 @@
               "isStandard": "是",
               "inUse": "是",
               "custom3": "麦博2",
-              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\TSP\\standard\\TSP-13M-AF-GC13A0-S1321A 5P Lens-8.5x8.5xH3.8-PKCP4216-Flora"
+              "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\TSP\\standard\\TSP-13M-AF-GC13A0-S1321A 5P Lens-8.5x8.5xH3.8-PKCP4216-Flora",
+              "note": "改为双平台烧录"
             },
             {
               "type": "Rear（同面）",
@@ -4877,6 +4878,6 @@
     }
   ],
   "meta": {
-    "updated": "2026-10-10"
+    "updated": "2026-10-12"
   }
 }
