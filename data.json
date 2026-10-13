@@ -1897,7 +1897,8 @@
               "direction": "3点",
               "ir": "蓝玻",
               "lens": "HX-M0803G",
-              "vcm": "LYD8M6026-225DWS"
+              "vcm": "LYD8M6026-225DWS",
+              "driveIc": "CN3927ELC-C1"
             },
             {}
           ],
