@@ -1902,7 +1902,10 @@
               "custom1": "CN3927ELC-C1",
               "vendor": "Uimage",
               "custom2": "OK-10GM030-04",
-              "mpn": "LTCEA60115V1"
+              "mpn": "LTCEA60115V1",
+              "project": "Talos（MT8786）",
+              "isStandard": "是",
+              "inUse": "是"
             },
             {}
           ],
