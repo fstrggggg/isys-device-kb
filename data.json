@@ -1898,7 +1898,8 @@
               "ir": "蓝玻",
               "lens": "HX-M0803G",
               "vcm": "LYD8M6026-225DWS",
-              "driveIc": "CN3927ELC-C1"
+              "driveIc": "CN3927ELC-C1",
+              "custom1": "CN3927ELC-C1"
             },
             {}
           ],
