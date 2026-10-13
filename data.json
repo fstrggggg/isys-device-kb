@@ -1894,7 +1894,8 @@
               "pixel": "8M",
               "headSize": "8.5 × 8.5 × 3.77",
               "sensor": "GC08A3-MAFD0",
-              "direction": "3点"
+              "direction": "3点",
+              "ir": "蓝玻"
             },
             {}
           ],
