@@ -1896,7 +1896,8 @@
               "sensor": "GC08A3-MAFD0",
               "direction": "3点",
               "ir": "蓝玻",
-              "lens": "HX-M0803G"
+              "lens": "HX-M0803G",
+              "vcm": "LYD8M6026-225DWS"
             },
             {}
           ],
