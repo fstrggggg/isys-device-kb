@@ -4533,63 +4533,63 @@
       "rows": [
         {
           "model": "MVS07A060",
-          "vendor": "成都易迅",
+          "custom1": "M8.23",
+          "size": "8.5 × 8.5 × 3.4",
           "kind": "OIS hall",
-          "stroke": "-100~270",
-          "size": "8.5 × 8.5 × 3.4 ",
+          "vendor": "成都易迅",
           "current": "AF 100 \nOIS 110",
+          "stroke": "-100~270",
           "load": "±100",
           "status": "",
-          "remark": "",
-          "custom1": "M8.23"
+          "remark": ""
         },
         {
           "model": "LYD8M6026",
-          "vendor": "良友",
+          "custom1": "M6.0*P0.25",
+          "size": "8.5 × 8.5 × 2.6",
           "kind": "开环",
+          "vendor": "良友",
+          "current": "110",
           "stroke": "225",
-          "size": "8.5 × 8.5 × 2.6 ",
-          "current": "110 ",
           "load": "",
           "status": "",
-          "remark": "",
-          "custom1": "M6.0*P0.25"
+          "remark": ""
         },
         {
           "model": "LYD8M5526",
-          "vendor": "良友",
-          "kind": "开环",
-          "stroke": "200",
+          "custom1": "M5.5*P0.25",
           "size": "8.5× 8.5 × 2.6",
-          "current": "95 ",
+          "kind": "开环",
+          "vendor": "良友",
+          "current": "95",
+          "stroke": "200",
           "load": "",
           "status": "",
-          "remark": "",
-          "custom1": "M5.5*P0.25"
+          "remark": ""
         },
         {
           "model": "LYC8M6029",
-          "vendor": "良友",
-          "kind": "开环",
-          "stroke": "200",
+          "custom1": "M6.0*P0.25",
           "size": "8.5 × 8.5 × 2.6",
-          "current": "95 ",
+          "kind": "开环",
+          "vendor": "良友",
+          "current": "95",
+          "stroke": "200",
           "load": "",
           "status": "",
-          "remark": "",
-          "custom1": "M6.0*P0.25"
+          "remark": ""
         },
         {
           "model": "BKM-BL24",
-          "vendor": "比路",
-          "kind": "开环",
-          "stroke": "180",
+          "custom1": "M5.5*P0.25",
           "size": "8.5 × 8.5× 2.9",
-          "current": "80 ",
+          "kind": "开环",
+          "vendor": "比路",
+          "current": "80",
+          "stroke": "180",
           "load": "",
           "status": "",
-          "remark": "",
-          "custom1": "M5.5*P0.25"
+          "remark": ""
         },
         {
           "model": "BKM-BL45-A",
@@ -4598,7 +4598,10 @@
           "kind": "开环",
           "vendor": "比路",
           "current": "80",
-          "stroke": "180"
+          "stroke": "180",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "BKM-QT5",
@@ -4607,7 +4610,10 @@
           "kind": "开环",
           "vendor": "比路",
           "current": "80",
-          "stroke": "200"
+          "stroke": "200",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "BZM-BL44-C",
@@ -4616,7 +4622,10 @@
           "kind": "中置AF",
           "vendor": "比路",
           "current": "-50~90",
-          "stroke": "-70~180"
+          "stroke": "-70~180",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "BZM-BL73-B",
@@ -4625,7 +4634,10 @@
           "kind": "中置AF",
           "vendor": "比路",
           "current": "-50~90",
-          "stroke": "-70~180"
+          "stroke": "-70~180",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "TVF-606ABG",
@@ -4634,7 +4646,10 @@
           "kind": "开环",
           "vendor": "TDK",
           "current": "80",
-          "stroke": "260"
+          "stroke": "260",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "TVN-668ABA",
@@ -4643,7 +4658,10 @@
           "kind": "中置AF",
           "vendor": "TDK",
           "current": "±65",
-          "stroke": "-40~220"
+          "stroke": "-40~220",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "TVC-651ABF",
@@ -4652,7 +4670,10 @@
           "kind": "闭环",
           "vendor": "TDK",
           "current": "100",
-          "stroke": "260"
+          "stroke": "260",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "TVA-710KSA",
@@ -4662,7 +4683,9 @@
           "vendor": "TDK",
           "current": "AF80\nOIS:70",
           "stroke": "300",
-          "load": "±85"
+          "load": "±85",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "TVA-8215HA",
@@ -4671,7 +4694,10 @@
           "kind": "OIS hall",
           "vendor": "TDK",
           "current": "AF:100\nOIS:100",
-          "stroke": "-100~280"
+          "stroke": "-100~280",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "ATMC1Z501A",
@@ -4680,7 +4706,10 @@
           "kind": "开环",
           "vendor": "ALPS",
           "current": "90mA",
-          "stroke": "200um"
+          "stroke": "200um",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "ATMC1Z502A",
@@ -4689,7 +4718,10 @@
           "kind": "开环",
           "vendor": "ALPS",
           "current": "90",
-          "stroke": "200"
+          "stroke": "200",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "ATMJ1Z711A",
@@ -4698,7 +4730,10 @@
           "kind": "中置AF",
           "vendor": "APLS",
           "current": "-20~100",
-          "stroke": "-50~300"
+          "stroke": "-50~300",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "A8532M60",
@@ -4707,7 +4742,10 @@
           "kind": "开环",
           "vendor": "思考",
           "current": "80",
-          "stroke": "240"
+          "stroke": "240",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "B3160-JT2",
@@ -4716,7 +4754,10 @@
           "kind": "开环",
           "vendor": "金诚泰",
           "current": "80",
-          "stroke": "200"
+          "stroke": "200",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "B2755",
@@ -4725,7 +4766,10 @@
           "kind": "开环",
           "vendor": "金诚泰",
           "current": "80",
-          "stroke": "200"
+          "stroke": "200",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "B3665-JT2",
@@ -4734,7 +4778,10 @@
           "kind": "开环",
           "vendor": "金诚泰",
           "current": "80",
-          "stroke": "250"
+          "stroke": "250",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "BF9925-29",
@@ -4743,7 +4790,10 @@
           "kind": "中置AF",
           "vendor": "睿恩",
           "current": "100",
-          "stroke": "-70~260"
+          "stroke": "-70~260",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "BF9925-42",
@@ -4752,16 +4802,22 @@
           "kind": "中置AF",
           "vendor": "睿恩",
           "current": "100",
-          "stroke": "-70~260"
+          "stroke": "-70~260",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "ZD2063-01",
+          "custom1": "",
           "size": "19.875*11.94*6.3",
           "kind": "潜望 OIS",
           "vendor": "睿恩",
           "current": "AF:140\nOIS:110",
           "stroke": "1150",
-          "load": "X＞90‘，Y＞60"
+          "load": "X＞90‘，Y＞60",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "VM60-SY16",
@@ -4770,7 +4826,10 @@
           "kind": "开环",
           "vendor": "贵鑫",
           "current": "80mA",
-          "stroke": "180"
+          "stroke": "180",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "CD8528H-A1",
@@ -4779,7 +4838,10 @@
           "kind": "开环",
           "vendor": "三美达",
           "current": "90mA",
-          "stroke": "200"
+          "stroke": "200",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "VV09",
@@ -4788,7 +4850,10 @@
           "kind": "开环",
           "vendor": "友华",
           "current": "90",
-          "stroke": "260"
+          "stroke": "260",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "VB06-8",
@@ -4797,7 +4862,10 @@
           "kind": "开环",
           "vendor": "友华",
           "current": "100",
-          "stroke": "-100-250"
+          "stroke": "-100-250",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "VB06-12",
@@ -4806,7 +4874,10 @@
           "kind": "开环",
           "vendor": "友华",
           "current": "100",
-          "stroke": "-100-250"
+          "stroke": "-100-250",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "VB21",
@@ -4815,7 +4886,10 @@
           "kind": "中置AF",
           "vendor": "友华",
           "current": "100",
-          "stroke": "100-250"
+          "stroke": "100-250",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "VI26S305",
@@ -4824,7 +4898,10 @@
           "kind": "开环",
           "vendor": "浩泽",
           "current": "100",
-          "stroke": "260"
+          "stroke": "260",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "A28W301",
@@ -4833,7 +4910,10 @@
           "kind": "开环",
           "vendor": "浩泽",
           "current": "90",
-          "stroke": "245"
+          "stroke": "245",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "V126Z610",
@@ -4842,7 +4922,10 @@
           "kind": "开环",
           "vendor": "浩泽",
           "current": "115",
-          "stroke": "300"
+          "stroke": "300",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "DS26R601",
@@ -4851,7 +4934,10 @@
           "kind": "中置AF",
           "vendor": "浩泽",
           "current": "100",
-          "stroke": "-100~250"
+          "stroke": "-100~250",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "DS26B402",
@@ -4860,7 +4946,10 @@
           "kind": "中置AF",
           "vendor": "浩泽",
           "current": "100",
-          "stroke": "-100~250"
+          "stroke": "-100~250",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "DEE26C502",
@@ -4869,7 +4958,10 @@
           "kind": "中置AF",
           "vendor": "浩泽",
           "current": "100",
-          "stroke": "-100~270"
+          "stroke": "-100~270",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "DDD26C523",
@@ -4878,7 +4970,10 @@
           "kind": "中置AF",
           "vendor": "浩泽",
           "current": "100",
-          "stroke": "-110~230"
+          "stroke": "-110~230",
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "OJJ37F5075",
@@ -4888,7 +4983,9 @@
           "vendor": "浩泽",
           "current": "100",
           "stroke": "-150~270",
-          "load": "±120"
+          "load": "±120",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "OGG31D412",
@@ -4898,15 +4995,21 @@
           "vendor": "浩泽",
           "current": "100",
           "stroke": "",
-          "load": ""
+          "load": "",
+          "status": "",
+          "remark": ""
         },
         {
           "model": "APM-OM01",
-          "stroke": "1150",
-          "load": "X＞90，Y＞60",
+          "custom1": "",
           "size": "19.875*11.94*6.3",
           "kind": "潜望 OIS",
-          "vendor": "比路"
+          "vendor": "比路",
+          "current": "",
+          "stroke": "1150",
+          "load": "X＞90，Y＞60",
+          "status": "",
+          "remark": ""
         }
       ],
       "filterKey": "kind",
