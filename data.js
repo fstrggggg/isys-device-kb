@@ -2106,6 +2106,7 @@ var LIBRARIES = [
         ],
         "rows": [
           {
+            "type": "Rear",
             "pixel": "108M",
             "headSize": "12.5× 12.5 × 4.67 mm",
             "direction": "6点",
@@ -2114,13 +2115,12 @@ var LIBRARIES = [
             "lens": "AAC 1086210A02",
             "vcm": "DGG32F1004",
             "driveIc": "DW9800S",
+            "custom1": "P24C128E-C4H-MIR",
             "vendor": "天实",
+            "custom2": "BAM04-30083-0500",
             "mpn": "PSLP4037",
             "pn": "ASA108M000C1",
             "project": "Goldfinch NP GL、Goldfinch NP CN",
-            "type": "Rear",
-            "custom1": "P24C128E-C4H-MIR",
-            "custom2": "BAM04-30083-0500",
             "isStandard": "是",
             "inUse": "否",
             "custom3": "TCL",
@@ -2137,18 +2137,20 @@ var LIBRARIES = [
             "lens": "萨至德 s5002B-5",
             "vcm": "DDD26C523",
             "driveIc": "CN3968-LC",
+            "custom1": "CN3968-LC",
             "vendor": "信利",
+            "custom2": "BAM04-30083-0500",
             "mpn": "CMF493",
             "pn": "ASA5000016C1-加工贸易\nASA5000022C1-国内交货",
             "project": "Aster/Aster pro、Beryl BBH、Ruby VZW/TF、Goldfinch Pro Dish、Sunrise NA OM、Sunrise CAN、B03",
-            "custom1": "CN3968-LC",
-            "custom2": "BAM04-30083-0500",
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Truly\\Standard\\Truly-50M-AF-GC50E0A-SOC 5002B 5P-9.9x9.9xH3.8-CMF493-For Aster"
           },
           {
+            "type": "Rear",
             "pixel": "50M",
             "headSize": "9.9 × 9.9 × 3.8 mm",
             "direction": "6点",
@@ -2157,13 +2159,12 @@ var LIBRARIES = [
             "lens": "萨至德 s5002B-5",
             "vcm": "DDD26C523",
             "driveIc": "AW86016CSR",
+            "custom1": "TH24C64UBCSBI",
             "vendor": "CXT",
+            "custom2": "BAM04-30083-0500",
             "mpn": "VM1FD68",
             "pn": "ASA5000012C1",
             "project": "Ladybird/Ladybird pro、Dragonfly VZW/TF/CAN/OM、Ruby VZW/TF、Goldfinch Pro Dish、Sunrise NA OM、Sunrise CAN、Aster/Aster pro、BeryL BBH",
-            "type": "Rear",
-            "custom1": "TH24C64UBCSBI",
-            "custom2": "BAM04-30083-0500",
             "isStandard": "是",
             "inUse": "否",
             "custom3": "TCL",
@@ -2180,15 +2181,16 @@ var LIBRARIES = [
             "lens": "旭业 XA-5006W",
             "vcm": "HCV46B4001",
             "driveIc": "GT9778W-CLI-TR",
+            "custom1": "GT9778W-CLI-TR",
             "vendor": "信利",
+            "custom2": "BAM04-30083-0500",
             "mpn": "CMF704",
             "pn": "ASA5000041C1--国内交易\nASA5000042C1--加工贸易",
             "project": "Monet GL、Monet NP CAN、Monet NP Dish",
-            "custom1": "GT9778W-CLI-TR",
-            "custom2": "BAM04-30083-0500",
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Truly\\Standard\\Truly-50M-AF-GC50F6A-SOC 5P Lens-9.9×9.9×H3.8-CMF704-main camera For Monet"
           },
           {
@@ -2201,12 +2203,12 @@ var LIBRARIES = [
             "lens": "萨至德 S5009H",
             "vcm": "睿恩 BF9925-42",
             "driveIc": "CN3938V",
+            "custom1": "P24C128F-D4H-MIR",
             "vendor": "TSP",
+            "custom2": "BAM04-30083-0500",
             "mpn": "PKNP5290",
             "pn": "ASA5000033C1-国内交货\nASA5000034C1-加工贸易",
             "project": "Monet GL、Monet NP CAN、Monet NP Dish",
-            "custom1": "P24C128F-D4H-MIR",
-            "custom2": "BAM04-30083-0500",
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
@@ -2232,6 +2234,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-50M-AF-OV50M40-S5009H 5P Lens-9.9×9.9×H3.8-VB1FG76-For K80 main"
           },
           {
@@ -2275,6 +2278,7 @@ var LIBRARIES = [
             "isStandard": "否",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\TSP\\standard\\TSP-50M-SOIS-OV50E-AAC 6P Lens-15.3x15.3xH5.05-PVNS5324-main camera For Monalisa"
           },
           {
@@ -2296,6 +2300,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\TSP\\standard\\TSP-50M-SOIS-GC50B2-AAC 6P Lens-15.3x15.3xH5.05-PKNS4392-main camera For Frida"
           },
           {
@@ -2317,6 +2322,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\TSP\\standard\\TSP-50M-SOIS-S5KJN1-SOC 5P Lens-12.3×12.3×H4.67-PSNS5169-main camera For Swing tmo"
           },
           {
@@ -2338,15 +2344,16 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Truly\\Standard\\Truly-50M-SOIS-S5KJN1-SOC 5002E 5P-12.3×12.3×H4.67-CMF600-For Swing"
           },
           {
             "type": "Rear",
             "pixel": "50M",
             "headSize": "25.59 × 14.85 × 6.5 mm",
+            "direction": "6点",
             "sensor": "S5KJN5SP05-FGX9",
             "ir": "蓝玻",
-            "direction": "6点",
             "lens": "联益 LM5040A-0100",
             "vcm": "ZD2063-01",
             "driveIc": "AF:AK7316\nOIS:AK7323",
@@ -2359,6 +2366,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\TSP\\standard\\TSP-50M-SOIS-JN5（05版本）-联益 5P Lens-25.59x14.85xH6.5-PSNE5325-Tele camera For Avatar"
           },
           {
@@ -2424,6 +2432,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-13M-AF-GC13A0-SOC1321a 5P Lens-9.9x9.9xH3.8-VM1AE31-for Beryl TMO"
           },
           {
@@ -2445,6 +2454,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-13M-AF-GC13A0-S1231A 5P-8.5×8.5×H3.78-LTCFA60089-for K80 main"
           },
           {
@@ -2457,6 +2467,7 @@ var LIBRARIES = [
             "lens": "华鑫 HX-M0803G",
             "vcm": "LYD8M6026-225DWS",
             "driveIc": "AW86017",
+            "custom1": "N/A",
             "vendor": "CXT",
             "custom2": "BAM04-30083-0500",
             "mpn": "VM18846",
@@ -2465,8 +2476,8 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
-            "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-8M-AF-GC08A3-HX 4p lens-8.5x8.5xH3.8-VM18846-for Rio",
-            "custom1": "N/A"
+            "note": "",
+            "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-8M-AF-GC08A3-HX 4p lens-8.5x8.5xH3.8-VM18846-for Rio"
           },
           {
             "type": "Rear",
@@ -2498,6 +2509,9 @@ var LIBRARIES = [
             "sensor": "GC05A2-MCRC0",
             "ir": "白玻",
             "lens": "禾瑞 TR0537C-H182",
+            "vcm": "N/A",
+            "driveIc": "N/A",
+            "custom1": "N/A",
             "vendor": "联合",
             "custom2": "BAM04-30083-0500",
             "mpn": "TCL0008BF",
@@ -2507,10 +2521,7 @@ var LIBRARIES = [
             "inUse": "否",
             "custom3": "TCL",
             "note": "GC05A2芯片EOL",
-            "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-5M-FF-GC05A2-HR 3P lens-6.5x6.5xH3.95-TCL0008-for RIO",
-            "vcm": "N/A",
-            "driveIc": "N/A",
-            "custom1": "N/A"
+            "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-5M-FF-GC05A2-HR 3P lens-6.5x6.5xH3.95-TCL0008-for RIO"
           },
           {
             "type": "Rear",
@@ -2520,6 +2531,9 @@ var LIBRARIES = [
             "sensor": "GC05A3-MCDM8",
             "ir": "蓝玻",
             "lens": "禾瑞 TR0537B-H456",
+            "vcm": "N/A",
+            "driveIc": "N/A",
+            "custom1": "N/A",
             "vendor": "联合",
             "custom2": "BAM04-30083-0500",
             "mpn": "TCL0008BF-V2",
@@ -2528,28 +2542,29 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
-            "vcm": "N/A",
-            "driveIc": "N/A",
-            "custom1": "N/A",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-5M-FF-GC05A3-HR 3P lens-6.5x6.5xH3.95-TCL0008BF"
           },
           {
+            "type": "",
             "pixel": "0.08M",
             "headSize": "6.5 × 6.5 × 3.08 mm",
             "direction": "3点",
             "sensor": "GC6163B-C08Y0",
+            "ir": "",
             "lens": "宜章山睛 SJ6002-65",
-            "vendor": "CXT",
             "vcm": "N/A",
             "driveIc": "N/A",
             "custom1": "N/A",
+            "vendor": "CXT",
             "custom2": "BAM04-30083-0500",
             "mpn": "VC10H10",
             "pn": "ASA0080001C1-国内交货\nASA0080002C1-加工贸易",
+            "project": "Monet GL、K80 GL",
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
-            "project": "Monet GL、K80 GL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-0.08M-FF-GC6163B-C08Y0-宜章山睛 1P lens-6.5×6.5×3.08-VC10H10-For Monet"
           },
           {
@@ -2558,6 +2573,7 @@ var LIBRARIES = [
             "headSize": "6.5 × 6.5 × 3.15 mm",
             "direction": "3点",
             "sensor": "GC02M1B-C24Y6",
+            "ir": "",
             "lens": "HX-M0235N-H466",
             "vcm": "N/A",
             "driveIc": "N/A",
@@ -2570,6 +2586,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-2M-FF-GC02M1B-HX 3P Lens-6.5x6.5xH3.15-TCL0010-depth for ladybird pro"
           },
           {
@@ -2578,6 +2595,7 @@ var LIBRARIES = [
             "headSize": "6.5 × 6.5 × 3.227 mm",
             "direction": "12点",
             "sensor": "GC02M1-C24YK",
+            "ir": "",
             "lens": "HX-M0235N-H466",
             "vcm": "N/A",
             "driveIc": "N/A",
@@ -2590,6 +2608,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-2M-FF-GC02M1-HX 3P Lens-6.5x6.5xH3.7-VC12A32-macro-for ladybird PRO"
           },
           {
@@ -2611,6 +2630,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-5M-FF-GC05A3-PC5401 3P Lens-6.5x6.5xH4.59-VM15H82-UW"
           },
           {
@@ -2654,6 +2674,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-8M-AF-GC08A8-AAC 5P Lens-8.5×8.5×H4.2-LTC8A50042V1-UW for frida"
           },
           {
@@ -2675,6 +2696,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Truly\\Standard\\Truly-8M-AF-GC08A8-AAC 5P Lens-8.5×8.5×H3.8-CMF586-UW for frida"
           },
           {
@@ -2696,6 +2718,7 @@ var LIBRARIES = [
             "isStandard": "否",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-8M-FF-GC08A8-AAC 5P Lens-6.5x6.5xH4.425-LTCEF40258V1.0-UW for Monalisa"
           },
           {
@@ -2717,6 +2740,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-8M-FF-GC08A8-AAC 5P Lens-6.5x6.5xH5.13-VM18D43-UW-for Goldfinch PRO"
           },
           {
@@ -2738,6 +2762,7 @@ var LIBRARIES = [
             "isStandard": "否",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-2M-FF-GC02M1-HR 2P Lens-6.5x6.5xH3.92-VC12832-For Rio"
           },
           {
@@ -2759,6 +2784,7 @@ var LIBRARIES = [
             "isStandard": "否",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\Unimage\\LH-2M-FF-OV02B10-HR 2P lens-6.5x6.5xH3.7-TCL0007FF-for RIO"
           },
           {
@@ -2780,6 +2806,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-5M-FF-GC05A3-TR0536A 3P lens-6.5×6.5×H4.13-VM18G56-For K80 front"
           },
           {
@@ -2801,6 +2828,7 @@ var LIBRARIES = [
             "isStandard": "是",
             "inUse": "是",
             "custom3": "TCL",
+            "note": "",
             "custom4": "\\\\10.92.32.12\\RDhzKM\\17-Camera Lab\\B-技术文档\\器件开发\\Camera SPEC\\CXT\\Standard\\CXT-5M-FF-GC05A3-TR0539C 3P Lens-6.5x6.5xH4.514-VM15H81"
           },
           {
@@ -6820,7 +6848,6 @@ var LIBRARIES = [
     "placeholder": 4
   }
 ];
-
 var LIB_META = {
-  "updated": "2026-10-13"
+  "updated": "2026-10-20"
 };
