@@ -24,7 +24,7 @@ window.ISYS_SYNC_CONFIG = window.ISYS_SYNC_CONFIG || {
   branch: 'main',
   path: 'data.json',
   // ⚠️ 细粒度令牌（仅本仓库 Contents 读写）。已暴露在公开前端，请按需随时在 GitHub 撤销轮换。
-  token: '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',
+  token: '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',
   fallbackToLocal: true
 };
 
@@ -46,6 +46,12 @@ window.ISYS_SYNC_CONFIG = window.ISYS_SYNC_CONFIG || {
   function apiUrl() {
     return 'https://api.github.com/repos/' + CONFIG.owner + '/' + CONFIG.repo +
            '/contents/' + CONFIG.path + '?ref=' + CONFIG.branch;
+  }
+
+  // 公开只读地址：无需令牌即可读取，保证「查看/搜索」在令牌失效时仍可用
+  function rawUrl() {
+    return 'https://raw.githubusercontent.com/' + CONFIG.owner + '/' + CONFIG.repo +
+           '/' + CONFIG.branch + '/' + CONFIG.path;
   }
 
   function ghHeaders() {
@@ -92,16 +98,28 @@ window.ISYS_SYNC_CONFIG = window.ISYS_SYNC_CONFIG || {
 
   /* ---------------- 读取 GitHub 上的 data.json ---------------- */
   function fetchRemote() {
-    return fetch(apiUrl(), { method: 'GET', headers: ghHeaders(), cache: 'no-store' })
+    // 优先用公开 raw 地址（免令牌，无配额限制）；失败再回退到带令牌的 API（可拿到 sha 便于写回）
+    return fetch(rawUrl(), { method: 'GET', cache: 'no-store' })
       .then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.json();
+        return r.text();
       })
-      .then(function (obj) {
-        if (!obj || typeof obj.content !== 'string') throw new Error('非法响应');
-        var json = JSON.parse(btou(obj.content));
-        lastSha = obj.sha || lastSha;
-        return { data: json, sha: obj.sha };
+      .then(function (text) {
+        var json = JSON.parse(text);
+        return { data: json, sha: lastSha };
+      })
+      .catch(function () {
+        return fetch(apiUrl(), { method: 'GET', headers: ghHeaders(), cache: 'no-store' })
+          .then(function (r) {
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            return r.json();
+          })
+          .then(function (obj) {
+            if (!obj || typeof obj.content !== 'string') throw new Error('非法响应');
+            var json = JSON.parse(btou(obj.content));
+            lastSha = obj.sha || lastSha;
+            return { data: json, sha: obj.sha };
+          });
       });
   }
 
