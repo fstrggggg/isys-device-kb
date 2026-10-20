@@ -1,0 +1,163 @@
+/* ============================================================
+   ISYS 知识库 —— 「文件库」页样式（索引式）
+   沿用 styles.css 的主题变量，保持浅色数据平台风格一致。
+   ============================================================ */
+
+.file-lib-host { display: block; }
+
+/* 兜底：这些区块的 display 由 CSS 指定（.cards/.stats 用了 grid），会覆盖 UA 对
+   [hidden] 的 display:none，导致文件库页上仍显示概览卡片 / 统计 / 数据区。此处显式隐藏。 */
+#overviewCards[hidden], #focusCard[hidden], #dataSection[hidden], #fileLibHost[hidden] { display: none !important; }
+
+.fl-wrap { display: flex; gap: 14px; align-items: flex-start; }
+
+/* ---- 左侧：项目 / 目录树 ---- */
+.fl-side {
+  flex: 0 0 264px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-height: calc(100vh - 232px);
+  overflow: auto;
+}
+.fl-side-head {
+  display: flex; justify-content: space-between; align-items: center; gap: 8px;
+  padding: 10px 12px; font-weight: 600;
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; background: var(--panel); z-index: 2;
+}
+.fl-side-num { font-weight: 400; font-size: 12px; color: var(--text-mute); }
+.fl-tree { padding: 6px 6px 10px; }
+.fl-node {
+  display: flex; align-items: center; gap: 6px;
+  padding: 5px 10px 5px 0; margin: 1px 4px;
+  border-radius: 7px; cursor: pointer; font-size: 13px;
+}
+.fl-node:hover { background: var(--nav-hover); }
+.fl-node.active { background: var(--nav-active-bg); color: var(--nav-active-fg); font-weight: 600; }
+.fl-node .fl-ic { flex: 0 0 auto; font-size: 14px; }
+.fl-node .fl-name { flex: 1 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fl-node .fl-cnt {
+  flex: 0 0 auto; font-size: 11px; color: var(--text-mute);
+  background: var(--head-bg); border: 1px solid var(--border);
+  border-radius: 9px; padding: 0 6px; line-height: 17px;
+}
+.fl-node.active .fl-cnt { background: #fff; }
+
+/* ---- 右侧：文件列表 ---- */
+.fl-main {
+  flex: 1 1 auto; min-width: 0;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.fl-toolbar {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  padding: 10px 12px; border-bottom: 1px solid var(--border);
+}
+.fl-search {
+  display: flex; align-items: center; gap: 6px;
+  background: var(--bg); border: 1px solid var(--border-strong);
+  border-radius: 8px; padding: 3px 8px; min-width: 230px;
+}
+.fl-search span { font-size: 13px; }
+.fl-search input {
+  border: none; background: transparent; outline: none;
+  font-size: 13px; color: var(--text); width: 100%;
+}
+.fl-clr { border: none; background: transparent; cursor: pointer; color: var(--text-mute); font-size: 15px; line-height: 1; }
+.fl-chk { display: flex; align-items: center; gap: 5px; font-size: 13px; color: var(--text-sub); cursor: pointer; }
+.fl-stat { margin-left: auto; font-size: 12px; color: var(--text-mute); }
+.fl-btn {
+  border: 1px solid var(--border-strong); background: var(--panel); color: var(--text-sub);
+  border-radius: 7px; padding: 3px 9px; font-size: 12px; cursor: pointer; white-space: nowrap;
+}
+.fl-btn:hover { background: var(--hover); color: var(--primary); border-color: var(--primary); }
+
+.fl-root-line {
+  display: flex; justify-content: space-between; gap: 12px;
+  padding: 7px 12px; font-size: 12px; color: var(--text-mute);
+  border-bottom: 1px dashed var(--border);
+}
+.fl-crumb {
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+  padding: 8px 12px; font-size: 13px; color: var(--text-sub);
+}
+.fl-crumb-cur { cursor: pointer; }
+.fl-crumb-cur:hover { color: var(--primary); text-decoration: underline; }
+.fl-sep { color: var(--text-mute); }
+
+.fl-list { max-height: calc(100vh - 340px); overflow: auto; padding: 4px 8px 12px; }
+
+.fl-folder-row, .fl-file-row {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 10px; border-radius: 8px; border: 1px solid transparent;
+}
+.fl-folder-row { cursor: pointer; }
+.fl-folder-row:hover, .fl-file-row:hover { background: var(--hover); border-color: var(--border); }
+.fl-folder-row .fl-name { flex: 1 1 auto; min-width: 0; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fl-ic { flex: 0 0 auto; font-size: 15px; }
+.fl-fname { flex: 1 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fl-kind, .fl-size, .fl-mtime { flex: 0 0 auto; font-size: 12px; color: var(--text-mute); }
+.fl-kind { width: 78px; }
+.fl-size { width: 76px; text-align: right; }
+.fl-mtime { width: 112px; text-align: right; }
+.fl-acts { flex: 0 0 auto; display: flex; gap: 6px; opacity: .3; transition: opacity .15s; }
+.fl-file-row:hover .fl-acts { opacity: 1; }
+
+.fl-empty { padding: 30px 12px; text-align: center; color: var(--text-mute); font-size: 13px; }
+.fl-empty-big {
+  background: var(--panel); border: 1px dashed var(--border-strong);
+  border-radius: var(--radius); padding: 48px 20px; text-align: center;
+}
+.fl-empty-ic { font-size: 34px; }
+.fl-empty-big h3 { margin: 10px 0 6px; color: var(--text); }
+.fl-empty-big p { margin: 4px 0; font-size: 13px; color: var(--text-sub); }
+.fl-empty-big code {
+  background: var(--head-bg); border: 1px solid var(--border);
+  border-radius: 5px; padding: 1px 5px; font-size: 12px;
+}
+
+/* ---- 预览弹窗 ---- */
+.fl-modal { position: fixed; inset: 0; z-index: 100; display: none; }
+.fl-modal.show { display: block; }
+.fl-modal-mask { position: absolute; inset: 0; background: rgba(15, 23, 42, .5); }
+.fl-modal-box {
+  position: relative; margin: 4vh auto; width: min(1120px, 93vw); max-height: 92vh;
+  background: var(--panel); border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(16, 24, 40, .35);
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.fl-modal-head { display: flex; align-items: center; gap: 8px; padding: 10px 14px; border-bottom: 1px solid var(--border); }
+.fl-modal-icon { font-size: 16px; }
+.fl-modal-title { font-size: 14px; max-width: 44vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fl-modal-meta { font-size: 12px; color: var(--text-mute); }
+.fl-modal-spacer { flex: 1 1 auto; }
+.fl-modal-x { border: none; background: transparent; cursor: pointer; font-size: 15px; color: var(--text-mute); }
+.fl-modal-x:hover { color: #dc2626; }
+.fl-modal-body { flex: 1 1 auto; overflow: auto; background: var(--bg); padding: 10px; display: flex; justify-content: center; align-items: flex-start; }
+.fl-pv-img { max-width: 100%; max-height: 74vh; object-fit: contain; background: #fff; box-shadow: var(--shadow); }
+.fl-pv-frame { width: 100%; height: 74vh; border: none; background: #fff; }
+.fl-pv-video { max-width: 100%; max-height: 74vh; }
+.fl-pv-audio { width: 100%; margin: 32px 0; }
+.fl-pv-none { text-align: center; padding: 42px 20px; color: var(--text-sub); font-size: 32px; }
+.fl-pv-none p { font-size: 13px; margin: 6px 0; }
+.fl-pv-hint { color: var(--text-mute); }
+.fl-pv-path {
+  display: inline-block; margin-top: 8px; padding: 6px 10px;
+  font-size: 12px; color: var(--text-sub); text-align: left; word-break: break-all;
+  background: var(--panel); border: 1px solid var(--border); border-radius: 6px;
+}
+
+/* ---- 轻提示 ---- */
+.fl-toast {
+  position: fixed; left: 50%; bottom: 40px; z-index: 200;
+  transform: translateX(-50%) translateY(10px);
+  background: rgba(17, 24, 39, .92); color: #fff;
+  font-size: 13px; padding: 8px 16px; border-radius: 8px;
+  opacity: 0; pointer-events: none; transition: opacity .18s, transform .18s;
+}
+.fl-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }

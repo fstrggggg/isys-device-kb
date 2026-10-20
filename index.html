@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ISYS 器件开发知识库</title>
+<!-- 内联图标：省掉浏览器自动请求 /favicon.ico 造成的 404 -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f6bff'/%3E%3Cg fill='none' stroke='%23fff' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M9 12h14M9 18h14M9 24h9'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css?v=20261020b">
+<link rel="stylesheet" href="filelib.css?v=20261020b">
+</head>
+<body>
+
+<!-- ============ 顶部标题栏 ============ -->
+<header class="topbar">
+  <div class="topbar-left">
+    <button id="sidebarToggle" class="icon-btn" title="收起 / 展开侧边栏">&#9776;</button>
+    <div class="brand">
+      <div class="brand-logo">ISYS</div>
+      <div class="brand-text">
+        <h1>ISYS 器件开发知识库</h1>
+        <p>模组 / Lens / Sensor / VCM 器件规格与选型资料沉淀</p>
+      </div>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <div class="auth-zone" id="authZone"></div>
+    <span class="badge badge-ok" id="syncBadge">● 已同步</span>
+    <span class="topbar-meta" id="syncInfo">—</span>
+    <button class="ghost-btn" id="syncPullBtn" title="从云端拉取最新数据">⟳ 拉取最新</button>
+    <button class="ghost-btn" id="syncPushBtn" title="立即把本地改动同步到云端">⇧ 同步</button>
+  </div>
+</header>
+
+<div class="layout">
+
+  <!-- ============ 左侧导航 ============ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-head">
+      <span>资料库目录</span>
+      <button id="collapseAll" class="mini-btn" title="全部展开 / 收起">收起</button>
+    </div>
+    <nav class="tree" id="treeNav"></nav>
+    <div class="sidebar-foot">
+      共 <b id="libCount">4</b> 个一级库 · <b id="pageCount">7</b> 个页面
+    </div>
+  </aside>
+
+  <!-- ============ 右侧内容区 ============ -->
+  <main class="content" id="content">
+    <div class="breadcrumb" id="breadcrumb"></div>
+
+    <div class="page-head">
+      <h2 id="pageTitle">—</h2>
+      <p id="pageDesc">—</p>
+    </div>
+
+    <!-- 概览卡片（一级目录页面显示） -->
+    <section class="cards" id="overviewCards" hidden></section>
+
+    <!-- 重点信息卡片：从 Sensor / Lens / VCM 型号跳转过来时显示 -->
+    <section class="focus-card" id="focusCard" hidden></section>
+
+    <!-- 统计卡 + 工具栏 + 表格（叶子页面显示） -->
+    <section id="dataSection">
+      <div class="stats" id="stats"></div>
+
+      <div class="toolbar">
+        <div class="search-box">
+          <span class="search-icon">&#128269;</span>
+          <input type="text" id="searchInput" placeholder="关键字搜索（支持任意列）" autocomplete="off">
+          <button id="clearSearch" class="clear-btn" title="清空">×</button>
+        </div>
+        <div class="filter-box">
+          <label id="filterLabel" for="typeFilter">Type</label>
+          <select id="typeFilter"></select>
+        </div>
+        <div class="toolbar-right">
+          <div class="hist-zone" id="histZone" hidden></div>
+          <span class="row-count" id="rowCount">共 0 条</span>
+          <button class="ghost-btn" id="exportBtn">导出 CSV</button>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="data-table" id="dataTable">
+          <thead id="tableHead"></thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+        <div class="empty-state" id="emptyState" hidden>没有匹配的记录，试试更换关键字或筛选条件。</div>
+      </div>
+
+      <div class="table-foot">
+        <span>提示：表头第二行可直接按列筛选；NO. 为当前筛选结果下的顺序编号（从 1 开始）；点击 Sensor / Lens / VCM 列中的型号可跳转至对应资料库查看重点信息；灰色斜纹行 “—” 为待补充的占位行。开通编辑权限后，双击单元格即可修改，Enter 保存 / Esc 取消，Shift+Enter 在框内换行（单元格会跟着变高）；操作列的 ↑ ↓ 可移动行，也可按住 ⠿ 拖动排序。工具栏的「↶ 撤销 / ↷ 重做」可回退或前进最近 5 步操作（快捷键 Ctrl+Z / Ctrl+Y），点「操作记录」可查看前后各 5 步并一次跳到任意一步。表头每列右边缘可直接拖动调整列宽，双击边框恢复自动宽度。</span>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- 弹窗挂载点（解锁 / 修改口令 / 管理列） -->
+<div id="modalRoot"></div>
+
+<script src="data.js?v=20261020b"></script>
+<script src="files-index.js?v=20261020b"></script>
+<script src="filelib.js?v=20261020b"></script>
+<script src="sync.js?v=20261020b"></script>
+<script src="app.js?v=20261020b"></script>
+<script src="auth.js?v=20261020b"></script>
+<script src="editor.js?v=20261020b"></script>
+<script src="files.js?v=20261020b"></script>
+</body>
+</html>
