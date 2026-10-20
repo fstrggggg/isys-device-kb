@@ -23,8 +23,8 @@ window.ISYS_SYNC_CONFIG = window.ISYS_SYNC_CONFIG || {
   repo: 'isys-device-kb',
   branch: 'main',
   path: 'data.json',
-  // ⚠️ 细粒度令牌（仅本仓库 Contents 读写）。已暴露在公开前端，请按需随时在 GitHub 撤销轮换。
-  token: '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',
+  // 令牌由 GitHub Actions 从仓库 Secret(ISYS_SYNC_TOKEN) 注入；仓库内仅此占位符，不含真实令牌
+  token: '__ISYS_SYNC_TOKEN__',
   fallbackToLocal: true
 };
 
