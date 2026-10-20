@@ -1,10 +1,13 @@
 /* ============================================================
  * ISYS 器件开发知识库 —— 协同同步层（前端直连 GitHub 模式）
  *
- * 数据流向：
- *   打开页面 → GET GitHub 仓库 data.json → 渲染
- *   编辑保存 → 防抖 2.5s → PUT 写回 GitHub data.json
- *   每 30s 轮询一次，其他设备/人的改动即时可见
+ * 数据流向（默认「纯静态优先」模式）：
+ *   打开页面 → 直接渲染内置 data.js（已含全部数据，无需任何网络请求）→ 完成
+ *   数据已全部静态化：任何人打开链接即可查看 / 搜索全部内容，不再受令牌失效影响。
+ *
+ *   配置真实 fine-grained PAT（且把 enabled 设为 true）后，自动升级为「云端同步模式」：
+ *     编辑保存 → 防抖 2.5s → PUT 写回 GitHub data.json
+ *     每 30s 轮询一次，其他设备/人的改动即时可见
  *
  * ⚠️ 安全说明（务必知悉）：
  *   本模式把 GitHub 细粒度令牌直接放在前端 JS 中，任何打开该链接的人
@@ -41,7 +44,13 @@ window.ISYS_SYNC_CONFIG = window.ISYS_SYNC_CONFIG || {
   var pushTimer = null;
   var pullTimer = null;
 
-  function enabled() { return !!CONFIG.enabled; }
+  // 纯静态优先：未配置真实令牌（仍是占位符或为空）时，视为纯静态模式——
+  // 首屏直接渲染内置 data.js（已含全部数据），不发起任何网络请求，打开即用。
+  // 配置真实 fine-grained PAT（且把 enabled 设为 true）后，自动恢复云端同步。
+  function enabled() {
+    var hasToken = CONFIG.token && CONFIG.token.indexOf('__ISYS_SYNC_TOKEN__') === -1 && CONFIG.token.trim() !== '';
+    return !!CONFIG.enabled && hasToken;
+  }
 
   function apiUrl() {
     return 'https://api.github.com/repos/' + CONFIG.owner + '/' + CONFIG.repo +
@@ -69,8 +78,8 @@ window.ISYS_SYNC_CONFIG = window.ISYS_SYNC_CONFIG || {
     var info = document.getElementById('syncInfo');
     if (badge) {
       badge.className = 'badge ' +
-        (kind === 'online' ? 'badge-ok' : kind === 'syncing' ? 'badge-sync' : 'badge-off');
-      badge.textContent = kind === 'syncing' ? '◌ 同步中' : kind === 'online' ? '● 已同步' : '● 离线';
+        (kind === 'online' ? 'badge-ok' : kind === 'syncing' ? 'badge-sync' : kind === 'static' ? 'badge-ok' : 'badge-off');
+      badge.textContent = kind === 'syncing' ? '◌ 同步中' : kind === 'online' ? '● 已同步' : kind === 'static' ? '◆ 静态版' : '● 离线';
     }
     if (info) info.textContent = text || '';
   }
@@ -255,4 +264,7 @@ window.ISYS_SYNC_CONFIG = window.ISYS_SYNC_CONFIG || {
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', bindUI);
   else bindUI();
+
+  // 纯静态模式：未配置真实令牌时，明确标记状态，首屏直接展示内置数据（零网络请求）
+  if (!enabled()) setStatus('static', '纯静态 · 内置数据（' + ((global.LIB_META && global.LIB_META.updated) || '') + '）');
 })(window);
