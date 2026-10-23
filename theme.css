@@ -91,7 +91,13 @@ body {
   background: linear-gradient(180deg, var(--isys-navy-950) 0%, var(--isys-navy-900) 100%);
   border-right: 1px solid rgba(255, 255, 255, .05);
   box-shadow: 2px 0 18px rgba(6, 16, 38, .3);
+  /* 自适应宽度：默认覆盖较大列宽；展开二级目录时随最长项自动撑开 */
+  width: max-content;
+  min-width: clamp(300px, 30vw, 420px);
+  max-width: 42vw;
 }
+.sidebar .tree { overflow-x: auto; }
+.sidebar .tree-parent, .sidebar .tree-link { white-space: nowrap; }
 .sidebar-head {
   display: flex; align-items: center; justify-content: space-between;
   padding: 14px 16px;
