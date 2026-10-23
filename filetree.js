@@ -39,6 +39,9 @@
     try { return localStorage.getItem(LS_TOKEN) || ''; } catch (e) { return ''; }
   }
   function connected() { return !!getToken(); }
+  /* 编辑权限 = 已连接 GitHub（持有令牌）。只有编辑者才能增删目录 / 上传 / 删文件。 */
+  function canEdit() { return connected(); }
+  function editDeniedHint() { toast('需要编辑权限：请先点右上角「🔑 连接 GitHub」后再操作'); }
 
   function kindOf(name) {
     var ext = (String(name).split('.').pop() || '').toLowerCase();
@@ -250,8 +253,8 @@
           '<div class="ft-tree">' + sideTreeHtml(catId, t.root, '', 0) + '</div>' +
           '<div class="ft-side-foot">' +
             (connected()
-              ? '<span class="ft-conn ok">● 已连接 GitHub</span>'
-              : '<span class="ft-conn warn">○ 未连接 GitHub（导入仅本次会话，<a href="#" class="ft-link-connect">去连接</a>后持久化）</span>') +
+              ? '<span class="ft-conn ok">● 已连接 GitHub（可编辑：建目录 / 上传 / 删除）</span>'
+              : '<span class="ft-conn warn">🔒 只读模式（<a href="#" class="ft-link-connect">连接 GitHub</a> 后获得编辑权限）</span>') +
           '</div>' +
         '</aside>' +
         '<section class="ft-main">' +
@@ -434,6 +437,7 @@
 
   /* ---------------- 目录操作 ---------------- */
   function doNewFolder() {
+    if (!canEdit()) { editDeniedHint(); return; }
     var name = prompt('新建文件夹名称：', '新建文件夹');
     if (name == null) return;
     var res = createFolder(curCat, curRel, name);
@@ -443,6 +447,7 @@
     toast('已创建文件夹');
   }
   function doRenameFolder(oldName) {
+    if (!canEdit()) { editDeniedHint(); return; }
     var name = prompt('重命名文件夹：', oldName);
     if (name == null) return;
     var res = renameNode(curCat, curRel, oldName, name);
@@ -455,12 +460,14 @@
     renderCrumb(); renderGrid(); updateSide();
   }
   function doDeleteFolder(name) {
+    if (!canEdit()) { editDeniedHint(); return; }
     if (!confirm('确定删除文件夹「' + name + '」及其全部内容？')) return;
     deleteNode(curCat, curRel, name);
     if (connected()) persistTree();
     renderGrid(); updateSide();
   }
   function doDeleteFile(name) {
+    if (!canEdit()) { editDeniedHint(); return; }
     if (!confirm('确定删除文件「' + name + '」？')) return;
     deleteNode(curCat, curRel, name);
     if (connected()) persistTree();
@@ -475,6 +482,7 @@
 
   /* ---------------- 导入 + 预览 ---------------- */
   function handleImport(fileList) {
+    if (!canEdit()) { editDeniedHint(); return; }
     var files = Array.prototype.slice.call(fileList || []);
     if (!files.length) return;
     var pending = [];
