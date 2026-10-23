@@ -242,8 +242,9 @@
 
     var t = catTree(catId);
     if (!t) {
-      host.innerHTML = '<div class="ft-empty">未找到分类「' + esc(catId) + '」。</div>';
-      return;
+      // 访问不存在的分类时自动建一个空根，避免报错（新建一级目录后首屏）
+      trees.trees[catId] = { name: catId, root: { type: 'folder', name: '根目录', children: [] } };
+      t = catTree(catId);
     }
 
     host.innerHTML =
@@ -604,9 +605,26 @@
     clearTimeout(t._h); t._h = setTimeout(function () { t.classList.remove('show'); }, 2400);
   }
 
+  /* 动态新增 / 删除一级分类（供 app.js 调用） */
+  function ensureCategory(catId, name) {
+    if (!catId) return;
+    if (!trees.trees[catId]) {
+      trees.trees[catId] = { name: name || catId, root: { type: 'folder', name: '根目录', children: [] } };
+      if (connected()) persistTree();
+    }
+  }
+  function removeCategory(catId) {
+    if (catId && trees.trees[catId]) {
+      delete trees.trees[catId];
+      if (connected()) persistTree();
+    }
+  }
+
   window.ISYS_FileTree = {
     render: render,
     bootstrap: bootstrap,
+    ensureCategory: ensureCategory,
+    removeCategory: removeCategory,
     reset: function () { curRel = ''; keyword = ''; includeSub = false; }
   };
 })();
