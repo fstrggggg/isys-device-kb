@@ -3,11 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ISYS 器件开发知识库</title>
+<title>ISYS开发平台</title>
 <!-- 内联图标：省掉浏览器自动请求 /favicon.ico 造成的 404 -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f6bff'/%3E%3Cg fill='none' stroke='%23fff' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M9 12h14M9 18h14M9 24h9'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="stylesheet" href="styles.css?v=20261020d">
 <link rel="stylesheet" href="filelib.css?v=20261020d">
+<link rel="stylesheet" href="theme.css?v=20261023a">
 </head>
 <body>
 
@@ -18,17 +19,17 @@
     <div class="brand">
       <div class="brand-logo">ISYS</div>
       <div class="brand-text">
-        <h1>ISYS 器件开发知识库</h1>
-        <p>模组 / Lens / Sensor / VCM 器件规格与选型资料沉淀</p>
+        <h1>ISYS开发平台</h1>
+        <p>器件开发 · 资料库 · 项目管理 · 知识沉淀</p>
       </div>
     </div>
   </div>
   <div class="topbar-right">
     <div class="auth-zone" id="authZone"></div>
-    <span class="badge badge-ok" id="syncBadge">● 已同步</span>
-    <span class="topbar-meta" id="syncInfo">—</span>
-    <button class="ghost-btn" id="syncPullBtn" title="从云端拉取最新数据">⟳ 拉取最新</button>
-    <button class="ghost-btn" id="syncPushBtn" title="立即把本地改动同步到云端">⇧ 同步</button>
+    <span class="badge badge-ok" id="syncBadge">◆ 静态版</span>
+    <span class="topbar-meta" id="syncInfo">纯静态 · 内置数据</span>
+    <button class="ghost-btn" id="syncPullBtn" title="从 GitHub 云端拉取最新数据">⟳ 云端拉取</button>
+    <button class="ghost-btn" id="syncPushBtn" title="把当前改动同步到 GitHub 云端（需先连接）">⇧ 同步到 GitHub</button>
   </div>
 </header>
 
@@ -100,11 +101,14 @@
 <!-- 弹窗挂载点（解锁 / 修改口令 / 管理列） -->
 <div id="modalRoot"></div>
 
-<script src="data.js?v=20261020f"></script>
+<script src="data.js?v=20261022a"></script>
+<script src="nav.js?v=20261023a"></script>
+<script src="filetree-data.js?v=20261023a"></script>
 <script src="files-index.js?v=20261020d"></script>
 <script src="filelib.js?v=20261020d"></script>
-<script src="sync.js?v=20261020e"></script>
-<script src="app.js?v=20261020d"></script>
+<script src="sync.js?v=20261022b"></script>
+<script src="filetree.js?v=20261023a"></script>
+<script src="app.js?v=20261023a"></script>
 <script src="auth.js?v=20261020d"></script>
 <script src="editor.js?v=20261020d"></script>
 <script src="files.js?v=20261020d"></script>
