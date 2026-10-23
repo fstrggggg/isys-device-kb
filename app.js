@@ -47,6 +47,99 @@
   let pageMap = {};           // id -> {page, parent}
   let filters = {};           // 表头筛选行的列筛选值：{ 列key: 值 }
 
+  /* ---------------- 一级目录（文件型）动态增删 ----------------
+   * 内置 6 大类写死在 nav.js；用户可在「已连接 GitHub（有编辑权限）」时
+   * 新建 / 删除额外的一级目录，结构存仓库根 nav-config.json，
+   * 目录内容仍走 filetree.json。 */
+  const BUILTIN_ROOT_IDS = ['proj', 'kb', 'tools', 'std'];
+  const GH = { owner: 'fstrggggg', repo: 'isys-device-kb', branch: 'main' };
+  const GH_API = 'https://api.github.com/repos/' + GH.owner + '/' + GH.repo + '/contents/';
+  const GH_RAW = 'https://raw.githubusercontent.com/' + GH.owner + '/' + GH.repo + '/' + GH.branch + '/';
+
+  /* 编辑权限 = 网页端已连接 GitHub（持有令牌） */
+  function isEditor() {
+    try { return !!localStorage.getItem('isys_github_token'); } catch (e) { return false; }
+  }
+  function ghPut(path, contentB64, message, sha) {
+    var token = null;
+    try { token = localStorage.getItem('isys_github_token'); } catch (e) { }
+    if (!token) return Promise.reject(new Error('未连接 GitHub'));
+    var body = { message: message, content: contentB64 };
+    if (sha) body.sha = sha;
+    return fetch(GH_API + path, {
+      method: 'PUT',
+      headers: { Authorization: 'token ' + token, 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    }).then(function (r) {
+      if (!r.ok) return r.text().then(function (t) { throw new Error('GitHub ' + r.status + ': ' + t.slice(0, 200)); });
+      return r.json();
+    });
+  }
+  function b64Utf8(s) { return btoa(unescape(encodeURIComponent(s))); }
+
+  /* 启动时把仓库里的自定义一级目录合并进 nav（并剔除被删除的内置目录） */
+  function loadNavConfig() {
+    return fetch(GH_RAW + 'nav-config.json').then(function (r) {
+      if (!r.ok) return null;
+      return r.json();
+    }).then(function (cfg) {
+      if (!cfg) return;
+      var nav = window.ISYS_NAV;
+      if (!nav.fileRoots) nav.fileRoots = [];
+      var removed = cfg.removedIds || [];
+      nav.fileRoots = nav.fileRoots.filter(function (f) { return removed.indexOf(f.id) < 0; });
+      (cfg.customRoots || []).forEach(function (r) {
+        if (!nav.fileRoots.some(function (f) { return f.id === r.id; })) nav.fileRoots.push(r);
+      });
+    }).catch(function () { /* 无网络/无文件时忽略，用内置 6 大类 */ });
+  }
+
+  /* 把当前 nav 中的自定义目录 + 被删的内置目录写回仓库 */
+  function persistNavConfig() {
+    var nav = window.ISYS_NAV;
+    var fr = nav.fileRoots || [];
+    var custom = fr.filter(function (f) { return BUILTIN_ROOT_IDS.indexOf(f.id) < 0; });
+    var present = fr.map(function (f) { return f.id; });
+    var removedIds = BUILTIN_ROOT_IDS.filter(function (id) { return present.indexOf(id) < 0; });
+    var payload = { customRoots: custom, removedIds: removedIds };
+    var b64c = b64Utf8(JSON.stringify(payload, null, 2));
+    return fetch(GH_API + 'nav-config.json').then(function (r) {
+      var sha = r.ok ? JSON.parse(r).sha : null;
+      return ghPut('nav-config.json', b64c, '更新一级目录配置', sha);
+    });
+  }
+
+  function createTopCategory() {
+    if (!isEditor()) {
+      if (window.ISYS_Sync && window.ISYS_Sync.openConnect) window.ISYS_Sync.openConnect();
+      alert('需要先连接 GitHub 获得编辑权限：请点右上角「🔑 连接 GitHub」并粘贴令牌。');
+      return;
+    }
+    var name = prompt('新建一级目录名称：', '新建目录');
+    if (!name) return;
+    name = name.trim();
+    if (!name) return;
+    var id = 'u' + Date.now().toString(36);
+    window.ISYS_NAV.fileRoots.push({ id: id, name: name, icon: '📁', desc: '' });
+    if (window.ISYS_FileTree) window.ISYS_FileTree.ensureCategory(id, name);
+    persistNavConfig().catch(function () { /* 保存失败不影响本次浏览 */ });
+    renderTree(); highlightActive();
+    location.hash = '#/' + id;
+  }
+
+  function deleteTopCategory(id, name) {
+    if (!isEditor()) {
+      if (window.ISYS_Sync && window.ISYS_Sync.openConnect) window.ISYS_Sync.openConnect();
+      alert('需要先连接 GitHub 获得编辑权限。');
+      return;
+    }
+    if (!confirm('确定删除一级目录「' + name + '」及其全部内容？此操作不可恢复。')) return;
+    window.ISYS_NAV.fileRoots = window.ISYS_NAV.fileRoots.filter(function (f) { return f.id !== id; });
+    if (window.ISYS_FileTree) window.ISYS_FileTree.removeCategory(id);
+    persistNavConfig().catch(function () { });
+    location.hash = '#/' + defaultId();
+  }
+
   /* ---------------- 构建索引（云端热替换数据后也可重新调用） ---------------- */
   function buildIndex() {
     pageMap = {};
@@ -89,15 +182,28 @@
       '</div>';
     });
 
-    /* 文件型一级目录：项目管理 / 知识库 / 工具 / 标准化管理 */
+    /* 文件型一级目录：项目管理 / 知识库 / 工具 / 标准化管理 + 用户自建 */
     (nav.fileRoots || []).forEach(function (fr) {
+      var isCustom = BUILTIN_ROOT_IDS.indexOf(fr.id) < 0;
+      var delBtn = (isCustom && isEditor())
+        ? '<span class="ft-root-del" data-delroot="' + escapeAttr(fr.id) + '" title="删除该一级目录">✕</span>'
+        : '';
       html += '<div class="tree-group">' +
         '<a class="tree-parent link" data-page="' + fr.id + '" href="#/' + fr.id + '" title="' + escapeHtml(fr.name) + '">' +
           '<span class="arrow placeholder"></span>' +
           '<span class="ico">' + escapeHtml(fr.icon || '📁') + '</span>' +
-          '<span class="name">' + escapeHtml(fr.name) + '</span>' +
+          '<span class="name">' + escapeHtml(fr.name) + '</span>' + delBtn +
         '</a></div>';
     });
+
+    /* 编辑者可见：新建一级目录入口 */
+    if (isEditor()) {
+      html += '<div class="tree-group"><div class="tree-parent ft-new-root" id="ftNewRoot" title="新建一级目录">' +
+        '<span class="arrow placeholder"></span>' +
+        '<span class="ico">➕</span>' +
+        '<span class="name ft-new-name">新建一级目录</span>' +
+      '</div></div>';
+    }
 
     els.tree.innerHTML = html;
   }
@@ -785,6 +891,18 @@
 
   /* ---------------- 事件绑定 ---------------- */
   els.tree.addEventListener('click', function (e) {
+    const newRoot = e.target.closest('#ftNewRoot');
+    if (newRoot) { createTopCategory(); return; }
+
+    const delRoot = e.target.closest('[data-delroot]');
+    if (delRoot) {
+      e.preventDefault();
+      const node = delRoot.closest('.tree-parent');
+      const nm = node ? node.querySelector('.name').textContent : delRoot.getAttribute('data-delroot');
+      deleteTopCategory(delRoot.getAttribute('data-delroot'), nm);
+      return;
+    }
+
     const toggle = e.target.closest('[data-toggle]');
     if (toggle) {
       const id = toggle.dataset.toggle;
@@ -888,14 +1006,30 @@
   });
 
   /* ---------------- 启动：渲染整个应用 ---------------- */
+  let _editorState = false;
   function bootApp() {
     buildIndex();   // 始终基于当前 LIBRARIES 重建索引（云端热替换后也走这里）
-    const nav = window.ISYS_NAV || { groups: [], fileRoots: [] };
-    const topCount = (nav.groups ? nav.groups.length : 0) + (nav.fileRoots ? nav.fileRoots.length : 0);
-    document.getElementById('libCount').textContent = topCount;
-    document.getElementById('pageCount').textContent =
-      Object.keys(pageMap).length + (nav.fileRoots ? nav.fileRoots.length : 0);
-  if (els.topDate) els.topDate.textContent = '更新：' + LIB_META.updated;
+    loadNavConfig().then(function () {
+      const nav = window.ISYS_NAV || { groups: [], fileRoots: [] };
+      const topCount = (nav.groups ? nav.groups.length : 0) + (nav.fileRoots ? nav.fileRoots.length : 0);
+      document.getElementById('libCount').textContent = topCount;
+      document.getElementById('pageCount').textContent =
+        Object.keys(pageMap).length + (nav.fileRoots ? nav.fileRoots.length : 0);
+      if (els.topDate) els.topDate.textContent = '更新：' + LIB_META.updated;
+
+      _editorState = isEditor();
+      validateData();
+      renderTree();
+      const init = parseHash();
+      renderPage(init.id, init.focus);
+
+      /* 轮询编辑权限状态：在网页内连接/断开 GitHub 后，侧栏的新建/删除控件自动出现或消失 */
+      setInterval(function () {
+        const s = isEditor();
+        if (s !== _editorState) { _editorState = s; renderTree(); highlightActive(); }
+      }, 1500);
+    });
+  }
 
   /* ---------------- 对外接口（供 editor.js 调用） ----------------
    * 只暴露必要的读写与重绘能力，避免 editor.js 直接改内部状态。
@@ -970,12 +1104,6 @@
     escapeHtml: escapeHtml,
     editMode: editMode
   };
-
-    validateData();
-    renderTree();
-    const init = parseHash();
-    renderPage(init.id, init.focus);
-  }
 
   /* ---------------- 入口：先本地渲染，再异步从云端同步 ---------------- */
   bootApp();
