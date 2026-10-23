@@ -40,8 +40,8 @@
     content:     document.getElementById('content')
   };
 
-  /* 一级目录默认展开状态 */
-  const expanded = { module: true };
+  /* 一级设备分组默认展开状态 */
+  const expanded = { module: true, secondary: true };
   let currentPageId = null;   // 当前页面 id
   let currentFocus = null;    // 当前聚焦型号（跨库跳转用）
   let pageMap = {};           // id -> {page, parent}
@@ -63,45 +63,43 @@
 
   /* ---------------- 左侧树形导航 ---------------- */
   function renderTree() {
-    const html = LIBRARIES.map(function (lib) {
-      if (lib.children) {
-        const isOpen = expanded[lib.id];
-        const items = lib.children.map(function (c) {
-          return '<li class="tree-leaf">' +
-            '<a class="tree-link" data-page="' + c.id + '" href="#/' + c.id + '" title="' + c.name + '">' +
-            '<span class="dot"></span>' + c.name +
-            '<span class="cnt">' + c.rows.length + '</span>' +
-            '</a></li>';
-        }).join('');
-        return '<div class="tree-group' + (isOpen ? ' open' : '') + '" data-group="' + lib.id + '">' +
-          '<div class="tree-parent" data-toggle="' + lib.id + '">' +
-            '<span class="arrow">▸</span>' +
-            '<span class="ico">' + lib.icon + '</span>' +
-            '<span class="name">' + lib.name + '</span>' +
-          '</div>' +
-          '<ul class="tree-children" ' + (isOpen ? '' : 'style="display:none"') + '>' + items + '</ul>' +
-        '</div>';
-      }
-      return '<div class="tree-group">' +
-        '<a class="tree-parent link" data-page="' + lib.id + '" href="#/' + lib.id + '">' +
-          '<span class="arrow placeholder"></span>' +
-          '<span class="ico">' + lib.icon + '</span>' +
-          '<span class="name">' + lib.name + '</span>' +
-          '<span class="cnt">' + lib.rows.length + '</span>' +
-        '</a>' +
-      '</div>';
-    }).join('');
+    const nav = window.ISYS_NAV || { groups: [], fileRoots: [] };
+    let html = '';
 
-    const idxCount = (typeof ISYS_FILE_INDEX !== 'undefined' && ISYS_FILE_INDEX && ISYS_FILE_INDEX.totalFiles != null)
-      ? ISYS_FILE_INDEX.totalFiles
-      : Object.keys((typeof ISYS_FILES !== 'undefined' && ISYS_FILES) ? ISYS_FILES.store : {}).length;
-    const fileNode = '<div class="tree-group"><a class="tree-parent link" data-page="__files__" href="#/__files__">' +
-      '<span class="arrow placeholder"></span>' +
-      '<span class="ico">📁</span>' +
-      '<span class="name">文件库</span>' +
-      '<span class="cnt">' + idxCount + '</span>' +
-      '</a></div>';
-    els.tree.innerHTML = fileNode + html;
+    /* 设备分组：模组资料库 / 二级器件（子项复用 data.js 的页面） */
+    (nav.groups || []).forEach(function (g) {
+      const isOpen = expanded[g.id] !== false;   // 默认展开
+      const items = (g.children || []).map(function (cid) {
+        const entry = pageMap[cid];
+        if (!entry) return '';
+        const page = entry.page;
+        const cnt = (page.rows || []).length;
+        return '<li class="tree-leaf">' +
+          '<a class="tree-link" data-page="' + cid + '" href="#/' + cid + '" title="' + escapeHtml(page.name) + '">' +
+          '<span class="dot"></span>' + escapeHtml(page.name) +
+          '<span class="cnt">' + cnt + '</span></a></li>';
+      }).join('');
+      html += '<div class="tree-group' + (isOpen ? ' open' : '') + '" data-group="' + g.id + '">' +
+        '<div class="tree-parent" data-toggle="' + g.id + '">' +
+          '<span class="arrow">▸</span>' +
+          '<span class="ico">' + escapeHtml(g.icon || '📁') + '</span>' +
+          '<span class="name">' + escapeHtml(g.name) + '</span>' +
+        '</div>' +
+        '<ul class="tree-children"' + (isOpen ? '' : ' style="display:none"') + '>' + items + '</ul>' +
+      '</div>';
+    });
+
+    /* 文件型一级目录：项目管理 / 知识库 / 工具 / 标准化管理 */
+    (nav.fileRoots || []).forEach(function (fr) {
+      html += '<div class="tree-group">' +
+        '<a class="tree-parent link" data-page="' + fr.id + '" href="#/' + fr.id + '" title="' + escapeHtml(fr.name) + '">' +
+          '<span class="arrow placeholder"></span>' +
+          '<span class="ico">' + escapeHtml(fr.icon || '📁') + '</span>' +
+          '<span class="name">' + escapeHtml(fr.name) + '</span>' +
+        '</a></div>';
+    });
+
+    els.tree.innerHTML = html;
   }
 
   function highlightActive() {
@@ -130,42 +128,51 @@
   }
 
   function defaultId() {
+    const nav = window.ISYS_NAV;
+    if (nav && nav.groups && nav.groups[0] && nav.groups[0].children && nav.groups[0].children[0]) {
+      return nav.groups[0].children[0];
+    }
     return LIBRARIES[0].children ? LIBRARIES[0].children[0].id : LIBRARIES[0].id;
   }
 
   /* ---------------- 页面渲染 ---------------- */
-  function renderFileLib() {
-    currentPageId = '__files__';
+  function isFileRoot(id) {
+    const nav = window.ISYS_NAV;
+    if (!nav || !nav.fileRoots) return false;
+    return nav.fileRoots.some(function (f) { return f.id === id; });
+  }
+
+  function renderFileTree(catId) {
+    currentPageId = catId;
     currentFocus = null;
     els.content.scrollTop = 0;
-    els.breadcrumb.innerHTML = '<span class="cur">文件库</span>';
-    els.pageTitle.textContent = '📁 文件库';
-    els.pageDesc.textContent = '按项目 / 型号归档的技术文档。文件存放在公司共享目录，页面只做索引与在线预览。';
+    const fr = (window.ISYS_NAV.fileRoots || []).filter(function (f) { return f.id === catId; })[0];
+    if (!fr) { location.hash = '#/' + defaultId(); return; }
+    els.breadcrumb.innerHTML = '<span class="cur">' + escapeHtml(fr.name) + '</span>';
+    els.pageTitle.textContent = (fr.icon || '📁') + ' ' + fr.name;
+    els.pageDesc.textContent = fr.desc || '';
     els.overview.hidden = true;
     els.focusCard.hidden = true;
     els.dataSection.hidden = true;
 
-    let host = document.getElementById('fileLibHost');
+    let host = document.getElementById('fileTreeHost');
     if (!host) {
       host = document.createElement('section');
-      host.id = 'fileLibHost';
+      host.id = 'fileTreeHost';
       host.className = 'file-lib-host';
       els.content.appendChild(host);
     }
     host.hidden = false;
-    if (window.ISYS_FileLib) {
-      window.ISYS_FileLib.render(host);
-    } else if (window.ISYS_Files) {
-      window.ISYS_Files.renderLibrary(host);
-      window.ISYS_Files.bindLibrary(host);
-    }
+    if (window.ISYS_FileTree) window.ISYS_FileTree.render(host, catId);
     highlightActive();
   }
 
   function renderPage(id, focus) {
-    if (id === '__files__') { renderFileLib(); return; }
+    if (isFileRoot(id)) { renderFileTree(id); return; }
     const flh = document.getElementById('fileLibHost');
     if (flh) flh.hidden = true;
+    const fth = document.getElementById('fileTreeHost');
+    if (fth) fth.hidden = true;
     const entry = pageMap[id];
     if (!entry) { location.hash = '#/' + defaultId(); return; }
 
@@ -849,8 +856,10 @@
   });
 
   els.collapseAll.addEventListener('click', function () {
-    const anyOpen = LIBRARIES.some(function (l) { return l.children && expanded[l.id]; });
-    LIBRARIES.forEach(function (l) { if (l.children) expanded[l.id] = !anyOpen; });
+    const nav = window.ISYS_NAV || { groups: [] };
+    const groups = nav.groups || [];
+    const anyOpen = groups.some(function (l) { return expanded[l.id]; });
+    groups.forEach(function (l) { expanded[l.id] = !anyOpen; });
     renderTree();
     highlightActive();
     els.collapseAll.textContent = anyOpen ? '展开' : '收起';
@@ -881,8 +890,11 @@
   /* ---------------- 启动：渲染整个应用 ---------------- */
   function bootApp() {
     buildIndex();   // 始终基于当前 LIBRARIES 重建索引（云端热替换后也走这里）
-    document.getElementById('libCount').textContent = LIBRARIES.length;
-  document.getElementById('pageCount').textContent = Object.keys(pageMap).length;
+    const nav = window.ISYS_NAV || { groups: [], fileRoots: [] };
+    const topCount = (nav.groups ? nav.groups.length : 0) + (nav.fileRoots ? nav.fileRoots.length : 0);
+    document.getElementById('libCount').textContent = topCount;
+    document.getElementById('pageCount').textContent =
+      Object.keys(pageMap).length + (nav.fileRoots ? nav.fileRoots.length : 0);
   if (els.topDate) els.topDate.textContent = '更新：' + LIB_META.updated;
 
   /* ---------------- 对外接口（供 editor.js 调用） ----------------
