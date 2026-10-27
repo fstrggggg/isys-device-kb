@@ -350,8 +350,10 @@ body {
 .ft-card-ic { font-size: 30px; line-height: 1; }
 .ft-card-name { font-weight: 600; font-size: 13.5px; word-break: break-word; }
 .ft-card-meta { font-size: 11.5px; color: var(--isys-muted); }
-.ft-card-acts { display: none; gap: 6px; margin-top: 4px; flex-wrap: wrap; }
-.ft-card:hover .ft-card-acts { display: flex; }
+.ft-card-acts { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; }
+/* 文件卡片的操作按钮常驻显示，便于「直接预览 / 下载 / 删除」；文件夹卡片默认隐藏，hover 时显示以保持整洁 */
+.ft-card-folder .ft-card-acts { display: none; }
+.ft-card-folder:hover .ft-card-acts { display: flex; }
 .ft-mini {
   background: #f3f1fc; color: var(--isys-primary-dark); border: 1px solid transparent; border-radius: 6px;
   padding: 3px 9px; font-size: 11.5px; cursor: pointer; transition: background .12s;
