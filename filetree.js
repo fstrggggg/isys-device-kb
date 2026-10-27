@@ -170,7 +170,10 @@
       payload.trees[k] = { name: trees.trees[k].name, root: cleanTree(trees.trees[k].root) };
     });
     var b64 = b64EncodeUnicode(JSON.stringify(payload, null, 2));
-    ghPut('filetree.json', b64, '更新文件树结构', null);
+    return ghPut('filetree.json', b64, '更新文件树结构', null).catch(function (err) {
+      console.error('[ISYS] 保存文件树失败', err);
+      toast('⚠️ 文件树保存失败（' + (err && err.message ? err.message : '网络错误') + '），改动仅本次会话有效');
+    });
   }
 
   function b64EncodeUnicode(str) {
@@ -182,16 +185,30 @@
     var token = getToken();
     if (!token) return Promise.reject(new Error('未连接 GitHub'));
     var url = API_BASE + path;
-    var body = { message: message, content: contentB64 };
-    if (sha) body.sha = sha;
-    return fetch(url, {
-      method: 'PUT',
-      headers: { Authorization: 'token ' + token, 'Content-Type': 'application/json' },
-      body: JSON.stringify(body)
-    }).then(function (r) {
-      if (!r.ok) return r.text().then(function (t) { throw new Error('GitHub ' + r.status + ': ' + t.slice(0, 200)); });
-      return r.json();
-    });
+    // 细粒度 PAT（github_pat_...）必须使用 Bearer；与 sync.js 保持一致，否则会 401 导致上传/删除静默失败。
+    function headers(extra) {
+      return Object.assign({
+        Authorization: 'Bearer ' + token,
+        'Content-Type': 'application/json',
+        'Accept': 'application/vnd.github+json'
+      }, extra || {});
+    }
+    function attempt(curSha) {
+      var body = { message: message, content: contentB64 };
+      if (curSha) body.sha = curSha;
+      return fetch(url, { method: 'PUT', headers: headers(), body: JSON.stringify(body) })
+        .then(function (r) {
+          if (r.ok) return r.json();
+          if (r.status === 409) {
+            // 文件已存在：取最新 sha 后覆盖重试一次（支持同名文件重复上传）
+            return fetch(url, { headers: headers() }).then(function (r2) {
+              return r2.ok ? r2.json() : null;
+            }).then(function (meta) { return attempt(meta && meta.sha); });
+          }
+          return r.text().then(function (t) { throw new Error('GitHub ' + r.status + ': ' + t.slice(0, 200)); });
+        });
+    }
+    return attempt(sha);
   }
 
   /* 上传文件本体到 /files/<cat>/<rel>/<name> */
@@ -542,6 +559,7 @@
         '<div class="ft-modal-head">' +
           '<span class="ft-modal-ic"></span><b class="ft-modal-title"></b>' +
           '<span class="ft-modal-meta"></span><span class="ft-modal-spacer"></span>' +
+          '<button class="ft-mini" data-open="1">↗ 新窗口打开</button>' +
           '<button class="ft-mini" data-dl="1">⬇ 下载</button>' +
           '<button class="ft-modal-x" data-close="1">✕</button>' +
         '</div>' +
@@ -551,6 +569,11 @@
     m.addEventListener('click', function (e) {
       var t = e.target;
       if (t.closest('[data-close]')) { closePreview(); return; }
+      if (t.closest('[data-open]') && _pvFile) {
+        var of = findFileNode(_pvFile);
+        if (of && of.url) window.open(of.url, '_blank');
+        return;
+      }
       if (t.closest('[data-dl]') && _pvFile) { doDownload(_pvFile); return; }
     });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closePreview(); });
@@ -573,13 +596,18 @@
 
     if (kind === 'image') {
       body.innerHTML = '<img class="ft-pv-img" src="' + esc(f.url) + '" alt="' + esc(name) + '">';
+      var img = body.querySelector('img');
+      if (img) img.onerror = function () {
+        body.innerHTML = '<div class="ft-pv-none">图片加载失败（可能是 GitHub Pages 尚未构建完成，稍等片刻重试）。' +
+          '<p class="ft-pv-hint"><a class="ft-link" href="' + esc(f.url) + '" target="_blank">点此在新窗口打开</a></p></div>';
+      };
     } else if (kind === 'video') {
       body.innerHTML = '<video class="ft-pv-media" src="' + esc(f.url) + '" controls></video>';
     } else if (kind === 'audio') {
       body.innerHTML = '<audio class="ft-pv-media" src="' + esc(f.url) + '" controls></audio>';
     } else if (kind === 'pdf') {
       body.innerHTML = '<iframe class="ft-pv-frame" src="' + esc(f.url) + '"></iframe>' +
-        '<div class="ft-pv-hint">若浏览器未内嵌显示 PDF，可点右上角「⬇ 下载」查看。</div>';
+        '<div class="ft-pv-hint">若浏览器未内嵌显示 PDF，可点右上角「↗ 新窗口打开」或「⬇ 下载」查看。</div>';
     } else if (kind === 'text') {
       body.innerHTML = '<div class="ft-pv-loading">读取中…</div>';
       fetchText(f.url).then(function (txt) {
